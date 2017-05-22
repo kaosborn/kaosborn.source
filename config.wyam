@@ -1,0 +1,4 @@
+#recipe Blog
+Settings[BlogKeys.Title] = "Kasey O.";
+Settings[BlogKeys.Description] = "A Blog on .NET Systems Programming";
+Settings[BlogKeys.Intro] = "There's a lot to be said for brevity.";
