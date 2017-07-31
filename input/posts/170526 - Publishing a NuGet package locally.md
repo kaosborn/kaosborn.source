@@ -52,3 +52,4 @@ Here is some current documentation:
 
 * docs.microsoft.com/en-us/nuget/guides/create-net-standard-packages-vs2017
 * docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds
+* docs.microsoft.com/en-us/nuget/tools/package-manager-ui#package-sources
