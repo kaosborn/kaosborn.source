@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Backtrack method" Url="html/bd696315-ed10-5d52-763a-d50de8f98397.htm" />
+  <HelpKINode Title="BinomialCoefficient method" Url="html/3f3bf341-2b28-27f2-a767-ef6b6489e533.htm" />
+  <HelpKINode Title="Choices property">
+    <HelpKINode Title="Combination.Choices Property " Url="html/1cc7fc65-e0f3-72f6-45b2-36cbd9e69208.htm" />
+    <HelpKINode Title="Multicombination.Choices Property " Url="html/4c5ea834-a485-4f79-9d6b-1592a1c6ee33.htm" />
+    <HelpKINode Title="Permutation.Choices Property " Url="html/7634a2dc-62fc-2234-a136-1de4f4cd59c4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Combination class">
+    <HelpKINode Title="Combination Class" Url="html/ea7aeb63-8536-c09a-036f-2d8afe643a96.htm" />
+    <HelpKINode Title="about Combination class" Url="html/ea7aeb63-8536-c09a-036f-2d8afe643a96.htm" />
+    <HelpKINode Title="constructor" Url="html/4bf5aa36-c793-8bf3-d95c-a7eadf5f4d99.htm" />
+    <HelpKINode Title="methods" Url="html/2af2abf4-fd21-41f2-9a47-4d1f915a7486.htm" />
+    <HelpKINode Title="operators" Url="html/5224da53-67bf-dbc0-d6c2-ffbb021f8bea.htm" />
+    <HelpKINode Title="properties" Url="html/25b5522c-3bd6-dd8a-e612-30e76cf60d2e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Combination.Choices property" Url="html/1cc7fc65-e0f3-72f6-45b2-36cbd9e69208.htm" />
+  <HelpKINode Title="Combination.Combination constructor" Url="html/4bf5aa36-c793-8bf3-d95c-a7eadf5f4d99.htm" />
+  <HelpKINode Title="Combination.CompareTo method" Url="html/8b65a4bf-5784-4e72-b887-9331a1b08ee6.htm" />
+  <HelpKINode Title="Combination.CopyTo method" Url="html/b3966034-b629-8a89-929c-6785c7cd24d6.htm" />
+  <HelpKINode Title="Combination.Equality operator" Url="html/a89461f4-165d-e378-5f63-46a79ce9ee50.htm" />
+  <HelpKINode Title="Combination.Equals method" Url="html/aad05422-cfd1-ed22-d3c6-c20a15c6062c.htm" />
+  <HelpKINode Title="Combination.GetEnumerator method" Url="html/60edb307-fccc-8969-b74b-da77fc74e1c5.htm" />
+  <HelpKINode Title="Combination.GetHashCode method" Url="html/74048040-2ad8-ff0e-276c-19528d7f3f31.htm" />
+  <HelpKINode Title="Combination.GetRows method" Url="html/21f60d9d-1481-8ce4-ff03-7d862f16d47e.htm" />
+  <HelpKINode Title="Combination.GetRowsForAllPicks method" Url="html/e4eeff47-90ba-1616-e742-b1a709b8f38e.htm" />
+  <HelpKINode Title="Combination.GreaterThan operator" Url="html/f885ca90-728f-138c-d762-774b33710e51.htm" />
+  <HelpKINode Title="Combination.GreaterThanOrEqual operator" Url="html/f2f61893-b595-f500-e324-2ca1285842f4.htm" />
+  <HelpKINode Title="Combination.IEnumerable.GetEnumerator explicitly implemented method" Url="html/82ff8630-17e6-a186-7043-66dac6cf7f5b.htm" />
+  <HelpKINode Title="Combination.Inequality operator" Url="html/351e9eeb-1258-cf7e-4b60-30d227a25bd5.htm" />
+  <HelpKINode Title="Combination.Item property" Url="html/d27ab957-03a8-e2e2-1610-45707c61b778.htm" />
+  <HelpKINode Title="Combination.LessThan operator" Url="html/c6c204c3-04ba-8c4c-131f-3057336e9b96.htm" />
+  <HelpKINode Title="Combination.LessThanOrEqual operator" Url="html/8c1085c6-7911-10b7-080c-ae6be7946ccc.htm" />
+  <HelpKINode Title="Combination.Permute(Of T) method" Url="html/dbadb6fe-3a27-e596-13f1-455ec103de4c.htm" />
+  <HelpKINode Title="Combination.Permute&lt;T&gt; method" Url="html/dbadb6fe-3a27-e596-13f1-455ec103de4c.htm" />
+  <HelpKINode Title="Combination.Picks property" Url="html/4dcaeca6-4dfa-b12e-2276-1d979689d15d.htm" />
+  <HelpKINode Title="Combination.Rank property" Url="html/3c71ee9b-0a94-901e-1906-cb62d3127f23.htm" />
+  <HelpKINode Title="Combination.RowCount property" Url="html/8d229713-383e-c454-ba7e-fe396e7370e7.htm" />
+  <HelpKINode Title="Combination.ToString method" Url="html/9586001e-64c1-5e4c-d9d7-5bf93aac1d1b.htm" />
+  <HelpKINode Title="Combinatoric class">
+    <HelpKINode Title="Combinatoric Class" Url="html/212db916-59f3-c91c-ea62-36f416eb8c7d.htm" />
+    <HelpKINode Title="about Combinatoric class" Url="html/212db916-59f3-c91c-ea62-36f416eb8c7d.htm" />
+    <HelpKINode Title="methods" Url="html/30c60841-333e-831b-31e6-c37037278275.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Combinatoric.BinomialCoefficient method" Url="html/3f3bf341-2b28-27f2-a767-ef6b6489e533.htm" />
+  <HelpKINode Title="Combinatoric.Factorial method" Url="html/bf3c452f-60e5-4eb5-b8b7-569ad4945394.htm" />
+  <HelpKINode Title="CompareTo method">
+    <HelpKINode Title="Combination.CompareTo Method " Url="html/8b65a4bf-5784-4e72-b887-9331a1b08ee6.htm" />
+    <HelpKINode Title="Multicombination.CompareTo Method " Url="html/d4a2fd90-9ca8-ea4d-0caa-a6bc052e8974.htm" />
+    <HelpKINode Title="Permutation.CompareTo Method " Url="html/36f71ba6-004a-9004-9718-842c3acc9e41.htm" />
+    <HelpKINode Title="Product.CompareTo Method " Url="html/3e381620-d754-b1ae-dfd8-fe743e1d1106.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CopyTo method">
+    <HelpKINode Title="Combination.CopyTo Method " Url="html/b3966034-b629-8a89-929c-6785c7cd24d6.htm" />
+    <HelpKINode Title="Multicombination.CopyTo Method " Url="html/e6d84a10-08ef-c331-08bb-11e8053b4f8c.htm" />
+    <HelpKINode Title="Permutation.CopyTo Method " Url="html/be2a550a-f711-3503-eb02-c676ab6c7638.htm" />
+    <HelpKINode Title="Product.CopyTo Method " Url="html/459661b8-8bc4-9500-bcee-adba80f8b7c2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Equality operator">
+    <HelpKINode Title="Combination.Equality Operator " Url="html/a89461f4-165d-e378-5f63-46a79ce9ee50.htm" />
+    <HelpKINode Title="Multicombination.Equality Operator " Url="html/56532a1f-005a-c43c-455f-de64ec4999d2.htm" />
+    <HelpKINode Title="Permutation.Equality Operator " Url="html/33afe7a9-f639-ff99-f17a-e7160a39c88a.htm" />
+    <HelpKINode Title="Product.Equality Operator " Url="html/f1f3efb9-3418-2e5f-88ae-af3e94153d89.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Equals method">
+    <HelpKINode Title="Combination.Equals Method " Url="html/aad05422-cfd1-ed22-d3c6-c20a15c6062c.htm" />
+    <HelpKINode Title="Multicombination.Equals Method " Url="html/2cdc76a8-226c-4529-6899-1c61c32d0274.htm" />
+    <HelpKINode Title="Permutation.Equals Method " Url="html/c6138bf7-cd73-4a97-4db2-c0d256b9700f.htm" />
+    <HelpKINode Title="Product.Equals Method " Url="html/e6140d09-d7e2-9c54-2979-38da14b80ac1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Factorial method" Url="html/bf3c452f-60e5-4eb5-b8b7-569ad4945394.htm" />
+  <HelpKINode Title="GetEnumerator method">
+    <HelpKINode Title="Combination.GetEnumerator Method " Url="html/60edb307-fccc-8969-b74b-da77fc74e1c5.htm" />
+    <HelpKINode Title="Multicombination.GetEnumerator Method " Url="html/51a990e5-3317-aef1-d6b8-022f5461d7d6.htm" />
+    <HelpKINode Title="Permutation.GetEnumerator Method " Url="html/140f72aa-262f-29e4-fc69-5fc9177abd67.htm" />
+    <HelpKINode Title="Product.GetEnumerator Method " Url="html/6a8980ac-1aa1-6b7d-edaf-c33ccbc2bb7c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetHashCode method">
+    <HelpKINode Title="Combination.GetHashCode Method " Url="html/74048040-2ad8-ff0e-276c-19528d7f3f31.htm" />
+    <HelpKINode Title="Multicombination.GetHashCode Method " Url="html/5668d5a0-0cbc-1eb9-f912-cdc5d2dcba42.htm" />
+    <HelpKINode Title="Permutation.GetHashCode Method " Url="html/06f3d2cb-f54f-c21c-c164-8cf1192c88b6.htm" />
+    <HelpKINode Title="Product.GetHashCode Method " Url="html/72197d09-1bd3-d925-80a0-59bf3e03aa86.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetRows method">
+    <HelpKINode Title="Combination.GetRows Method " Url="html/21f60d9d-1481-8ce4-ff03-7d862f16d47e.htm" />
+    <HelpKINode Title="Multicombination.GetRows Method " Url="html/eae8b892-70e1-7d83-bda9-4d7f99cf7e5d.htm" />
+    <HelpKINode Title="Permutation.GetRows Method " Url="html/1b554931-f5a0-744d-27f8-aab871f4fb24.htm" />
+    <HelpKINode Title="Product.GetRows Method " Url="html/7d405b09-ae21-393f-e102-4a206ebbcfbc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetRowsForAllChoices method" Url="html/a9903071-2737-f6a5-0fc3-2608c1b65c8e.htm" />
+  <HelpKINode Title="GetRowsForAllPicks method">
+    <HelpKINode Title="Combination.GetRowsForAllPicks Method " Url="html/e4eeff47-90ba-1616-e742-b1a709b8f38e.htm" />
+    <HelpKINode Title="Permutation.GetRowsForAllPicks Method " Url="html/1922723e-08e4-37f4-6fb9-bff66f8823ac.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetRowsForPicks method" Url="html/a0f1b4ea-82e9-9414-6165-afc8ca73f9ed.htm" />
+  <HelpKINode Title="GetRowsOfPlainChanges method" Url="html/56e30349-6d9a-45f3-61ad-43de8cc9296e.htm" />
+  <HelpKINode Title="GreaterThan operator">
+    <HelpKINode Title="Combination.GreaterThan Operator " Url="html/f885ca90-728f-138c-d762-774b33710e51.htm" />
+    <HelpKINode Title="Multicombination.GreaterThan Operator " Url="html/2a462d39-08c6-c540-0626-236b8d5e727f.htm" />
+    <HelpKINode Title="Permutation.GreaterThan Operator " Url="html/d58c812f-a7a6-f1c0-4f61-655bfe4e1291.htm" />
+    <HelpKINode Title="Product.GreaterThan Operator " Url="html/9da49237-fe6b-62d0-fef5-2a015e7acb01.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GreaterThanOrEqual operator">
+    <HelpKINode Title="Combination.GreaterThanOrEqual Operator " Url="html/f2f61893-b595-f500-e324-2ca1285842f4.htm" />
+    <HelpKINode Title="Multicombination.GreaterThanOrEqual Operator " Url="html/bb08cb3a-3bcd-bf4e-db2e-71829aea05a6.htm" />
+    <HelpKINode Title="Permutation.GreaterThanOrEqual Operator " Url="html/e1521424-86ee-8c4b-dcce-8572d3314855.htm" />
+    <HelpKINode Title="Product.GreaterThanOrEqual Operator " Url="html/aa75272d-f228-87a9-6461-4a3af82bdaa9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IEnumerable.GetEnumerator explicitly implemented method">
+    <HelpKINode Title="Combination.IEnumerable.GetEnumerator Method " Url="html/82ff8630-17e6-a186-7043-66dac6cf7f5b.htm" />
+    <HelpKINode Title="Multicombination.IEnumerable.GetEnumerator Method " Url="html/0af35ee7-b7b4-cacd-5efe-ec1dc1e0041d.htm" />
+    <HelpKINode Title="Permutation.IEnumerable.GetEnumerator Method " Url="html/08eb7b1d-9603-a922-d88a-0a48a4b3c62f.htm" />
+    <HelpKINode Title="Product.IEnumerable.GetEnumerator Method " Url="html/5d5c00ab-7cf3-2203-119b-53ab49b47433.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Inequality operator">
+    <HelpKINode Title="Combination.Inequality Operator " Url="html/351e9eeb-1258-cf7e-4b60-30d227a25bd5.htm" />
+    <HelpKINode Title="Multicombination.Inequality Operator " Url="html/de6ef2d4-ac5b-87b1-f1e2-9294b3a5a2be.htm" />
+    <HelpKINode Title="Permutation.Inequality Operator " Url="html/11e4fb91-b54e-fb6a-e71d-7a39f8ce23b2.htm" />
+    <HelpKINode Title="Product.Inequality Operator " Url="html/139b1164-dd22-b40c-0572-abaf033ae41c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Item property">
+    <HelpKINode Title="Combination.Item Property " Url="html/d27ab957-03a8-e2e2-1610-45707c61b778.htm" />
+    <HelpKINode Title="Multicombination.Item Property " Url="html/4d07bdcf-7eb9-c211-89e6-9cbc7bccc5d0.htm" />
+    <HelpKINode Title="Permutation.Item Property " Url="html/79447e3f-ef6f-9f57-e64c-cce507d8bd38.htm" />
+    <HelpKINode Title="Product.Item Property " Url="html/ef8e70f7-2049-bc88-7f25-532b65767898.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Kaos.Combinatorics namespace" Url="html/f2905f4b-0a14-e9ba-c92b-9d6998425f51.htm" />
+  <HelpKINode Title="Kaos.Combinatorics.Combination class" Url="html/ea7aeb63-8536-c09a-036f-2d8afe643a96.htm" />
+  <HelpKINode Title="Kaos.Combinatorics.Combinatoric class" Url="html/212db916-59f3-c91c-ea62-36f416eb8c7d.htm" />
+  <HelpKINode Title="Kaos.Combinatorics.Multicombination class" Url="html/72a8744f-e6b9-06a8-6bd9-bc9d132365da.htm" />
+  <HelpKINode Title="Kaos.Combinatorics.Permutation class" Url="html/bbaadc50-10fa-dfcf-a4db-8532baaef11e.htm" />
+  <HelpKINode Title="Kaos.Combinatorics.Product class" Url="html/bff6e165-81a6-534b-d46f-42782326a7cd.htm" />
+  <HelpKINode Title="LessThan operator">
+    <HelpKINode Title="Combination.LessThan Operator " Url="html/c6c204c3-04ba-8c4c-131f-3057336e9b96.htm" />
+    <HelpKINode Title="Multicombination.LessThan Operator " Url="html/dae1e6bb-34a7-913b-798b-8b31fd8ffd37.htm" />
+    <HelpKINode Title="Permutation.LessThan Operator " Url="html/25f0cd60-a5b6-b72f-e8cf-0fec41ed08a2.htm" />
+    <HelpKINode Title="Product.LessThan Operator " Url="html/8bf9ae80-f9ea-e366-2117-4e78faf09e4c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LessThanOrEqual operator">
+    <HelpKINode Title="Combination.LessThanOrEqual Operator " Url="html/8c1085c6-7911-10b7-080c-ae6be7946ccc.htm" />
+    <HelpKINode Title="Multicombination.LessThanOrEqual Operator " Url="html/86f9e00d-2d3d-c744-6e1a-3e8e88c17b64.htm" />
+    <HelpKINode Title="Permutation.LessThanOrEqual Operator " Url="html/f5ffa43e-bdeb-596b-1812-b3f5d158370c.htm" />
+    <HelpKINode Title="Product.LessThanOrEqual Operator " Url="html/b8795bf4-b50a-3f9d-8214-af9ec5952f76.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MaxChoices property" Url="html/7d8340a9-e9df-e3e1-5e5a-32a1788ae67f.htm" />
+  <HelpKINode Title="Multicombination class">
+    <HelpKINode Title="Multicombination Class" Url="html/72a8744f-e6b9-06a8-6bd9-bc9d132365da.htm" />
+    <HelpKINode Title="about Multicombination class" Url="html/72a8744f-e6b9-06a8-6bd9-bc9d132365da.htm" />
+    <HelpKINode Title="constructor" Url="html/f2f8841f-6fff-b35e-fb07-da723dcc2af8.htm" />
+    <HelpKINode Title="methods" Url="html/14f68c9f-de51-72bf-a45f-431c1eb1e695.htm" />
+    <HelpKINode Title="operators" Url="html/f6f18b5d-6cbb-3644-26e9-3727b8a2c4eb.htm" />
+    <HelpKINode Title="properties" Url="html/f073f8fd-90e8-9e3f-d327-23c2b6a8cbc7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Multicombination.Choices property" Url="html/4c5ea834-a485-4f79-9d6b-1592a1c6ee33.htm" />
+  <HelpKINode Title="Multicombination.CompareTo method" Url="html/d4a2fd90-9ca8-ea4d-0caa-a6bc052e8974.htm" />
+  <HelpKINode Title="Multicombination.CopyTo method" Url="html/e6d84a10-08ef-c331-08bb-11e8053b4f8c.htm" />
+  <HelpKINode Title="Multicombination.Equality operator" Url="html/56532a1f-005a-c43c-455f-de64ec4999d2.htm" />
+  <HelpKINode Title="Multicombination.Equals method" Url="html/2cdc76a8-226c-4529-6899-1c61c32d0274.htm" />
+  <HelpKINode Title="Multicombination.GetEnumerator method" Url="html/51a990e5-3317-aef1-d6b8-022f5461d7d6.htm" />
+  <HelpKINode Title="Multicombination.GetHashCode method" Url="html/5668d5a0-0cbc-1eb9-f912-cdc5d2dcba42.htm" />
+  <HelpKINode Title="Multicombination.GetRows method" Url="html/eae8b892-70e1-7d83-bda9-4d7f99cf7e5d.htm" />
+  <HelpKINode Title="Multicombination.GetRowsForPicks method" Url="html/a0f1b4ea-82e9-9414-6165-afc8ca73f9ed.htm" />
+  <HelpKINode Title="Multicombination.GreaterThan operator" Url="html/2a462d39-08c6-c540-0626-236b8d5e727f.htm" />
+  <HelpKINode Title="Multicombination.GreaterThanOrEqual operator" Url="html/bb08cb3a-3bcd-bf4e-db2e-71829aea05a6.htm" />
+  <HelpKINode Title="Multicombination.IEnumerable.GetEnumerator explicitly implemented method" Url="html/0af35ee7-b7b4-cacd-5efe-ec1dc1e0041d.htm" />
+  <HelpKINode Title="Multicombination.Inequality operator" Url="html/de6ef2d4-ac5b-87b1-f1e2-9294b3a5a2be.htm" />
+  <HelpKINode Title="Multicombination.Item property" Url="html/4d07bdcf-7eb9-c211-89e6-9cbc7bccc5d0.htm" />
+  <HelpKINode Title="Multicombination.LessThan operator" Url="html/dae1e6bb-34a7-913b-798b-8b31fd8ffd37.htm" />
+  <HelpKINode Title="Multicombination.LessThanOrEqual operator" Url="html/86f9e00d-2d3d-c744-6e1a-3e8e88c17b64.htm" />
+  <HelpKINode Title="Multicombination.Multicombination constructor" Url="html/f2f8841f-6fff-b35e-fb07-da723dcc2af8.htm" />
+  <HelpKINode Title="Multicombination.Permute(Of T) method" Url="html/25e33154-6e7c-d7cf-f90b-954878df7e83.htm" />
+  <HelpKINode Title="Multicombination.Permute&lt;T&gt; method" Url="html/25e33154-6e7c-d7cf-f90b-954878df7e83.htm" />
+  <HelpKINode Title="Multicombination.Picks property" Url="html/90d75400-5a6b-5a83-9892-467926671e03.htm" />
+  <HelpKINode Title="Multicombination.Rank property" Url="html/df6a3702-ea23-53c6-754a-a1345e64c05e.htm" />
+  <HelpKINode Title="Multicombination.RowCount property" Url="html/0f8e2231-3362-8cf3-9208-7dc59d0f8094.htm" />
+  <HelpKINode Title="Multicombination.ToString method" Url="html/38a0c5ef-a36e-8afd-28ae-2547bcf6df48.htm" />
+  <HelpKINode Title="Permutation class">
+    <HelpKINode Title="Permutation Class" Url="html/bbaadc50-10fa-dfcf-a4db-8532baaef11e.htm" />
+    <HelpKINode Title="about Permutation class" Url="html/bbaadc50-10fa-dfcf-a4db-8532baaef11e.htm" />
+    <HelpKINode Title="constructor" Url="html/c195dc27-eea2-b224-a4ea-9886a2c36b49.htm" />
+    <HelpKINode Title="methods" Url="html/83d7a269-6cb7-4f2e-4706-cffb2e93c85c.htm" />
+    <HelpKINode Title="operators" Url="html/ddf69fe2-2ffe-0be5-8e6a-70745e708df5.htm" />
+    <HelpKINode Title="properties" Url="html/43cfef0e-d41e-70dd-9539-329c3d96453d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Permutation.Backtrack method" Url="html/bd696315-ed10-5d52-763a-d50de8f98397.htm" />
+  <HelpKINode Title="Permutation.Choices property" Url="html/7634a2dc-62fc-2234-a136-1de4f4cd59c4.htm" />
+  <HelpKINode Title="Permutation.CompareTo method" Url="html/36f71ba6-004a-9004-9718-842c3acc9e41.htm" />
+  <HelpKINode Title="Permutation.CopyTo method" Url="html/be2a550a-f711-3503-eb02-c676ab6c7638.htm" />
+  <HelpKINode Title="Permutation.Equality operator" Url="html/33afe7a9-f639-ff99-f17a-e7160a39c88a.htm" />
+  <HelpKINode Title="Permutation.Equals method" Url="html/c6138bf7-cd73-4a97-4db2-c0d256b9700f.htm" />
+  <HelpKINode Title="Permutation.GetEnumerator method" Url="html/140f72aa-262f-29e4-fc69-5fc9177abd67.htm" />
+  <HelpKINode Title="Permutation.GetHashCode method" Url="html/06f3d2cb-f54f-c21c-c164-8cf1192c88b6.htm" />
+  <HelpKINode Title="Permutation.GetRows method" Url="html/1b554931-f5a0-744d-27f8-aab871f4fb24.htm" />
+  <HelpKINode Title="Permutation.GetRowsForAllChoices method" Url="html/a9903071-2737-f6a5-0fc3-2608c1b65c8e.htm" />
+  <HelpKINode Title="Permutation.GetRowsForAllPicks method" Url="html/1922723e-08e4-37f4-6fb9-bff66f8823ac.htm" />
+  <HelpKINode Title="Permutation.GetRowsOfPlainChanges method" Url="html/56e30349-6d9a-45f3-61ad-43de8cc9296e.htm" />
+  <HelpKINode Title="Permutation.GreaterThan operator" Url="html/d58c812f-a7a6-f1c0-4f61-655bfe4e1291.htm" />
+  <HelpKINode Title="Permutation.GreaterThanOrEqual operator" Url="html/e1521424-86ee-8c4b-dcce-8572d3314855.htm" />
+  <HelpKINode Title="Permutation.IEnumerable.GetEnumerator explicitly implemented method" Url="html/08eb7b1d-9603-a922-d88a-0a48a4b3c62f.htm" />
+  <HelpKINode Title="Permutation.Inequality operator" Url="html/11e4fb91-b54e-fb6a-e71d-7a39f8ce23b2.htm" />
+  <HelpKINode Title="Permutation.Item property" Url="html/79447e3f-ef6f-9f57-e64c-cce507d8bd38.htm" />
+  <HelpKINode Title="Permutation.LessThan operator" Url="html/25f0cd60-a5b6-b72f-e8cf-0fec41ed08a2.htm" />
+  <HelpKINode Title="Permutation.LessThanOrEqual operator" Url="html/f5ffa43e-bdeb-596b-1812-b3f5d158370c.htm" />
+  <HelpKINode Title="Permutation.MaxChoices property" Url="html/7d8340a9-e9df-e3e1-5e5a-32a1788ae67f.htm" />
+  <HelpKINode Title="Permutation.Permutation constructor" Url="html/c195dc27-eea2-b224-a4ea-9886a2c36b49.htm" />
+  <HelpKINode Title="Permutation.Permute(Of T) method" Url="html/8628d5f3-cb56-050c-7ae2-348d3299dea5.htm" />
+  <HelpKINode Title="Permutation.Permute&lt;T&gt; method" Url="html/8628d5f3-cb56-050c-7ae2-348d3299dea5.htm" />
+  <HelpKINode Title="Permutation.Picks property" Url="html/f1a239ab-9219-dde7-8643-d8b950e60efb.htm" />
+  <HelpKINode Title="Permutation.PlainRank property" Url="html/e6bc3f5f-beb3-fcce-171f-f65b41bc153b.htm" />
+  <HelpKINode Title="Permutation.Rank property" Url="html/d6e911c3-aad5-31c5-55be-9e8918428178.htm" />
+  <HelpKINode Title="Permutation.RowCount property" Url="html/5e213d39-ba62-eb6c-54cd-16d9fd9172c0.htm" />
+  <HelpKINode Title="Permutation.Swaps property" Url="html/99ce8e73-c468-a8e5-6bb5-dddc2154e9a2.htm" />
+  <HelpKINode Title="Permutation.ToString method" Url="html/61315da1-e25e-d798-ec4c-21ccf992ae3c.htm" />
+  <HelpKINode Title="Permute(Of T) method">
+    <HelpKINode Title="Combination.Permute(T) Method " Url="html/dbadb6fe-3a27-e596-13f1-455ec103de4c.htm" />
+    <HelpKINode Title="Multicombination.Permute(T) Method " Url="html/25e33154-6e7c-d7cf-f90b-954878df7e83.htm" />
+    <HelpKINode Title="Permutation.Permute(T) Method " Url="html/8628d5f3-cb56-050c-7ae2-348d3299dea5.htm" />
+    <HelpKINode Title="Product.Permute(T) Method " Url="html/75c5105d-2c10-ba8d-daf1-e511caf642af.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Permute&lt;T&gt; method">
+    <HelpKINode Title="Combination.Permute(T) Method " Url="html/dbadb6fe-3a27-e596-13f1-455ec103de4c.htm" />
+    <HelpKINode Title="Multicombination.Permute(T) Method " Url="html/25e33154-6e7c-d7cf-f90b-954878df7e83.htm" />
+    <HelpKINode Title="Permutation.Permute(T) Method " Url="html/8628d5f3-cb56-050c-7ae2-348d3299dea5.htm" />
+    <HelpKINode Title="Product.Permute(T) Method " Url="html/75c5105d-2c10-ba8d-daf1-e511caf642af.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Picks property">
+    <HelpKINode Title="Combination.Picks Property " Url="html/4dcaeca6-4dfa-b12e-2276-1d979689d15d.htm" />
+    <HelpKINode Title="Multicombination.Picks Property " Url="html/90d75400-5a6b-5a83-9892-467926671e03.htm" />
+    <HelpKINode Title="Permutation.Picks Property " Url="html/f1a239ab-9219-dde7-8643-d8b950e60efb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PlainRank property" Url="html/e6bc3f5f-beb3-fcce-171f-f65b41bc153b.htm" />
+  <HelpKINode Title="Product class">
+    <HelpKINode Title="Product Class" Url="html/bff6e165-81a6-534b-d46f-42782326a7cd.htm" />
+    <HelpKINode Title="about Product class" Url="html/bff6e165-81a6-534b-d46f-42782326a7cd.htm" />
+    <HelpKINode Title="constructor" Url="html/7adbe74a-c438-d98f-6387-381c8bd82bdf.htm" />
+    <HelpKINode Title="methods" Url="html/fd06c485-6c92-cf82-b5b7-73e95cc1cc31.htm" />
+    <HelpKINode Title="operators" Url="html/4d497b59-3d9a-b36f-e727-e5665ca24bd6.htm" />
+    <HelpKINode Title="properties" Url="html/6eb22d58-8437-8eeb-4534-adbb6589cdba.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Product.CompareTo method" Url="html/3e381620-d754-b1ae-dfd8-fe743e1d1106.htm" />
+  <HelpKINode Title="Product.CopyTo method" Url="html/459661b8-8bc4-9500-bcee-adba80f8b7c2.htm" />
+  <HelpKINode Title="Product.Equality operator" Url="html/f1f3efb9-3418-2e5f-88ae-af3e94153d89.htm" />
+  <HelpKINode Title="Product.Equals method" Url="html/e6140d09-d7e2-9c54-2979-38da14b80ac1.htm" />
+  <HelpKINode Title="Product.GetEnumerator method" Url="html/6a8980ac-1aa1-6b7d-edaf-c33ccbc2bb7c.htm" />
+  <HelpKINode Title="Product.GetHashCode method" Url="html/72197d09-1bd3-d925-80a0-59bf3e03aa86.htm" />
+  <HelpKINode Title="Product.GetRows method" Url="html/7d405b09-ae21-393f-e102-4a206ebbcfbc.htm" />
+  <HelpKINode Title="Product.GreaterThan operator" Url="html/9da49237-fe6b-62d0-fef5-2a015e7acb01.htm" />
+  <HelpKINode Title="Product.GreaterThanOrEqual operator" Url="html/aa75272d-f228-87a9-6461-4a3af82bdaa9.htm" />
+  <HelpKINode Title="Product.IEnumerable.GetEnumerator explicitly implemented method" Url="html/5d5c00ab-7cf3-2203-119b-53ab49b47433.htm" />
+  <HelpKINode Title="Product.Inequality operator" Url="html/139b1164-dd22-b40c-0572-abaf033ae41c.htm" />
+  <HelpKINode Title="Product.Item property" Url="html/ef8e70f7-2049-bc88-7f25-532b65767898.htm" />
+  <HelpKINode Title="Product.LessThan operator" Url="html/8bf9ae80-f9ea-e366-2117-4e78faf09e4c.htm" />
+  <HelpKINode Title="Product.LessThanOrEqual operator" Url="html/b8795bf4-b50a-3f9d-8214-af9ec5952f76.htm" />
+  <HelpKINode Title="Product.Permute(Of T) method" Url="html/75c5105d-2c10-ba8d-daf1-e511caf642af.htm" />
+  <HelpKINode Title="Product.Permute&lt;T&gt; method" Url="html/75c5105d-2c10-ba8d-daf1-e511caf642af.htm" />
+  <HelpKINode Title="Product.Product constructor" Url="html/7adbe74a-c438-d98f-6387-381c8bd82bdf.htm" />
+  <HelpKINode Title="Product.Rank property" Url="html/39880bdc-26e2-b5ee-dd25-28036a576366.htm" />
+  <HelpKINode Title="Product.RowCount property" Url="html/7ccb6e2e-bac7-621b-15ac-1caf11028296.htm" />
+  <HelpKINode Title="Product.Size method" Url="html/d542ff76-07f2-2ea3-b680-1aa630da7b08.htm" />
+  <HelpKINode Title="Product.ToString method" Url="html/4f7e3a55-a874-6058-141a-415693108d1c.htm" />
+  <HelpKINode Title="Product.Width property" Url="html/10ce2b71-1924-3dda-13e4-0da429b290c9.htm" />
+  <HelpKINode Title="Rank property">
+    <HelpKINode Title="Combination.Rank Property " Url="html/3c71ee9b-0a94-901e-1906-cb62d3127f23.htm" />
+    <HelpKINode Title="Multicombination.Rank Property " Url="html/df6a3702-ea23-53c6-754a-a1345e64c05e.htm" />
+    <HelpKINode Title="Permutation.Rank Property " Url="html/d6e911c3-aad5-31c5-55be-9e8918428178.htm" />
+    <HelpKINode Title="Product.Rank Property " Url="html/39880bdc-26e2-b5ee-dd25-28036a576366.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RowCount property">
+    <HelpKINode Title="Combination.RowCount Property " Url="html/8d229713-383e-c454-ba7e-fe396e7370e7.htm" />
+    <HelpKINode Title="Multicombination.RowCount Property " Url="html/0f8e2231-3362-8cf3-9208-7dc59d0f8094.htm" />
+    <HelpKINode Title="Permutation.RowCount Property " Url="html/5e213d39-ba62-eb6c-54cd-16d9fd9172c0.htm" />
+    <HelpKINode Title="Product.RowCount Property " Url="html/7ccb6e2e-bac7-621b-15ac-1caf11028296.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Size method" Url="html/d542ff76-07f2-2ea3-b680-1aa630da7b08.htm" />
+  <HelpKINode Title="Swaps property" Url="html/99ce8e73-c468-a8e5-6bb5-dddc2154e9a2.htm" />
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="Combination.ToString Method " Url="html/9586001e-64c1-5e4c-d9d7-5bf93aac1d1b.htm" />
+    <HelpKINode Title="Multicombination.ToString Method " Url="html/38a0c5ef-a36e-8afd-28ae-2547bcf6df48.htm" />
+    <HelpKINode Title="Permutation.ToString Method " Url="html/61315da1-e25e-d798-ec4c-21ccf992ae3c.htm" />
+    <HelpKINode Title="Product.ToString Method " Url="html/4f7e3a55-a874-6058-141a-415693108d1c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Welcome" Url="html/0908d812-b502-4da7-a452-66e043c6bb70.htm" />
+  <HelpKINode Title="Width property" Url="html/10ce2b71-1924-3dda-13e4-0da429b290c9.htm" />
+</HelpKI>

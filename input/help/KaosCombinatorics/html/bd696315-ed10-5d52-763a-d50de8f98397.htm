@@ -1,0 +1,211 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Permutation.Backtrack Method </title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="Backtrack method" /><meta name="System.Keywords" content="Permutation.Backtrack method" /><meta name="Microsoft.Help.F1" content="Kaos.Combinatorics.Permutation.Backtrack" /><meta name="Microsoft.Help.Id" content="M:Kaos.Combinatorics.Permutation.Backtrack(System.Int32)" /><meta name="Description" content="Advance a minimum while changing element at nodeIndex." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Kaos.Combinatorics" /><meta name="file" content="bd696315-ed10-5d52-763a-d50de8f98397" /><meta name="guid" content="bd696315-ed10-5d52-763a-d50de8f98397" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script><script type="text/javascript" src="../scripts/clipboard.min.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Kaos.Combinatorics Library<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="0908d812-b502-4da7-a452-66e043c6bb70.htm" title="Kaos.Combinatorics Library" tocid="roottoc">Kaos.Combinatorics Library</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="f2905f4b-0a14-e9ba-c92b-9d6998425f51.htm" title="Kaos.Combinatorics" tocid="f2905f4b-0a14-e9ba-c92b-9d6998425f51">Kaos.Combinatorics</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="bbaadc50-10fa-dfcf-a4db-8532baaef11e.htm" title="Permutation Class" tocid="bbaadc50-10fa-dfcf-a4db-8532baaef11e">Permutation Class</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="83d7a269-6cb7-4f2e-4706-cffb2e93c85c.htm" title="Permutation Methods" tocid="83d7a269-6cb7-4f2e-4706-cffb2e93c85c">Permutation Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="08eb7b1d-9603-a922-d88a-0a48a4b3c62f.htm" title="IEnumerable.GetEnumerator Method " tocid="08eb7b1d-9603-a922-d88a-0a48a4b3c62f">IEnumerable.GetEnumerator Method </a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="bd696315-ed10-5d52-763a-d50de8f98397.htm" title="Backtrack Method " tocid="bd696315-ed10-5d52-763a-d50de8f98397">Backtrack Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="36f71ba6-004a-9004-9718-842c3acc9e41.htm" title="CompareTo Method " tocid="36f71ba6-004a-9004-9718-842c3acc9e41">CompareTo Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="be2a550a-f711-3503-eb02-c676ab6c7638.htm" title="CopyTo Method " tocid="be2a550a-f711-3503-eb02-c676ab6c7638">CopyTo Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="c6138bf7-cd73-4a97-4db2-c0d256b9700f.htm" title="Equals Method " tocid="c6138bf7-cd73-4a97-4db2-c0d256b9700f">Equals Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="140f72aa-262f-29e4-fc69-5fc9177abd67.htm" title="GetEnumerator Method " tocid="140f72aa-262f-29e4-fc69-5fc9177abd67">GetEnumerator Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="06f3d2cb-f54f-c21c-c164-8cf1192c88b6.htm" title="GetHashCode Method " tocid="06f3d2cb-f54f-c21c-c164-8cf1192c88b6">GetHashCode Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="1b554931-f5a0-744d-27f8-aab871f4fb24.htm" title="GetRows Method " tocid="1b554931-f5a0-744d-27f8-aab871f4fb24">GetRows Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="a9903071-2737-f6a5-0fc3-2608c1b65c8e.htm" title="GetRowsForAllChoices Method " tocid="a9903071-2737-f6a5-0fc3-2608c1b65c8e">GetRowsForAllChoices Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="1922723e-08e4-37f4-6fb9-bff66f8823ac.htm" title="GetRowsForAllPicks Method " tocid="1922723e-08e4-37f4-6fb9-bff66f8823ac">GetRowsForAllPicks Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="56e30349-6d9a-45f3-61ad-43de8cc9296e.htm" title="GetRowsOfPlainChanges Method " tocid="56e30349-6d9a-45f3-61ad-43de8cc9296e">GetRowsOfPlainChanges Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="8628d5f3-cb56-050c-7ae2-348d3299dea5.htm" title="Permute(T) Method " tocid="8628d5f3-cb56-050c-7ae2-348d3299dea5">Permute(T) Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="61315da1-e25e-d798-ec4c-21ccf992ae3c.htm" title="ToString Method " tocid="61315da1-e25e-d798-ec4c-21ccf992ae3c">ToString Method </a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="logoColumn"><img src="../icons/Help.png" /></td><td class="titleColumn"><h1>Permutation<span id="LST785D5185_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST785D5185_0?cpp=::|nu=.");</script>Backtrack Method </h1></td></tr></table><span class="introStyle"></span> <div class="summary">
+            Advance <a href="d6e911c3-aad5-31c5-55be-9e8918428178.htm">Rank</a> a minimum while changing element at <em>nodeIndex</em>.
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="f2905f4b-0a14-e9ba-c92b-9d6998425f51.htm">Kaos.Combinatorics</a><br />
+    <strong>Assembly:</strong>
+   KaosCombinatorics (in KaosCombinatorics.dll) Version: 5.0.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EACA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EACA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EACA');return false;" title="Copy">Copy</a></div></div><div id="ID0EACA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="identifier">int</span> <span class="identifier">Backtrack</span>(
+	<span class="identifier">int</span> <span class="parameter">nodeIndex</span>
+)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EACA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">nodeIndex</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="LST785D5185_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST785D5185_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</a><br />Element to change.</dd></dl><h4 class="subHeading">Return Value</h4>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">Int32</a><br />Lowest index of actual changed element if successful; else <b>-1</b>.</div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Exceptions</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="tableSection"><table><tr><th>Exception</th><th>Condition</th></tr><tr><td><a href="http://msdn2.microsoft.com/en-us/library/2asft85a" target="_blank">InvalidOperationException</a></td><td>
+            When <em>Choices</em> not equal to <em>Picks</em>.
+            </td></tr><tr><td><a href="http://msdn2.microsoft.com/en-us/library/8xt94y6e" target="_blank">ArgumentOutOfRangeException</a></td><td>
+            When <em>nodeIndex</em> not in range (0..<a href="f1a239ab-9219-dde7-8643-d8b950e60efb.htm">Picks</a>-1).
+            </td></tr></table></div></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID3RBSection" class="collapsibleSection">
+            This method provides support for backtracking algorithms by pruning permutations that
+            cannot be completed to a solution.
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID4RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAACBA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAACBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAACBA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAACBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// </span>
+<span class="highlight-comment">// This program solves the N-Queens problem using permutations with backtracking.</span>
+<span class="highlight-comment">// This is the most efficient method with the fewest board layouts tried.</span>
+<span class="highlight-comment">// </span>
+<span class="highlight-comment">//   Queens  Solutions    Tries</span>
+<span class="highlight-comment">//   ------  ---------  ---------</span>
+<span class="highlight-comment">//      2           0           2</span>
+<span class="highlight-comment">//      3           0           6</span>
+<span class="highlight-comment">//      4           2          18</span>
+<span class="highlight-comment">//      5          10          58</span>
+<span class="highlight-comment">//      6           4         208</span>
+<span class="highlight-comment">//      7          40         834</span>
+<span class="highlight-comment">//      8          92        3544</span>
+<span class="highlight-comment">//      9         352       15970</span>
+<span class="highlight-comment">//     10         724       75190</span>
+<span class="highlight-comment">//     15     2279184   467414974</span>
+<span class="highlight-comment">// </span>
+
+<span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> System.Collections.Generic;
+<span class="highlight-keyword">using</span> System.Linq;
+<span class="highlight-keyword">using</span> Kaos.Combinatorics;
+
+<span class="highlight-keyword">namespace</span> ExampleApp
+{
+    <span class="highlight-keyword">class</span> NQueens : Permutation
+    {
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">long</span> Tries;
+
+        <span class="highlight-keyword">public</span> NQueens (<span class="highlight-keyword">int</span> count) : <span class="highlight-keyword">base</span> (count)
+        { }
+
+        <span class="highlight-comment">// Returns -1 if no threat; else index of threatened.</span>
+        <span class="highlight-keyword">private</span> <span class="highlight-keyword">int</span> GetThreat()
+        {
+            <span class="highlight-keyword">for</span> (<span class="highlight-keyword">int</span> qx1 = <span class="highlight-number">1</span>; qx1 &lt; Choices; ++qx1)
+                <span class="highlight-keyword">for</span> (<span class="highlight-keyword">int</span> qx2 = <span class="highlight-number">0</span>; qx2 &lt; qx1; ++qx2)
+                    <span class="highlight-keyword">if</span> (qx1 - qx2 - Math.Abs (<span class="highlight-keyword">this</span>[qx2]-<span class="highlight-keyword">this</span>[qx1]) == <span class="highlight-number">0</span>)
+                        <span class="highlight-keyword">return</span> qx1;
+            <span class="highlight-keyword">return</span> <span class="highlight-number">-1</span>;
+        }
+
+        <span class="highlight-keyword">public</span> IEnumerable&lt;NQueens&gt; GetSolutions()
+        {
+            Tries = <span class="highlight-number">0</span>;
+            <span class="highlight-keyword">if</span> (RowCount == <span class="highlight-number">0</span>)
+                <span class="highlight-keyword">yield</span> <span class="highlight-keyword">break</span>;
+
+            <span class="highlight-keyword">for</span> (NQueens current = <span class="highlight-keyword">new</span> NQueens (Choices);;)
+            {
+                ++Tries;
+                <span class="highlight-keyword">int</span> qx = current.GetThreat();
+                <span class="highlight-keyword">if</span> (qx &lt; <span class="highlight-number">0</span>)
+                {
+                    <span class="highlight-keyword">yield</span> <span class="highlight-keyword">return</span> current;
+                    <span class="highlight-keyword">if</span> (++current.Rank == <span class="highlight-number">0</span>)
+                        <span class="highlight-keyword">yield</span> <span class="highlight-keyword">break</span>;
+                }
+                <span class="highlight-keyword">else</span>
+                    <span class="highlight-comment">// Prune all layouts that include this attack.</span>
+                    <span class="highlight-keyword">if</span> (current.Backtrack (qx) &lt; <span class="highlight-number">0</span>)
+                        <span class="highlight-keyword">yield</span> <span class="highlight-keyword">break</span>;
+            }
+        }
+
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">string</span> ToString()
+        {
+            <span class="highlight-keyword">return</span> String.Join (<span class="highlight-literal">" "</span>,
+                Enumerable.Range (<span class="highlight-number">0</span>, Choices).Select (x =&gt; ((<span class="highlight-keyword">char</span>) (<span class="highlight-literal">'a'</span>+x)).ToString()+(<span class="highlight-keyword">this</span>[x]<span class="highlight-number">+1</span>)));
+        }
+    }
+
+
+    <span class="highlight-keyword">static</span> <span class="highlight-keyword">class</span> PnBacktrack
+    {
+        <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> Main()
+        {
+            <span class="highlight-comment">// Number of queens:</span>
+            <span class="highlight-keyword">int</span> nq = <span class="highlight-number">8</span>;
+
+            Console.WriteLine (<span class="highlight-literal">"Solve {0}-Queens with backtracking permutations:\n"</span>, nq);
+
+            <span class="highlight-keyword">long</span> solutions = <span class="highlight-number">0</span>;
+            <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> layout <span class="highlight-keyword">in</span> <span class="highlight-keyword">new</span> NQueens (nq).GetSolutions())
+            {
+                Console.Write (layout);
+                <span class="highlight-keyword">if</span> (++solutions % <span class="highlight-number">100</span> == <span class="highlight-number">0</span>)
+                    Console.Write (<span class="highlight-literal">"  -  {0}"</span>, solutions);
+                Console.WriteLine();
+            }
+
+            Console.WriteLine (<span class="highlight-literal">"\nmethod=Backtrack, solutions={0}, tries={1}"</span>, solutions, NQueens.Tries);
+        }
+
+        <span class="highlight-comment">/* Output:
+
+        Solve 8-Queens with backtracking permutations:
+
+        a1 b5 c8 d6 e3 f7 g2 h4
+        a1 b6 c8 d3 e7 f4 g2 h5
+        a1 b7 c4 d6 e8 f2 g5 h3
+        a1 b7 c5 d8 e2 f4 g6 h3
+        a2 b4 c6 d8 e3 f1 g7 h5
+        a2 b5 c7 d1 e3 f8 g6 h4
+        a2 b5 c7 d4 e1 f8 g6 h3
+        a2 b6 c1 d7 e4 f8 g3 h5
+        a2 b6 c8 d3 e1 f4 g7 h5
+        a2 b7 c3 d6 e8 f5 g1 h4
+        a2 b7 c5 d8 e1 f4 g6 h3
+        a2 b8 c6 d1 e3 f5 g7 h4
+        a3 b1 c7 d5 e8 f2 g4 h6
+        a3 b5 c2 d8 e1 f7 g4 h6
+        a3 b5 c2 d8 e6 f4 g7 h1
+        a3 b5 c7 d1 e4 f2 g8 h6
+        a3 b5 c8 d4 e1 f7 g2 h6
+        a3 b6 c2 d5 e8 f1 g7 h4
+        a3 b6 c2 d7 e1 f4 g8 h5
+        a3 b6 c2 d7 e5 f1 g8 h4
+        a3 b6 c4 d1 e8 f5 g7 h2
+        a3 b6 c4 d2 e8 f5 g7 h1
+        a3 b6 c8 d1 e4 f7 g5 h2
+        a3 b6 c8 d1 e5 f7 g2 h4
+        a3 b6 c8 d2 e4 f1 g7 h5
+        a3 b7 c2 d8 e5 f1 g4 h6
+        a3 b7 c2 d8 e6 f4 g1 h5
+        a3 b8 c4 d7 e1 f6 g2 h5
+        a4 b1 c5 d8 e2 f7 g3 h6
+        a4 b1 c5 d8 e6 f3 g7 h2
+        a4 b2 c5 d8 e6 f1 g3 h7
+        a4 b2 c7 d3 e6 f8 g1 h5
+        a4 b2 c7 d3 e6 f8 g5 h1
+        a4 b2 c7 d5 e1 f8 g6 h3
+        a4 b2 c8 d5 e7 f1 g3 h6
+        a4 b2 c8 d6 e1 f3 g5 h7
+        a4 b6 c1 d5 e2 f8 g3 h7
+        a4 b6 c8 d2 e7 f1 g3 h5
+        a4 b6 c8 d3 e1 f7 g5 h2
+        a4 b7 c1 d8 e5 f2 g6 h3
+        a4 b7 c3 d8 e2 f5 g1 h6
+        a4 b7 c5 d2 e6 f1 g3 h8
+        a4 b7 c5 d3 e1 f6 g8 h2
+        a4 b8 c1 d3 e6 f2 g7 h5
+        a4 b8 c1 d5 e7 f2 g6 h3
+        a4 b8 c5 d3 e1 f7 g2 h6
+        a5 b1 c4 d6 e8 f2 g7 h3
+        a5 b1 c8 d4 e2 f7 g3 h6
+        a5 b1 c8 d6 e3 f7 g2 h4
+        a5 b2 c4 d6 e8 f3 g1 h7
+        a5 b2 c4 d7 e3 f8 g6 h1
+        a5 b2 c6 d1 e7 f4 g8 h3
+        a5 b2 c8 d1 e4 f7 g3 h6
+        a5 b3 c1 d6 e8 f2 g4 h7
+        a5 b3 c1 d7 e2 f8 g6 h4
+        a5 b3 c8 d4 e7 f1 g6 h2
+        a5 b7 c1 d3 e8 f6 g4 h2
+        a5 b7 c1 d4 e2 f8 g6 h3
+        a5 b7 c2 d4 e8 f1 g3 h6
+        a5 b7 c2 d6 e3 f1 g4 h8
+        a5 b7 c2 d6 e3 f1 g8 h4
+        a5 b7 c4 d1 e3 f8 g6 h2
+        a5 b8 c4 d1 e3 f6 g2 h7
+        a5 b8 c4 d1 e7 f2 g6 h3
+        a6 b1 c5 d2 e8 f3 g7 h4
+        a6 b2 c7 d1 e3 f5 g8 h4
+        a6 b2 c7 d1 e4 f8 g5 h3
+        a6 b3 c1 d7 e5 f8 g2 h4
+        a6 b3 c1 d8 e4 f2 g7 h5
+        a6 b3 c1 d8 e5 f2 g4 h7
+        a6 b3 c5 d7 e1 f4 g2 h8
+        a6 b3 c5 d8 e1 f4 g2 h7
+        a6 b3 c7 d2 e4 f8 g1 h5
+        a6 b3 c7 d2 e8 f5 g1 h4
+        a6 b3 c7 d4 e1 f8 g2 h5
+        a6 b4 c1 d5 e8 f2 g7 h3
+        a6 b4 c2 d8 e5 f7 g1 h3
+        a6 b4 c7 d1 e3 f5 g2 h8
+        a6 b4 c7 d1 e8 f2 g5 h3
+        a6 b8 c2 d4 e1 f7 g5 h3
+        a7 b1 c3 d8 e6 f4 g2 h5
+        a7 b2 c4 d1 e8 f5 g3 h6
+        a7 b2 c6 d3 e1 f4 g8 h5
+        a7 b3 c1 d6 e8 f5 g2 h4
+        a7 b3 c8 d2 e5 f1 g6 h4
+        a7 b4 c2 d5 e8 f1 g3 h6
+        a7 b4 c2 d8 e6 f1 g3 h5
+        a7 b5 c3 d1 e6 f8 g2 h4
+        a8 b2 c4 d1 e7 f5 g3 h6
+        a8 b2 c5 d3 e1 f7 g4 h6
+        a8 b3 c1 d6 e2 f5 g7 h4
+        a8 b4 c1 d3 e6 f2 g7 h5
+
+        method=Backtrack, solutions=92, tries=3544
+
+        */</span>
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAACBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID5RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="bbaadc50-10fa-dfcf-a4db-8532baaef11e.htm">Permutation Class</a></div><div class="seeAlsoStyle"><a href="f2905f4b-0a14-e9ba-c92b-9d6998425f51.htm">Kaos.Combinatorics Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>[v5.0.0] Copyright © 2009-2017 Kasey O. (github.com/kaosborn)</p> </div></body></html>
