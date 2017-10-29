@@ -2,94 +2,54 @@
     <strong>Namespace:</strong> 
    <a href="ea382f9d-d870-8b02-657d-aa381c4ea035.htm">Kaos.Collections</a><br />
     <strong>Assembly:</strong>
-   KaosCollections (in KaosCollections.dll) Version: 3.0.0.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EACA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EACA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EACA');return false;" title="Copy">Copy</a></div></div><div id="ID0EACA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="identifier">RankedSet</span>(
+   Collections461 (in Collections461.dll) Version: 3.0.0.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EACA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EACA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EACA');return false;" title="Copy">Copy</a></div></div><div id="ID0EACA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="identifier">RankedSet</span>(
 	<span class="identifier">IComparer</span>&lt;T&gt; <span class="parameter">comparer</span>
 )</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EACA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">comparer</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/8ehhxeaf" target="_blank">System.Collections.Generic<span id="LST14EA2D9C_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST14EA2D9C_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>IComparer</a><span id="LST14EA2D9C_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST14EA2D9C_5?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><a href="d595b6a0-2eaa-166f-3420-098e987e7c30.htm"><span class="typeparameter">T</span></a><span id="LST14EA2D9C_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST14EA2D9C_6?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br />The comparer to use for sorting items.</dd></dl></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Exceptions</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="tableSection"><table><tr><th>Exception</th><th>Condition</th></tr><tr><td><a href="http://msdn2.microsoft.com/en-us/library/2asft85a" target="_blank">InvalidOperationException</a></td><td>When <em>comparer</em> is <b>null</b> and no other comparer available.</td></tr></table></div></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID3RBSection" class="collapsibleSection">
-            This program shows usage of a custom comparer combined with serialization.
-            Note: Serialization is not supported in .NET Standard 1.0.
+            This program shows usage of a custom comparer for case insensitivity.
             <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABBA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABBA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
-<span class="highlight-keyword">using</span> System.Collections.Generic;
-<span class="highlight-keyword">using</span> System.IO;
-<span class="highlight-keyword">using</span> System.Runtime.Serialization;
-<span class="highlight-keyword">using</span> System.Runtime.Serialization.Formatters.Binary;
 <span class="highlight-keyword">using</span> Kaos.Collections;
 
-<span class="highlight-keyword">namespace</span> ExampleApp
+<span class="highlight-keyword">namespace</span> ChartApp
 {
-    [Serializable]
-    <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> PersonComparer : Comparer&lt;Person&gt;
+    <span class="highlight-keyword">class</span> RsExample01
     {
-        <span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">int</span> Compare (Person x, Person y)
-        { <span class="highlight-keyword">return</span> x==<span class="highlight-keyword">null</span>? (y==<span class="highlight-keyword">null</span>? <span class="highlight-number">0</span> : <span class="highlight-number">-1</span>) : (y==<span class="highlight-keyword">null</span>? <span class="highlight-number">1</span> : String.Compare (x.ToString(), y.ToString())); }
-    }
+        <span class="highlight-keyword">static</span> <span class="highlight-keyword">bool</span> IsPolynymous (<span class="highlight-keyword">string</span> name) =&gt; name.Contains (<span class="highlight-literal">" "</span>);
 
-    [Serializable]
-    <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> Person : ISerializable
-    {
-        <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> First { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">private</span> <span class="highlight-keyword">set</span>; }
-        <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> Last { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">private</span> <span class="highlight-keyword">set</span>; }
-
-        <span class="highlight-keyword">public</span> Person (<span class="highlight-keyword">string</span> first, <span class="highlight-keyword">string</span> last)
-        { <span class="highlight-keyword">this</span>.First = first; <span class="highlight-keyword">this</span>.Last = last; }
-
-        <span class="highlight-keyword">protected</span> Person (SerializationInfo info, StreamingContext context)
-        {
-            <span class="highlight-keyword">this</span>.First = (String) info.GetValue (<span class="highlight-literal">"First"</span>, <span class="highlight-keyword">typeof</span> (String));
-            <span class="highlight-keyword">this</span>.Last = (String) info.GetValue (<span class="highlight-literal">"Last"</span>, <span class="highlight-keyword">typeof</span> (String));
-        }
-
-        <span class="highlight-keyword">public</span> <span class="highlight-keyword">virtual</span> <span class="highlight-keyword">void</span> GetObjectData (SerializationInfo info, StreamingContext context)
-        {
-            info.AddValue (<span class="highlight-literal">"First"</span>, First, <span class="highlight-keyword">typeof</span> (String));
-            info.AddValue (<span class="highlight-literal">"Last"</span>, Last, <span class="highlight-keyword">typeof</span> (String));
-        }
-
-        <span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">string</span> ToString() =&gt; Last + <span class="highlight-literal">", "</span> + First;
-    }
-
-
-    <span class="highlight-keyword">class</span> RsExample05
-    {
         <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> Main()
         {
-            <span class="highlight-keyword">var</span> set1 = <span class="highlight-keyword">new</span> RankedSet&lt;Person&gt; (<span class="highlight-keyword">new</span> PersonComparer());
-            set1.Add (<span class="highlight-keyword">new</span> Person (<span class="highlight-literal">"Hugh"</span>, <span class="highlight-literal">"Mann"</span>));
-            set1.Add (<span class="highlight-keyword">new</span> Person (<span class="highlight-literal">"Hammond"</span>, <span class="highlight-literal">"Egger"</span>));
+            <span class="highlight-keyword">var</span> musicians = <span class="highlight-keyword">new</span> RankedSet&lt;<span class="highlight-keyword">string</span>&gt; (StringComparer.InvariantCultureIgnoreCase);
 
-            <span class="highlight-keyword">string</span> fileName = <span class="highlight-literal">"Persons.bin"</span>;
-            IFormatter formatter = <span class="highlight-keyword">new</span> BinaryFormatter();
+            <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> m1 <span class="highlight-keyword">in</span> <span class="highlight-keyword">new</span> <span class="highlight-keyword">string</span>[] { <span class="highlight-literal">"Falco"</span>, <span class="highlight-literal">"k.d. lang"</span>, <span class="highlight-literal">"Madonna"</span>, <span class="highlight-literal">"Tom Petty"</span>,
+                                              <span class="highlight-literal">"Joni Mitchell"</span>, <span class="highlight-literal">"Grimes"</span>, <span class="highlight-literal">"Warren Zevon"</span> })
+                musicians.Add (m1);
 
-            SerializePersons (fileName, set1, formatter);
-            Console.WriteLine (<span class="highlight-literal">"Wrote "</span> + set1.Count + <span class="highlight-literal">" items to file '"</span> + fileName + <span class="highlight-literal">"'."</span>);
-            Console.WriteLine ();
+            Console.WriteLine (<span class="highlight-literal">"Candidates:"</span>);
+            <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> item <span class="highlight-keyword">in</span> musicians)
+                Console.WriteLine (<span class="highlight-literal">"  "</span> + item);
 
-            RankedSet&lt;Person&gt; set2 = DeserializePersons (fileName, formatter);
-            Console.WriteLine (<span class="highlight-literal">"Read back "</span> + set2.Count + <span class="highlight-literal">" items:"</span>);
+            musicians.Remove (<span class="highlight-literal">"Falco"</span>);
+            musicians.RemoveWhere (IsPolynymous);
+            musicians.RemoveRange (<span class="highlight-number">1</span>, musicians.Count<span class="highlight-number">-1</span>);
 
-            <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> p2 <span class="highlight-keyword">in</span> set2)
-                Console.WriteLine (p2);
-        }
-
-        <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> SerializePersons (<span class="highlight-keyword">string</span> fn, RankedSet&lt;Person&gt; <span class="highlight-keyword">set</span>, IFormatter formatter)
-        {
-            <span class="highlight-keyword">using</span> (<span class="highlight-keyword">var</span> fs = <span class="highlight-keyword">new</span> FileStream (fn, FileMode.Create))
-            { formatter.Serialize (fs, <span class="highlight-keyword">set</span>); }
-        }
-
-        <span class="highlight-keyword">static</span> RankedSet&lt;Person&gt; DeserializePersons (<span class="highlight-keyword">string</span> fn, IFormatter formatter)
-        {
-            <span class="highlight-keyword">using</span> (<span class="highlight-keyword">var</span> fs = <span class="highlight-keyword">new</span> FileStream (fn, FileMode.Open))
-            { <span class="highlight-keyword">return</span> (RankedSet&lt;Person&gt;) formatter.Deserialize (fs); }
+            Console.WriteLine (<span class="highlight-literal">"\nFavorite:"</span>);
+            <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> item <span class="highlight-keyword">in</span> musicians)
+                Console.WriteLine (<span class="highlight-literal">"  "</span> + item);
         }
 
         <span class="highlight-comment">/* Output:
 
-        Wrote 2 items to file 'Persons.bin'.
+        Candidates:
+          Falco
+          Grimes
+          Joni Mitchell
+          k.d. lang
+          Madonna
+          Tom Petty
+          Warren Zevon
 
-        Read back 2 items:
-        Egger, Hammond
-        Mann, Hugh
+        Favorite:
+          Grimes
 
         */</span>
     }
-}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID4RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="d595b6a0-2eaa-166f-3420-098e987e7c30.htm">RankedSet<span id="LST14EA2D9C_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST14EA2D9C_7?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST14EA2D9C_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST14EA2D9C_8?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Class</a></div><div class="seeAlsoStyle"><a href="6f065074-d484-ffdc-cfb4-c37ac5faec63.htm">RankedSet<span id="LST14EA2D9C_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST14EA2D9C_9?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST14EA2D9C_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST14EA2D9C_10?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Overload</a></div><div class="seeAlsoStyle"><a href="ea382f9d-d870-8b02-657d-aa381c4ea035.htm">Kaos.Collections Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>[v3.0.0] Copyright © 2009-2017 Kasey O. (github.com/kaosborn)</p> </div></body></html>
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID4RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="d595b6a0-2eaa-166f-3420-098e987e7c30.htm">RankedSet<span id="LST14EA2D9C_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST14EA2D9C_7?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST14EA2D9C_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST14EA2D9C_8?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Class</a></div><div class="seeAlsoStyle"><a href="6f065074-d484-ffdc-cfb4-c37ac5faec63.htm">RankedSet<span id="LST14EA2D9C_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST14EA2D9C_9?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST14EA2D9C_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST14EA2D9C_10?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Overload</a></div><div class="seeAlsoStyle"><a href="ea382f9d-d870-8b02-657d-aa381c4ea035.htm">Kaos.Collections Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>[v3.0.0.2] Copyright © 2009-2017 Kasey O. (github.com/kaosborn)</p> </div></body></html>

@@ -3,9 +3,9 @@
 
   <HelpTOCNode Title="Welcome to KaosCombinatorics" Url="html/0908d812-b502-4da7-a452-66e043c6bb70.htm" />
   <HelpTOCNode Title="Release History" Url="html/378c61fc-81bd-4a4b-bc4d-93a809330c60.htm" />
-  <HelpTOCNode Id="b9e56e26-ab4b-4618-b2bd-7f5631288f84" Title="Kaos.Combinatorics" Url="html/f2905f4b-0a14-e9ba-c92b-9d6998425f51.htm">
-    <HelpTOCNode Id="0cea83db-c175-4571-bf01-e4ab6f71d903" Title="Combination Class" Url="html/ea7aeb63-8536-c09a-036f-2d8afe643a96.htm">
-      <HelpTOCNode Id="2239d011-77b1-4510-99d9-7f7e30901f6e" Title="Combination Constructor " Url="html/4bf5aa36-c793-8bf3-d95c-a7eadf5f4d99.htm">
+  <HelpTOCNode Id="6c73e972-d456-436d-85ca-169f792b33bb" Title="Kaos.Combinatorics" Url="html/f2905f4b-0a14-e9ba-c92b-9d6998425f51.htm">
+    <HelpTOCNode Id="36b69f88-9c24-4fbe-8809-3dfa3f71d24a" Title="Combination Class" Url="html/ea7aeb63-8536-c09a-036f-2d8afe643a96.htm">
+      <HelpTOCNode Id="d69760a7-3fd5-44ec-99fd-36c4ad76e780" Title="Combination Constructor " Url="html/4bf5aa36-c793-8bf3-d95c-a7eadf5f4d99.htm">
         <HelpTOCNode Title="Combination Constructor " Url="html/e0ca0f15-de22-61aa-a237-e36ed505566e.htm" />
         <HelpTOCNode Title="Combination Constructor (Int32)" Url="html/f50490f1-a4da-b72d-0e48-35252c97dae5.htm" />
         <HelpTOCNode Title="Combination Constructor (Combination)" Url="html/46d942ff-4c38-a68a-cf61-3c4d303f87ff.htm" />
@@ -13,21 +13,20 @@
         <HelpTOCNode Title="Combination Constructor (Int32, Int32[])" Url="html/39516482-8a9e-dc80-9344-ad56d307aaba.htm" />
         <HelpTOCNode Title="Combination Constructor (Int32, Int32, Int64)" Url="html/f97783b8-db1b-3b4f-c0b2-c928c40cf490.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="467f662b-b008-4fcb-86a1-b1af63675c3c" Title="Combination Properties" Url="html/25b5522c-3bd6-dd8a-e612-30e76cf60d2e.htm">
+      <HelpTOCNode Id="eb516db3-0981-4a33-90b1-98a46c5cfc5e" Title="Combination Properties" Url="html/25b5522c-3bd6-dd8a-e612-30e76cf60d2e.htm">
         <HelpTOCNode Title="Choices Property " Url="html/1cc7fc65-e0f3-72f6-45b2-36cbd9e69208.htm" />
         <HelpTOCNode Title="Item Property " Url="html/d27ab957-03a8-e2e2-1610-45707c61b778.htm" />
         <HelpTOCNode Title="Picks Property " Url="html/4dcaeca6-4dfa-b12e-2276-1d979689d15d.htm" />
         <HelpTOCNode Title="Rank Property " Url="html/3c71ee9b-0a94-901e-1906-cb62d3127f23.htm" />
         <HelpTOCNode Title="RowCount Property " Url="html/8d229713-383e-c454-ba7e-fe396e7370e7.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="dccd105d-347a-400b-bfbf-fef12ed672a0" Title="Combination Methods" Url="html/2af2abf4-fd21-41f2-9a47-4d1f915a7486.htm">
-        <HelpTOCNode Title="IEnumerable.GetEnumerator Method " Url="html/82ff8630-17e6-a186-7043-66dac6cf7f5b.htm" />
-        <HelpTOCNode Id="ff3b3429-3a14-4191-a5bb-dfd848eee2da" Title="CompareTo Method " Url="html/8b65a4bf-5784-4e72-b887-9331a1b08ee6.htm">
+      <HelpTOCNode Id="ee80de46-2fac-4c3a-95fd-70d42e25e63b" Title="Combination Methods" Url="html/2af2abf4-fd21-41f2-9a47-4d1f915a7486.htm">
+        <HelpTOCNode Id="3c320d97-1ab6-4c03-8392-5206479bab7d" Title="CompareTo Method " Url="html/8b65a4bf-5784-4e72-b887-9331a1b08ee6.htm">
           <HelpTOCNode Title="CompareTo Method (Object)" Url="html/04bcac8d-325c-3cf6-4e6d-8c145993f08e.htm" />
           <HelpTOCNode Title="CompareTo Method (Combination)" Url="html/078fc367-0e5b-d238-c667-7e532a64c0ec.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="CopyTo Method " Url="html/b3966034-b629-8a89-929c-6785c7cd24d6.htm" />
-        <HelpTOCNode Id="1e5fa7a6-7651-46ae-9420-4c1c676825c2" Title="Equals Method " Url="html/aad05422-cfd1-ed22-d3c6-c20a15c6062c.htm">
+        <HelpTOCNode Id="21d27c8c-3a14-4267-9f2a-3ed0f5cc3d88" Title="Equals Method " Url="html/aad05422-cfd1-ed22-d3c6-c20a15c6062c.htm">
           <HelpTOCNode Title="Equals Method (Object)" Url="html/51976a13-c2c1-e05f-8331-afa0604ff77d.htm" />
           <HelpTOCNode Title="Equals Method (Combination)" Url="html/69fd5abf-108d-fe78-a99c-ac2f970e63ce.htm" />
         </HelpTOCNode>
@@ -38,7 +37,7 @@
         <HelpTOCNode Title="Permute(T) Method " Url="html/dbadb6fe-3a27-e596-13f1-455ec103de4c.htm" />
         <HelpTOCNode Title="ToString Method " Url="html/9586001e-64c1-5e4c-d9d7-5bf93aac1d1b.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="2f8df747-95b3-411a-801c-3ee155016349" Title="Combination Operators" Url="html/5224da53-67bf-dbc0-d6c2-ffbb021f8bea.htm">
+      <HelpTOCNode Id="03897f8a-1e0e-4799-8da4-6f5c07829e01" Title="Combination Operators" Url="html/5224da53-67bf-dbc0-d6c2-ffbb021f8bea.htm">
         <HelpTOCNode Title="Equality Operator " Url="html/a89461f4-165d-e378-5f63-46a79ce9ee50.htm" />
         <HelpTOCNode Title="GreaterThan Operator " Url="html/f885ca90-728f-138c-d762-774b33710e51.htm" />
         <HelpTOCNode Title="GreaterThanOrEqual Operator " Url="html/f2f61893-b595-f500-e324-2ca1285842f4.htm" />
@@ -47,14 +46,14 @@
         <HelpTOCNode Title="LessThanOrEqual Operator " Url="html/8c1085c6-7911-10b7-080c-ae6be7946ccc.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="709772ba-7742-49eb-926b-66c44e4588e3" Title="Combinatoric Class" Url="html/212db916-59f3-c91c-ea62-36f416eb8c7d.htm">
-      <HelpTOCNode Id="4993e5d2-f017-4180-9e2e-de1210500cb0" Title="Combinatoric Methods" Url="html/30c60841-333e-831b-31e6-c37037278275.htm">
+    <HelpTOCNode Id="6a0722da-38f5-4bf3-9efe-ee2b06250ced" Title="Combinatoric Class" Url="html/212db916-59f3-c91c-ea62-36f416eb8c7d.htm">
+      <HelpTOCNode Id="3dddecad-7307-4e7d-ab42-5e7a47cc1754" Title="Combinatoric Methods" Url="html/30c60841-333e-831b-31e6-c37037278275.htm">
         <HelpTOCNode Title="BinomialCoefficient Method " Url="html/3f3bf341-2b28-27f2-a767-ef6b6489e533.htm" />
         <HelpTOCNode Title="Factorial Method " Url="html/bf3c452f-60e5-4eb5-b8b7-569ad4945394.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="5fa54ba3-1a48-485d-baa3-9017de73847d" Title="Multicombination Class" Url="html/72a8744f-e6b9-06a8-6bd9-bc9d132365da.htm">
-      <HelpTOCNode Id="b0a3ed96-75b5-47c8-9bc2-28e448e2370d" Title="Multicombination Constructor " Url="html/f2f8841f-6fff-b35e-fb07-da723dcc2af8.htm">
+    <HelpTOCNode Id="a67bdf9d-a972-48b7-bb89-e50877065dd9" Title="Multicombination Class" Url="html/72a8744f-e6b9-06a8-6bd9-bc9d132365da.htm">
+      <HelpTOCNode Id="11af4f89-1d7a-46b3-a689-6ac8000f7e94" Title="Multicombination Constructor " Url="html/f2f8841f-6fff-b35e-fb07-da723dcc2af8.htm">
         <HelpTOCNode Title="Multicombination Constructor " Url="html/ec852513-c5c4-f981-3866-00b1e20f3253.htm" />
         <HelpTOCNode Title="Multicombination Constructor (Int32)" Url="html/59554584-3ded-7f4f-758c-371cf75e8c99.htm" />
         <HelpTOCNode Title="Multicombination Constructor (Multicombination)" Url="html/56f11bc3-0793-6054-4fd3-ad7f63e2ea97.htm" />
@@ -62,21 +61,20 @@
         <HelpTOCNode Title="Multicombination Constructor (Int32, Int32[])" Url="html/423fada8-f3a6-c24c-f12f-d5b16461535e.htm" />
         <HelpTOCNode Title="Multicombination Constructor (Int32, Int32, Int64)" Url="html/dfe2bf03-362b-891c-cc97-47acd105ed03.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="1714ea2c-cffd-474e-a8b0-0443e9fef585" Title="Multicombination Properties" Url="html/f073f8fd-90e8-9e3f-d327-23c2b6a8cbc7.htm">
+      <HelpTOCNode Id="d4db01ba-f06b-47d4-9551-95e5cbc6e6ed" Title="Multicombination Properties" Url="html/f073f8fd-90e8-9e3f-d327-23c2b6a8cbc7.htm">
         <HelpTOCNode Title="Choices Property " Url="html/4c5ea834-a485-4f79-9d6b-1592a1c6ee33.htm" />
         <HelpTOCNode Title="Item Property " Url="html/4d07bdcf-7eb9-c211-89e6-9cbc7bccc5d0.htm" />
         <HelpTOCNode Title="Picks Property " Url="html/90d75400-5a6b-5a83-9892-467926671e03.htm" />
         <HelpTOCNode Title="Rank Property " Url="html/df6a3702-ea23-53c6-754a-a1345e64c05e.htm" />
         <HelpTOCNode Title="RowCount Property " Url="html/0f8e2231-3362-8cf3-9208-7dc59d0f8094.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="de85b888-764b-4a4f-9af8-15b2cacaaa01" Title="Multicombination Methods" Url="html/14f68c9f-de51-72bf-a45f-431c1eb1e695.htm">
-        <HelpTOCNode Title="IEnumerable.GetEnumerator Method " Url="html/0af35ee7-b7b4-cacd-5efe-ec1dc1e0041d.htm" />
-        <HelpTOCNode Id="6abc753f-c0c2-4798-aeee-d95f7ca4cff8" Title="CompareTo Method " Url="html/d4a2fd90-9ca8-ea4d-0caa-a6bc052e8974.htm">
+      <HelpTOCNode Id="24e126f9-e94f-43e6-97aa-ea08b366acd3" Title="Multicombination Methods" Url="html/14f68c9f-de51-72bf-a45f-431c1eb1e695.htm">
+        <HelpTOCNode Id="e4dd260f-cdcd-4d57-bd19-427850ddc1ac" Title="CompareTo Method " Url="html/d4a2fd90-9ca8-ea4d-0caa-a6bc052e8974.htm">
           <HelpTOCNode Title="CompareTo Method (Object)" Url="html/c4b29859-668a-3afd-b38f-4c7e4ed26376.htm" />
           <HelpTOCNode Title="CompareTo Method (Multicombination)" Url="html/66c5a159-6f0e-cb00-b2d7-678f23a43013.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="CopyTo Method " Url="html/e6d84a10-08ef-c331-08bb-11e8053b4f8c.htm" />
-        <HelpTOCNode Id="73613096-aa8a-4625-9361-f5fc092a5665" Title="Equals Method " Url="html/2cdc76a8-226c-4529-6899-1c61c32d0274.htm">
+        <HelpTOCNode Id="8c106bf2-28f0-49ef-8996-aea25490d85f" Title="Equals Method " Url="html/2cdc76a8-226c-4529-6899-1c61c32d0274.htm">
           <HelpTOCNode Title="Equals Method (Object)" Url="html/7bd607b0-0510-e61e-040a-8ed9cfc5af77.htm" />
           <HelpTOCNode Title="Equals Method (Multicombination)" Url="html/0f541231-dd1d-528a-a475-d2f9851d967f.htm" />
         </HelpTOCNode>
@@ -87,7 +85,7 @@
         <HelpTOCNode Title="Permute(T) Method " Url="html/25e33154-6e7c-d7cf-f90b-954878df7e83.htm" />
         <HelpTOCNode Title="ToString Method " Url="html/38a0c5ef-a36e-8afd-28ae-2547bcf6df48.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="ee25dd0b-4bce-4d8a-805d-5465cd19a6bb" Title="Multicombination Operators" Url="html/f6f18b5d-6cbb-3644-26e9-3727b8a2c4eb.htm">
+      <HelpTOCNode Id="eae97e77-bc32-4ecb-b090-c1ed781e3641" Title="Multicombination Operators" Url="html/f6f18b5d-6cbb-3644-26e9-3727b8a2c4eb.htm">
         <HelpTOCNode Title="Equality Operator " Url="html/56532a1f-005a-c43c-455f-de64ec4999d2.htm" />
         <HelpTOCNode Title="GreaterThan Operator " Url="html/2a462d39-08c6-c540-0626-236b8d5e727f.htm" />
         <HelpTOCNode Title="GreaterThanOrEqual Operator " Url="html/bb08cb3a-3bcd-bf4e-db2e-71829aea05a6.htm" />
@@ -96,8 +94,8 @@
         <HelpTOCNode Title="LessThanOrEqual Operator " Url="html/86f9e00d-2d3d-c744-6e1a-3e8e88c17b64.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="6af12f6c-deda-428d-b912-1cc07b72cf73" Title="Permutation Class" Url="html/bbaadc50-10fa-dfcf-a4db-8532baaef11e.htm">
-      <HelpTOCNode Id="6a29559d-7faf-451c-9c5f-e6957ca2bfdd" Title="Permutation Constructor " Url="html/c195dc27-eea2-b224-a4ea-9886a2c36b49.htm">
+    <HelpTOCNode Id="86c3e269-1e24-48af-90f8-610acfd2f802" Title="Permutation Class" Url="html/bbaadc50-10fa-dfcf-a4db-8532baaef11e.htm">
+      <HelpTOCNode Id="50805764-cb92-456d-a56c-e522a3a7361d" Title="Permutation Constructor " Url="html/c195dc27-eea2-b224-a4ea-9886a2c36b49.htm">
         <HelpTOCNode Title="Permutation Constructor " Url="html/0b6a1b7d-88ed-610f-6013-85bf262ce0af.htm" />
         <HelpTOCNode Title="Permutation Constructor (Int32)" Url="html/2b1f8789-9f64-dae5-a3de-b5ae095b7d26.htm" />
         <HelpTOCNode Title="Permutation Constructor (Int32[])" Url="html/a584c33b-3619-6098-270e-44cf24c4f2dd.htm" />
@@ -106,7 +104,7 @@
         <HelpTOCNode Title="Permutation Constructor (Int32[], Int32)" Url="html/e99e6794-3c27-d8c5-c85f-8283f24d6fe3.htm" />
         <HelpTOCNode Title="Permutation Constructor (Int32, Int32, Int64)" Url="html/58d802fa-da40-c493-0e07-68b66cff266c.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="cc98f3d2-7f2e-4d1e-ba0b-274bd4e3ef2e" Title="Permutation Properties" Url="html/43cfef0e-d41e-70dd-9539-329c3d96453d.htm">
+      <HelpTOCNode Id="86d322fa-8911-4842-8fc9-76097840af92" Title="Permutation Properties" Url="html/43cfef0e-d41e-70dd-9539-329c3d96453d.htm">
         <HelpTOCNode Title="Choices Property " Url="html/7634a2dc-62fc-2234-a136-1de4f4cd59c4.htm" />
         <HelpTOCNode Title="Item Property " Url="html/79447e3f-ef6f-9f57-e64c-cce507d8bd38.htm" />
         <HelpTOCNode Title="MaxChoices Property " Url="html/7d8340a9-e9df-e3e1-5e5a-32a1788ae67f.htm" />
@@ -116,15 +114,14 @@
         <HelpTOCNode Title="RowCount Property " Url="html/5e213d39-ba62-eb6c-54cd-16d9fd9172c0.htm" />
         <HelpTOCNode Title="Swaps Property " Url="html/99ce8e73-c468-a8e5-6bb5-dddc2154e9a2.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="a649cfd0-18ac-49bd-8d58-4dd221022ce0" Title="Permutation Methods" Url="html/83d7a269-6cb7-4f2e-4706-cffb2e93c85c.htm">
-        <HelpTOCNode Title="IEnumerable.GetEnumerator Method " Url="html/08eb7b1d-9603-a922-d88a-0a48a4b3c62f.htm" />
+      <HelpTOCNode Id="e4587a21-6c86-435d-bbb7-ae41d6c1f997" Title="Permutation Methods" Url="html/83d7a269-6cb7-4f2e-4706-cffb2e93c85c.htm">
         <HelpTOCNode Title="Backtrack Method " Url="html/bd696315-ed10-5d52-763a-d50de8f98397.htm" />
-        <HelpTOCNode Id="c2bedd02-c22a-4c96-a1b2-a059dfc721bb" Title="CompareTo Method " Url="html/36f71ba6-004a-9004-9718-842c3acc9e41.htm">
+        <HelpTOCNode Id="ac7d4b81-a607-4eb9-a239-0b921fa5e109" Title="CompareTo Method " Url="html/36f71ba6-004a-9004-9718-842c3acc9e41.htm">
           <HelpTOCNode Title="CompareTo Method (Object)" Url="html/820d8900-ae45-7218-a6db-9b4b585222ac.htm" />
           <HelpTOCNode Title="CompareTo Method (Permutation)" Url="html/f360d578-8b81-3d2d-004b-27036c54773e.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="CopyTo Method " Url="html/be2a550a-f711-3503-eb02-c676ab6c7638.htm" />
-        <HelpTOCNode Id="7993eab6-509f-4066-9fd1-4fe30527ac19" Title="Equals Method " Url="html/c6138bf7-cd73-4a97-4db2-c0d256b9700f.htm">
+        <HelpTOCNode Id="9f802903-af14-40de-a470-3ef25d1a001f" Title="Equals Method " Url="html/c6138bf7-cd73-4a97-4db2-c0d256b9700f.htm">
           <HelpTOCNode Title="Equals Method (Object)" Url="html/4452841b-7208-cfdc-94aa-699652e76368.htm" />
           <HelpTOCNode Title="Equals Method (Permutation)" Url="html/2d792392-3d79-1383-f65e-6fcc54f86be3.htm" />
         </HelpTOCNode>
@@ -137,7 +134,7 @@
         <HelpTOCNode Title="Permute(T) Method " Url="html/8628d5f3-cb56-050c-7ae2-348d3299dea5.htm" />
         <HelpTOCNode Title="ToString Method " Url="html/61315da1-e25e-d798-ec4c-21ccf992ae3c.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="2814e716-4a3e-4582-bd59-9dcb8eb41386" Title="Permutation Operators" Url="html/ddf69fe2-2ffe-0be5-8e6a-70745e708df5.htm">
+      <HelpTOCNode Id="c53f08ae-52a7-4e1b-bfb3-270c59030ec0" Title="Permutation Operators" Url="html/ddf69fe2-2ffe-0be5-8e6a-70745e708df5.htm">
         <HelpTOCNode Title="Equality Operator " Url="html/33afe7a9-f639-ff99-f17a-e7160a39c88a.htm" />
         <HelpTOCNode Title="GreaterThan Operator " Url="html/d58c812f-a7a6-f1c0-4f61-655bfe4e1291.htm" />
         <HelpTOCNode Title="GreaterThanOrEqual Operator " Url="html/e1521424-86ee-8c4b-dcce-8572d3314855.htm" />
@@ -146,28 +143,27 @@
         <HelpTOCNode Title="LessThanOrEqual Operator " Url="html/f5ffa43e-bdeb-596b-1812-b3f5d158370c.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="37860768-4117-4621-8984-89926bccbd41" Title="Product Class" Url="html/bff6e165-81a6-534b-d46f-42782326a7cd.htm">
-      <HelpTOCNode Id="fa3ca562-0a3c-4972-b806-a6a5afc85f70" Title="Product Constructor " Url="html/7adbe74a-c438-d98f-6387-381c8bd82bdf.htm">
+    <HelpTOCNode Id="7f68014c-6163-4d53-9a03-139bef97428d" Title="Product Class" Url="html/bff6e165-81a6-534b-d46f-42782326a7cd.htm">
+      <HelpTOCNode Id="1e5e8e21-f18d-448f-a307-c07ad8eb36ca" Title="Product Constructor " Url="html/7adbe74a-c438-d98f-6387-381c8bd82bdf.htm">
         <HelpTOCNode Title="Product Constructor " Url="html/dca4372f-45f2-155b-a178-2d6a2b31450e.htm" />
         <HelpTOCNode Title="Product Constructor (Int32[])" Url="html/1e79efdb-1368-42d4-d573-61fd19f412fa.htm" />
         <HelpTOCNode Title="Product Constructor (Product)" Url="html/464948b7-6d3b-0ec8-9b90-bb494cb7d12c.htm" />
         <HelpTOCNode Title="Product Constructor (Int32[], Int32[])" Url="html/b76db347-f550-7db5-8885-59c1bfd54244.htm" />
         <HelpTOCNode Title="Product Constructor (Int32[], Int64)" Url="html/920cacef-1415-f7cb-49ec-34ea26a5094b.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="0c4be1a6-2139-4db1-a9e6-225fb815347f" Title="Product Properties" Url="html/6eb22d58-8437-8eeb-4534-adbb6589cdba.htm">
+      <HelpTOCNode Id="968e649a-9978-4f09-86c5-5207f5904a0b" Title="Product Properties" Url="html/6eb22d58-8437-8eeb-4534-adbb6589cdba.htm">
         <HelpTOCNode Title="Item Property " Url="html/ef8e70f7-2049-bc88-7f25-532b65767898.htm" />
         <HelpTOCNode Title="Rank Property " Url="html/39880bdc-26e2-b5ee-dd25-28036a576366.htm" />
         <HelpTOCNode Title="RowCount Property " Url="html/7ccb6e2e-bac7-621b-15ac-1caf11028296.htm" />
         <HelpTOCNode Title="Width Property " Url="html/10ce2b71-1924-3dda-13e4-0da429b290c9.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="494d1069-66b0-400c-bab6-4e0cae0ea0da" Title="Product Methods" Url="html/fd06c485-6c92-cf82-b5b7-73e95cc1cc31.htm">
-        <HelpTOCNode Title="IEnumerable.GetEnumerator Method " Url="html/5d5c00ab-7cf3-2203-119b-53ab49b47433.htm" />
-        <HelpTOCNode Id="b5eb6007-27a0-4bd6-b4dc-e697250647aa" Title="CompareTo Method " Url="html/3e381620-d754-b1ae-dfd8-fe743e1d1106.htm">
+      <HelpTOCNode Id="9028ce50-bd9a-4feb-9313-715d82f1a6e3" Title="Product Methods" Url="html/fd06c485-6c92-cf82-b5b7-73e95cc1cc31.htm">
+        <HelpTOCNode Id="e3efaf66-113a-4973-a8a2-e6178702e158" Title="CompareTo Method " Url="html/3e381620-d754-b1ae-dfd8-fe743e1d1106.htm">
           <HelpTOCNode Title="CompareTo Method (Object)" Url="html/d0e959b3-496d-bb49-f814-f5d1593aa8c4.htm" />
           <HelpTOCNode Title="CompareTo Method (Product)" Url="html/003875bf-de09-9609-357d-7f0d4de0db29.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="CopyTo Method " Url="html/459661b8-8bc4-9500-bcee-adba80f8b7c2.htm" />
-        <HelpTOCNode Id="e7881a8d-5440-4739-90fb-9a9e1ec071c4" Title="Equals Method " Url="html/e6140d09-d7e2-9c54-2979-38da14b80ac1.htm">
+        <HelpTOCNode Id="071169dd-81e5-4ce3-b66b-6b708156a383" Title="Equals Method " Url="html/e6140d09-d7e2-9c54-2979-38da14b80ac1.htm">
           <HelpTOCNode Title="Equals Method (Object)" Url="html/a58fcb7f-8f51-b341-d741-5a22e16fde26.htm" />
           <HelpTOCNode Title="Equals Method (Product)" Url="html/593ac9a3-3f85-76b6-6160-426025316f18.htm" />
         </HelpTOCNode>
@@ -178,7 +174,7 @@
         <HelpTOCNode Title="Size Method " Url="html/d542ff76-07f2-2ea3-b680-1aa630da7b08.htm" />
         <HelpTOCNode Title="ToString Method " Url="html/4f7e3a55-a874-6058-141a-415693108d1c.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="4df13bc0-ea22-43d3-a12a-a3a5a6433fb7" Title="Product Operators" Url="html/4d497b59-3d9a-b36f-e727-e5665ca24bd6.htm">
+      <HelpTOCNode Id="bf30966f-2de6-459d-8484-898acdbca972" Title="Product Operators" Url="html/4d497b59-3d9a-b36f-e727-e5665ca24bd6.htm">
         <HelpTOCNode Title="Equality Operator " Url="html/f1f3efb9-3418-2e5f-88ae-af3e94153d89.htm" />
         <HelpTOCNode Title="GreaterThan Operator " Url="html/9da49237-fe6b-62d0-fef5-2a015e7acb01.htm" />
         <HelpTOCNode Title="GreaterThanOrEqual Operator " Url="html/aa75272d-f228-87a9-6461-4a3af82bdaa9.htm" />

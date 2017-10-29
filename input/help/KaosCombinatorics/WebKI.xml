@@ -27,7 +27,6 @@
   <HelpKINode Title="Combination.GetRowsForAllPicks method" Url="html/e4eeff47-90ba-1616-e742-b1a709b8f38e.htm" />
   <HelpKINode Title="Combination.GreaterThan operator" Url="html/f885ca90-728f-138c-d762-774b33710e51.htm" />
   <HelpKINode Title="Combination.GreaterThanOrEqual operator" Url="html/f2f61893-b595-f500-e324-2ca1285842f4.htm" />
-  <HelpKINode Title="Combination.IEnumerable.GetEnumerator explicitly implemented method" Url="html/82ff8630-17e6-a186-7043-66dac6cf7f5b.htm" />
   <HelpKINode Title="Combination.Inequality operator" Url="html/351e9eeb-1258-cf7e-4b60-30d227a25bd5.htm" />
   <HelpKINode Title="Combination.Item property" Url="html/d27ab957-03a8-e2e2-1610-45707c61b778.htm" />
   <HelpKINode Title="Combination.LessThan operator" Url="html/c6c204c3-04ba-8c4c-131f-3057336e9b96.htm" />
@@ -107,12 +106,6 @@
     <HelpKINode Title="Permutation.GreaterThanOrEqual Operator " Url="html/e1521424-86ee-8c4b-dcce-8572d3314855.htm" />
     <HelpKINode Title="Product.GreaterThanOrEqual Operator " Url="html/aa75272d-f228-87a9-6461-4a3af82bdaa9.htm" />
   </HelpKINode>
-  <HelpKINode Title="IEnumerable.GetEnumerator explicitly implemented method">
-    <HelpKINode Title="Combination.IEnumerable.GetEnumerator Method " Url="html/82ff8630-17e6-a186-7043-66dac6cf7f5b.htm" />
-    <HelpKINode Title="Multicombination.IEnumerable.GetEnumerator Method " Url="html/0af35ee7-b7b4-cacd-5efe-ec1dc1e0041d.htm" />
-    <HelpKINode Title="Permutation.IEnumerable.GetEnumerator Method " Url="html/08eb7b1d-9603-a922-d88a-0a48a4b3c62f.htm" />
-    <HelpKINode Title="Product.IEnumerable.GetEnumerator Method " Url="html/5d5c00ab-7cf3-2203-119b-53ab49b47433.htm" />
-  </HelpKINode>
   <HelpKINode Title="Inequality operator">
     <HelpKINode Title="Combination.Inequality Operator " Url="html/351e9eeb-1258-cf7e-4b60-30d227a25bd5.htm" />
     <HelpKINode Title="Multicombination.Inequality Operator " Url="html/de6ef2d4-ac5b-87b1-f1e2-9294b3a5a2be.htm" />
@@ -163,7 +156,6 @@
   <HelpKINode Title="Multicombination.GetRowsForPicks method" Url="html/a0f1b4ea-82e9-9414-6165-afc8ca73f9ed.htm" />
   <HelpKINode Title="Multicombination.GreaterThan operator" Url="html/2a462d39-08c6-c540-0626-236b8d5e727f.htm" />
   <HelpKINode Title="Multicombination.GreaterThanOrEqual operator" Url="html/bb08cb3a-3bcd-bf4e-db2e-71829aea05a6.htm" />
-  <HelpKINode Title="Multicombination.IEnumerable.GetEnumerator explicitly implemented method" Url="html/0af35ee7-b7b4-cacd-5efe-ec1dc1e0041d.htm" />
   <HelpKINode Title="Multicombination.Inequality operator" Url="html/de6ef2d4-ac5b-87b1-f1e2-9294b3a5a2be.htm" />
   <HelpKINode Title="Multicombination.Item property" Url="html/4d07bdcf-7eb9-c211-89e6-9cbc7bccc5d0.htm" />
   <HelpKINode Title="Multicombination.LessThan operator" Url="html/dae1e6bb-34a7-913b-798b-8b31fd8ffd37.htm" />
@@ -197,7 +189,6 @@
   <HelpKINode Title="Permutation.GetRowsOfPlainChanges method" Url="html/56e30349-6d9a-45f3-61ad-43de8cc9296e.htm" />
   <HelpKINode Title="Permutation.GreaterThan operator" Url="html/d58c812f-a7a6-f1c0-4f61-655bfe4e1291.htm" />
   <HelpKINode Title="Permutation.GreaterThanOrEqual operator" Url="html/e1521424-86ee-8c4b-dcce-8572d3314855.htm" />
-  <HelpKINode Title="Permutation.IEnumerable.GetEnumerator explicitly implemented method" Url="html/08eb7b1d-9603-a922-d88a-0a48a4b3c62f.htm" />
   <HelpKINode Title="Permutation.Inequality operator" Url="html/11e4fb91-b54e-fb6a-e71d-7a39f8ce23b2.htm" />
   <HelpKINode Title="Permutation.Item property" Url="html/79447e3f-ef6f-9f57-e64c-cce507d8bd38.htm" />
   <HelpKINode Title="Permutation.LessThan operator" Url="html/25f0cd60-a5b6-b72f-e8cf-0fec41ed08a2.htm" />
@@ -247,7 +238,6 @@
   <HelpKINode Title="Product.GetRows method" Url="html/7d405b09-ae21-393f-e102-4a206ebbcfbc.htm" />
   <HelpKINode Title="Product.GreaterThan operator" Url="html/9da49237-fe6b-62d0-fef5-2a015e7acb01.htm" />
   <HelpKINode Title="Product.GreaterThanOrEqual operator" Url="html/aa75272d-f228-87a9-6461-4a3af82bdaa9.htm" />
-  <HelpKINode Title="Product.IEnumerable.GetEnumerator explicitly implemented method" Url="html/5d5c00ab-7cf3-2203-119b-53ab49b47433.htm" />
   <HelpKINode Title="Product.Inequality operator" Url="html/139b1164-dd22-b40c-0572-abaf033ae41c.htm" />
   <HelpKINode Title="Product.Item property" Url="html/ef8e70f7-2049-bc88-7f25-532b65767898.htm" />
   <HelpKINode Title="Product.LessThan operator" Url="html/8bf9ae80-f9ea-e366-2117-4e78faf09e4c.htm" />
