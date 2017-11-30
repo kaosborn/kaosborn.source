@@ -4,7 +4,7 @@
       </p><ul><li><p><span class="code">SortedDictionary</span></p></li><li><p><span class="code">SortedSet</span></p></li><li><p><span class="code">List</span></p></li><li><p><span class="code">Enumerable</span></p></li></ul><p>
       There is no .NET bag class. Here, the API of 
        <span class="code">RankedBag</span> draws from the Java Apache <span class="code">Bag</span> interface.
-    </p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Differences from System.Collections.Generic</span></div><div id="ID0RBSection" class="collapsibleSection"><p>
+    </p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Differences from <span class="code">System.Collections.Generic</span></span></div><div id="ID0RBSection" class="collapsibleSection"><p>
           The APIs of <span class="code">RankedDictionary</span> and <span class="code">RankedSet</span> closely adhere to Microsoft's related generic classes with a few exceptions:
         </p><ul><li><p><span class="code">RankedDictionary</span> is enhanced with properties borrowed from <span class="code">SortedSet</span>:
             </p><ul><li><p>
@@ -24,11 +24,20 @@
                   Adds <span class="code">RemoveAt(index)</span> that deletes the element at the supplied position.
                 </p></li><li><p>
                   Adds <span class="code">RemoveRange(index,count)</span> that deletes a range of elements.
+                </p></li></ul></li><li><p><span class="code">RankedDictionary.KeyCollection</span> and <span class="code">RankedDictionary.ValueCollection</span> are enhanced with:
+            </p><ul><li><p>
+                  Adds indexer property that returns the element at the supplied position.
+                </p></li><li><p>
+                  Adds <span class="code">IndexOf(item)</span> that returns the position of the element with the supplied item.
+                </p></li><li><p>
+                  Directly implements <span class="code">ElementAt(index)</span> that returns the element at the supplied position.
+                </p></li><li><p>
+                  Directly implements <span class="code">ElementAtOrDefault(index)</span> that returns the element at the supplied position or the default if out of bounds.
                 </p></li></ul></li><li><p><span class="code">RankedDictionary</span> and <span class="code">RankedSet</span> directly implement <span class="code">IEnumerable&lt;T&gt;</span> methods to improve performance:
             </p><ul><li><p>
                   Implements <span class="code">ElementAt(index)</span> that returns the element at the supplied position.
                 </p></li><li><p>
-                  Implements <span class="code">ElementAtOrDefault(index)</span> that returns the element at the supplied position or the default if past the end of the collection.
+                  Implements <span class="code">ElementAtOrDefault(index)</span> that returns the element at the supplied position or the default if out of bounds.
                 </p></li><li><p>
                   Implements <span class="code">Last()</span> that returns the element at the last position.
                 </p></li></ul></li><li><p><span class="code">RankedDictionary</span> and <span class="code">RankedSet</span> add enumerators for range query support:
@@ -57,4 +66,4 @@
               Use the <span class="code">ElementsBetween(lower,upper)</span> enumerator instead.
             </p></li><li><p>
               There are a few error conditions that result in different exceptions being thrown.
-            </p></li></ul></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Other Resources</h4><div class="seeAlsoStyle"><a href="https://msdn.microsoft.com/en-us/library/system.collections.generic(v=vs.110).aspx" title="System.Collections.Generic Namespace" target="_blank">msdn.microsoft.com/en-us/library/system.collections.generic(v=vs.110).aspx</a></div><div class="seeAlsoStyle"><a href="https://commons.apache.org/proper/commons-collections/javadocs/api-2.1.1/org/apache/commons/collections/Bag.html" title="Bag interface" target="_blank">https://commons.apache.org/proper/commons-collections/javadocs/api-2.1.1/org/apache/commons/collections/Bag.html</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>[v3.0.0.2] Copyright © 2009-2017 Kasey O. (github.com/kaosborn)</p></div></body></html>
+            </p></li></ul></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Other Resources</h4><div class="seeAlsoStyle"><a href="https://msdn.microsoft.com/en-us/library/system.collections.generic(v=vs.110).aspx" title="System.Collections.Generic Namespace" target="_blank">msdn.microsoft.com/en-us/library/system.collections.generic(v=vs.110).aspx</a></div><div class="seeAlsoStyle"><a href="https://commons.apache.org/proper/commons-collections/javadocs/api-2.1.1/org/apache/commons/collections/Bag.html" title="Bag interface" target="_blank">https://commons.apache.org/proper/commons-collections/javadocs/api-2.1.1/org/apache/commons/collections/Bag.html</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>[v3.1.0.0] Copyright © 2009-2017 Kasey O. (github.com/kaosborn)</p></div></body></html>
