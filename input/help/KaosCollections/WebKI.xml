@@ -3,6 +3,7 @@
   <HelpKINode Title="Add method">
     <HelpKINode Title="RankedBag(T).Add Method " Url="html/705f00e8-2662-02bf-9ae6-2959211b2806.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).Add Method " Url="html/c6a27cae-7737-a5d7-cabf-d5041cc2d185.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).Add Method " Url="html/7e5a9c22-1594-d8d0-a6f1-78c510b3055e.htm" />
     <HelpKINode Title="RankedSet(T).Add Method " Url="html/5e377548-39b3-183e-5475-72d2fd2add91.htm" />
   </HelpKINode>
   <HelpKINode Title="Btree(Of T) class">
@@ -23,25 +24,38 @@
   <HelpKINode Title="Clear method">
     <HelpKINode Title="RankedBag(T).Clear Method " Url="html/67984047-43ab-b309-534d-acb63b371eed.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).Clear Method " Url="html/36e8ba20-fdba-ebe5-5fd3-1f55a1ebadd8.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).Clear Method " Url="html/776b2ecc-6d9f-d09c-e1e3-d2fcc73d054f.htm" />
     <HelpKINode Title="RankedSet(T).Clear Method " Url="html/012bb0ea-d36c-1c18-e863-38949e04c90d.htm" />
   </HelpKINode>
   <HelpKINode Title="Comparer property">
     <HelpKINode Title="RankedBag(T).Comparer Property " Url="html/53dbbefe-f18b-bc6a-77c3-203d747d2861.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).Comparer Property " Url="html/5915420a-4021-5fce-004e-8f83ce1e7841.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).Comparer Property " Url="html/b09c48ed-4e0e-ab51-6fc9-99683d11c748.htm" />
     <HelpKINode Title="RankedSet(T).Comparer Property " Url="html/cc3690d3-04cd-7a2e-8bc3-906357a7b5b4.htm" />
   </HelpKINode>
   <HelpKINode Title="Contains method">
     <HelpKINode Title="RankedBag(T).Contains Method " Url="html/5fb65958-8faf-522f-9e25-ba8e514c14b7.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.Contains Method " Url="html/e06e95ec-14d5-4544-fe10-380b51826f27.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.Contains Method " Url="html/8f3fa0e5-957d-e789-3588-0d7f0139daad.htm" />
     <HelpKINode Title="RankedSet(T).Contains Method " Url="html/d344a227-1428-8dd8-46d3-858e6e8dae54.htm" />
   </HelpKINode>
   <HelpKINode Title="ContainsAll method" Url="html/8c069c3d-3b9c-fd08-a6b1-355c41d8220f.htm" />
-  <HelpKINode Title="ContainsKey method" Url="html/914ccb9d-9733-3bde-ac25-525b8fa9eb9d.htm" />
-  <HelpKINode Title="ContainsValue method" Url="html/42a17ca3-1407-2712-6cc4-e1acbe24eacd.htm" />
+  <HelpKINode Title="ContainsKey method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ContainsKey Method " Url="html/914ccb9d-9733-3bde-ac25-525b8fa9eb9d.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ContainsKey Method " Url="html/795fc4ac-e7af-1303-68ce-f3ada0c1a260.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContainsValue method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ContainsValue Method " Url="html/42a17ca3-1407-2712-6cc4-e1acbe24eacd.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ContainsValue Method " Url="html/21e026be-e030-5413-ee8b-9f52684672fb.htm" />
+  </HelpKINode>
   <HelpKINode Title="CopyTo method">
     <HelpKINode Title="RankedBag(T).CopyTo Method " Url="html/f62302b9-97a9-2d32-fed9-bcea4e9cbbdf.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).CopyTo Method " Url="html/15851124-c3c0-bc4c-0b8d-860434013d5c.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.CopyTo Method " Url="html/f25ea7ac-ac53-0616-0f4f-48b84684cb8b.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.CopyTo Method " Url="html/a9d8e9b1-077d-fc8f-9322-a99b28d59ae2.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).CopyTo Method " Url="html/f5be90a5-cb5a-f13d-fd2a-44d6fb0b2526.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.CopyTo Method " Url="html/adbd237e-cd60-68c4-5b7c-c5a5ba91677b.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.CopyTo Method " Url="html/f29366cd-02f9-58df-05aa-96051b5823e2.htm" />
     <HelpKINode Title="RankedSet(T).CopyTo Method " Url="html/303b0e1b-5ee9-595c-fbc5-be15c04359fd.htm" />
   </HelpKINode>
   <HelpKINode Title="Count property">
@@ -49,6 +63,9 @@
     <HelpKINode Title="RankedDictionary(TKey, TValue).Count Property " Url="html/a59dab81-e780-8694-7b55-f700e49f930b.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.Count Property " Url="html/78cd3c77-bda2-b54e-a0d6-ee97e6a476a9.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.Count Property " Url="html/6156cdb7-2da9-ea00-1b74-8cf72963d1a6.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).Count Property " Url="html/29f16f06-a380-f923-330d-d5260d4fc08a.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.Count Property " Url="html/f3c57c15-2fb8-fd15-2c63-85038c2d8b8a.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.Count Property " Url="html/e6465213-5d57-d300-f946-9c02bedd2a51.htm" />
     <HelpKINode Title="RankedSet(T).Count Property " Url="html/eb5a7ded-4ba3-0c0c-4861-4bee57de8e3c.htm" />
   </HelpKINode>
   <HelpKINode Title="CreateSetComparer method" Url="html/1f317165-cd9e-1a22-dada-87a57893fd5f.htm" />
@@ -57,6 +74,9 @@
     <HelpKINode Title="RankedDictionary(TKey, TValue).Enumerator.Current Property " Url="html/4d7d2980-6ab4-6dc4-432a-de69f67cfe3d.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.Enumerator.Current Property " Url="html/0d855bd8-8a7a-0ff4-0840-cd0f9434072f.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.Enumerator.Current Property " Url="html/08d13ee1-7273-ad55-9a13-1f539870bd84.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).Enumerator.Current Property " Url="html/50111b98-4be0-fa37-de21-6bc826560d88.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.Enumerator.Current Property " Url="html/3a5a3d74-8e3a-d2ec-624d-58501fa2652c.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.Enumerator.Current Property " Url="html/c140af9c-b497-6b3a-413c-90b2043de355.htm" />
     <HelpKINode Title="RankedSet(T).Enumerator.Current Property " Url="html/ac27a64d-f199-0bd3-dcae-b40812d85e5a.htm" />
   </HelpKINode>
   <HelpKINode Title="Dispose method">
@@ -64,14 +84,23 @@
     <HelpKINode Title="RankedDictionary(TKey, TValue).Enumerator.Dispose Method " Url="html/ef6f79f7-8ebf-85a7-dc95-292e42ed8a57.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.Enumerator.Dispose Method " Url="html/82814b43-2292-2b1c-64d8-29c5f7a3bea5.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.Enumerator.Dispose Method " Url="html/22eabee4-415c-ab13-30a5-312f8c792849.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).Enumerator.Dispose Method " Url="html/3b368711-3896-4021-228d-351c40b8d202.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.Enumerator.Dispose Method " Url="html/1f0c85fe-b7c7-5761-f131-1477c5f7b56c.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.Enumerator.Dispose Method " Url="html/7847f980-3d26-cacc-765e-f79d41999349.htm" />
     <HelpKINode Title="RankedSet(T).Enumerator.Dispose Method " Url="html/4685e547-0897-cade-9005-9f20e0e134f2.htm" />
   </HelpKINode>
-  <HelpKINode Title="Distinct method" Url="html/1f749caa-d5fa-bef8-2d70-5749be428294.htm" />
+  <HelpKINode Title="Distinct method">
+    <HelpKINode Title="RankedBag(T).Distinct Method " Url="html/1f749caa-d5fa-bef8-2d70-5749be428294.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.Distinct Method " Url="html/26f3947f-5773-6415-098b-1320da5256e6.htm" />
+  </HelpKINode>
   <HelpKINode Title="ElementAt method">
     <HelpKINode Title="RankedBag(T).ElementAt Method " Url="html/406ecbbc-4e03-9dc8-8d6a-7be3f17030e8.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ElementAt Method " Url="html/f18fd1d8-8cb5-00b2-c4be-481f7e9b7496.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.ElementAt Method " Url="html/fda0b2ea-100c-009c-6115-e1b73c8a63af.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.ElementAt Method " Url="html/595d0ec2-71d1-1d92-5d71-f701df6a0f8a.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ElementAt Method " Url="html/45e4763a-e288-6e3a-aced-08432cb45a77.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.ElementAt Method " Url="html/03d79efa-4fb6-42f4-19bc-30f77c2a4ed0.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.ElementAt Method " Url="html/4ca0fe6c-4f4b-6ef4-29bc-0753a6f863e5.htm" />
     <HelpKINode Title="RankedSet(T).ElementAt Method " Url="html/08a10d3b-c0c1-aafb-ac15-490b7c3d429b.htm" />
   </HelpKINode>
   <HelpKINode Title="ElementAtOrDefault method">
@@ -79,54 +108,98 @@
     <HelpKINode Title="RankedDictionary(TKey, TValue).ElementAtOrDefault Method " Url="html/f5cc9d50-d688-e10f-0f32-6b929d2281b1.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.ElementAtOrDefault Method " Url="html/c0f9f1c3-0074-33f2-9e0d-ab478de95ce7.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.ElementAtOrDefault Method " Url="html/1a768faf-4c7f-7df6-6f65-61e944d82e95.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ElementAtOrDefault Method " Url="html/fbbe2f89-a720-5e62-da2f-c345ed8468d3.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.ElementAtOrDefault Method " Url="html/d5fabb90-141b-46cd-7aa2-e9c27374dc0f.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.ElementAtOrDefault Method " Url="html/958f9be0-785d-3667-a273-38bc7409776c.htm" />
     <HelpKINode Title="RankedSet(T).ElementAtOrDefault Method " Url="html/ed2677a2-47e7-499f-ce23-5ba317959be4.htm" />
   </HelpKINode>
   <HelpKINode Title="ElementsBetween method">
     <HelpKINode Title="RankedBag(T).ElementsBetween Method " Url="html/214b2f8d-de17-5224-2978-f0de62abb7f6.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ElementsBetween Method " Url="html/4d31a6b4-ba6c-3a88-eacc-b2eab024ce1a.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ElementsBetween Method " Url="html/65cd431c-d802-e72e-25af-e326ba827070.htm" />
     <HelpKINode Title="RankedSet(T).ElementsBetween Method " Url="html/0c8f88f3-9f2d-f731-af48-e4e480239300.htm" />
   </HelpKINode>
   <HelpKINode Title="ElementsBetweenIndexes method">
     <HelpKINode Title="RankedBag(T).ElementsBetweenIndexes Method " Url="html/0d067303-4afb-21d3-772b-2174561a67e0.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ElementsBetweenIndexes Method " Url="html/0cb99943-c765-eb49-700a-3c78047a5506.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ElementsBetweenIndexes Method " Url="html/46375bbb-fd82-4d7a-326a-04f55c407565.htm" />
     <HelpKINode Title="RankedSet(T).ElementsBetweenIndexes Method " Url="html/288ffc3b-714e-a093-563e-bc62f2e7365e.htm" />
   </HelpKINode>
   <HelpKINode Title="ElementsFrom method">
     <HelpKINode Title="RankedBag(T).ElementsFrom Method " Url="html/89830f12-c3e7-0363-7db5-e08ca5178c68.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ElementsFrom Method " Url="html/91e19d62-12c1-4f09-b105-25a58a98827b.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ElementsFrom Method " Url="html/a350f537-6767-abfa-4ac5-df564fe8936a.htm" />
     <HelpKINode Title="RankedSet(T).ElementsFrom Method " Url="html/aa98b5af-79ca-541d-3a06-a8f7e9b07631.htm" />
   </HelpKINode>
   <HelpKINode Title="Enumerator class">
-    <HelpKINode Title="methods" Url="html/8fe18be9-133f-25af-3225-ca4d43f5408c.htm" />
     <HelpKINode Title="methods" Url="html/0316d027-5d1d-d0ad-fac5-3317eb29b386.htm" />
     <HelpKINode Title="methods" Url="html/88e6d707-fb52-37af-6e0c-2eec5ba0e579.htm" />
+    <HelpKINode Title="methods" Url="html/e35736b6-a5ec-b9ca-ef18-f548433bd3c5.htm" />
     <HelpKINode Title="methods" Url="html/1f94e5d5-2618-d820-44bd-da54ab5f5727.htm" />
     <HelpKINode Title="methods" Url="html/61db9200-476f-4f3a-4999-1b74746de7fe.htm" />
+    <HelpKINode Title="methods" Url="html/419d80bc-e4fe-cbc1-e649-1fa9fcc6b791.htm" />
+    <HelpKINode Title="methods" Url="html/9d757684-9d8e-adc7-db6d-14afd9fb2479.htm" />
+    <HelpKINode Title="methods" Url="html/8fe18be9-133f-25af-3225-ca4d43f5408c.htm" />
     <HelpKINode Title="properties" Url="html/7ef92623-a276-9f2a-79a6-9f929887e815.htm" />
-    <HelpKINode Title="properties" Url="html/7c99b705-f5cb-0233-33f0-3b79343dff18.htm" />
-    <HelpKINode Title="properties" Url="html/da7c7d0d-508b-cddf-bb85-09dc67265d51.htm" />
     <HelpKINode Title="properties" Url="html/1f99f9ef-3891-890c-7972-d325b9bb3cbf.htm" />
+    <HelpKINode Title="properties" Url="html/8616826d-3426-25bf-0b91-d53ec549326d.htm" />
+    <HelpKINode Title="properties" Url="html/f6259b05-c5cd-ab91-1855-b4b08b2ebc18.htm" />
+    <HelpKINode Title="properties" Url="html/da7c7d0d-508b-cddf-bb85-09dc67265d51.htm" />
     <HelpKINode Title="properties" Url="html/109aaf11-b46e-9de3-5e7e-270eb9a1a903.htm" />
+    <HelpKINode Title="properties" Url="html/7c99b705-f5cb-0233-33f0-3b79343dff18.htm" />
+    <HelpKINode Title="properties" Url="html/8e27a1a5-257a-da98-2fc4-141013063ebf.htm" />
   </HelpKINode>
   <HelpKINode Title="ExceptWith method" Url="html/8ed13ef7-d786-fb71-cb38-cea4ff563212.htm" />
-  <HelpKINode Title="GetCount method" Url="html/1e813ec0-72bd-0586-6ab0-c429425327b8.htm" />
-  <HelpKINode Title="GetDistinctCount method" Url="html/d369f577-2e87-fea1-b39d-ea951d232256.htm" />
+  <HelpKINode Title="First method">
+    <HelpKINode Title="RankedBag(T).First Method " Url="html/764c8af1-9aa1-2206-38df-b1b6244a7491.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).First Method " Url="html/ebd1ba45-c86a-b03d-40de-848844fd4ae9.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.First Method " Url="html/db015776-ae51-b427-a110-3e0742925114.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.First Method " Url="html/e379cfad-530e-ce01-6ead-927f7c94a0b4.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).First Method " Url="html/eb48477a-6ec4-de19-8249-fb73191786f9.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.First Method " Url="html/19e62049-25e5-d073-9f11-08c8755c1e82.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.First Method " Url="html/b474bd42-3e90-19d4-4264-078292bbb172.htm" />
+    <HelpKINode Title="RankedSet(T).First Method " Url="html/c48557f6-edc9-0430-bb58-ac04d35aa0a0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetCount method">
+    <HelpKINode Title="RankedBag(T).GetCount Method " Url="html/1e813ec0-72bd-0586-6ab0-c429425327b8.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.GetCount Method " Url="html/35f117c4-2707-31dc-72f3-c3e58958d98c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetDistinctCount method">
+    <HelpKINode Title="RankedBag(T).GetDistinctCount Method " Url="html/d369f577-2e87-fea1-b39d-ea951d232256.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.GetDistinctCount Method " Url="html/bc57576f-45ff-d138-5f28-35a351dba4c9.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetEnumerator method">
     <HelpKINode Title="RankedBag(T).GetEnumerator Method " Url="html/92295139-9fba-bfd7-3887-e9bc16b06430.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).GetEnumerator Method " Url="html/640796c0-30b2-d37e-ea0d-7e2945da3e63.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.GetEnumerator Method " Url="html/73dc1c33-5fea-1a8d-d48a-8cf1e2da95a8.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.GetEnumerator Method " Url="html/925a26d8-bb35-9713-d9fb-5a7d66b9b250.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).GetEnumerator Method " Url="html/be2a440f-51d5-b9d3-ed96-47e4e840d884.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.GetEnumerator Method " Url="html/38b299dd-4660-fa5c-b52d-827ca8c45870.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.GetEnumerator Method " Url="html/6038eada-89f9-3f5c-25bc-c42c036899c7.htm" />
     <HelpKINode Title="RankedSet(T).GetEnumerator Method " Url="html/956679e5-057a-9851-6a5c-dae0e4c8a9c2.htm" />
   </HelpKINode>
   <HelpKINode Title="GetObjectData method">
     <HelpKINode Title="RankedBag(T).GetObjectData Method " Url="html/715c2677-8854-f075-4c2a-27a3af69d366.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).GetObjectData Method " Url="html/187e2471-e51b-0d7a-885d-09ce5cdd2439.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).GetObjectData Method " Url="html/280ed3d7-6928-c381-0d5d-8403f8859cb3.htm" />
     <HelpKINode Title="RankedSet(T).GetObjectData Method " Url="html/bbdfe648-722e-f4c0-44f0-497ff92812f5.htm" />
   </HelpKINode>
-  <HelpKINode Title="ICollection(Of KeyValuePair(Of TKey, TValue)).Add explicitly implemented method" Url="html/2e99c382-c807-509e-b1e5-24083454166f.htm" />
-  <HelpKINode Title="ICollection(Of KeyValuePair(Of TKey, TValue)).Contains explicitly implemented method" Url="html/ce401abf-c6b0-99e9-ccfb-69c995312ea3.htm" />
-  <HelpKINode Title="ICollection(Of KeyValuePair(Of TKey, TValue)).IsReadOnly explicitly implemented property" Url="html/f3164da5-1c8d-1778-885b-2095f9e75791.htm" />
-  <HelpKINode Title="ICollection(Of KeyValuePair(Of TKey, TValue)).Remove explicitly implemented method" Url="html/f3db1d56-2c9f-de36-6a67-42b6a44ea51c.htm" />
+  <HelpKINode Title="ICollection(Of KeyValuePair(Of TKey, TValue)).Add explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ICollection(KeyValuePair(TKey, TValue)).Add Method " Url="html/2e99c382-c807-509e-b1e5-24083454166f.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ICollection(KeyValuePair(TKey, TValue)).Add Method " Url="html/2f0342b5-7b6a-924a-5c18-bb7d004b0653.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection(Of KeyValuePair(Of TKey, TValue)).Contains explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ICollection(KeyValuePair(TKey, TValue)).Contains Method " Url="html/ce401abf-c6b0-99e9-ccfb-69c995312ea3.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ICollection(KeyValuePair(TKey, TValue)).Contains Method " Url="html/00eeef57-6c4f-88e9-e3f6-1fada8df120e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection(Of KeyValuePair(Of TKey, TValue)).IsReadOnly explicitly implemented property">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ICollection(KeyValuePair(TKey, TValue)).IsReadOnly Property " Url="html/f3164da5-1c8d-1778-885b-2095f9e75791.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ICollection(KeyValuePair(TKey, TValue)).IsReadOnly Property " Url="html/250dcbf2-2e46-4512-7efe-0f439adf8e0f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection(Of KeyValuePair(Of TKey, TValue)).Remove explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ICollection(KeyValuePair(TKey, TValue)).Remove Method " Url="html/f3db1d56-2c9f-de36-6a67-42b6a44ea51c.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ICollection(KeyValuePair(TKey, TValue)).Remove Method " Url="html/aafd0c50-28bd-e844-a06b-cadf678c7976.htm" />
+  </HelpKINode>
   <HelpKINode Title="ICollection(Of T).Add explicitly implemented method">
     <HelpKINode Title="RankedBag(T).ICollection(T).Add Method " Url="html/934d7d3b-5e02-d089-907e-7cb11076e193.htm" />
     <HelpKINode Title="RankedSet(T).ICollection(T).Add Method " Url="html/daa74ee4-f561-0066-2007-18f613302044.htm" />
@@ -135,21 +208,54 @@
     <HelpKINode Title="RankedBag(T).ICollection(T).IsReadOnly Property " Url="html/cb65ae1b-c79d-e20b-e918-ff7a820a0ad1.htm" />
     <HelpKINode Title="RankedSet(T).ICollection(T).IsReadOnly Property " Url="html/580c4939-d406-3838-2a99-b8478b2a53c9.htm" />
   </HelpKINode>
-  <HelpKINode Title="ICollection(Of TKey).Add explicitly implemented method" Url="html/1cd5c66f-251d-a62b-645b-e948ad99b9b3.htm" />
-  <HelpKINode Title="ICollection(Of TKey).Clear explicitly implemented method" Url="html/e92ed9fb-3e3c-9cdb-171f-f03b2e5b2c6e.htm" />
-  <HelpKINode Title="ICollection(Of TKey).Contains explicitly implemented method" Url="html/60a51128-d0ff-2cb6-8944-2cc70ddae024.htm" />
-  <HelpKINode Title="ICollection(Of TKey).IsReadOnly explicitly implemented property" Url="html/14305d13-0144-0d74-57bc-71aa0a9cdd07.htm" />
-  <HelpKINode Title="ICollection(Of TKey).Remove explicitly implemented method" Url="html/a242b35e-7760-064c-4ff6-f0628b4deb94.htm" />
-  <HelpKINode Title="ICollection(Of TValue).Add explicitly implemented method" Url="html/0a6d623f-9871-1806-74a1-dd29928f9f4c.htm" />
-  <HelpKINode Title="ICollection(Of TValue).Clear explicitly implemented method" Url="html/c39c16b4-793c-58c4-d778-5479d9f5f9c7.htm" />
-  <HelpKINode Title="ICollection(Of TValue).Contains explicitly implemented method" Url="html/38f999cf-2766-d5f5-c3f9-2b8403d747a3.htm" />
-  <HelpKINode Title="ICollection(Of TValue).IsReadOnly explicitly implemented property" Url="html/74ba2819-0177-da3a-c623-b9dd091e9f55.htm" />
-  <HelpKINode Title="ICollection(Of TValue).Remove explicitly implemented method" Url="html/c08c5511-84d3-7615-0fe7-23f87efb3f26.htm" />
+  <HelpKINode Title="ICollection(Of TKey).Add explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.ICollection(TKey).Add Method " Url="html/1cd5c66f-251d-a62b-645b-e948ad99b9b3.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.ICollection(TKey).Add Method " Url="html/a3662fd9-f739-3205-e707-bf1df5950e0e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection(Of TKey).Clear explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.ICollection(TKey).Clear Method " Url="html/e92ed9fb-3e3c-9cdb-171f-f03b2e5b2c6e.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.ICollection(TKey).Clear Method " Url="html/016fefad-36a1-4a75-3016-46b1ecaccd7f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection(Of TKey).Contains explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.ICollection(TKey).Contains Method " Url="html/60a51128-d0ff-2cb6-8944-2cc70ddae024.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.ICollection(TKey).Contains Method " Url="html/186e3dc0-e489-e0ee-31ba-be4935c18abc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection(Of TKey).IsReadOnly explicitly implemented property">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.ICollection(TKey).IsReadOnly Property " Url="html/14305d13-0144-0d74-57bc-71aa0a9cdd07.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.ICollection(TKey).IsReadOnly Property " Url="html/1ef794c4-1827-2f39-c13f-3c515dcdcaaa.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection(Of TKey).Remove explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.ICollection(TKey).Remove Method " Url="html/a242b35e-7760-064c-4ff6-f0628b4deb94.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.ICollection(TKey).Remove Method " Url="html/ed9677ab-c945-3263-431e-f50a03990f7a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection(Of TValue).Add explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.ICollection(TValue).Add Method " Url="html/0a6d623f-9871-1806-74a1-dd29928f9f4c.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.ICollection(TValue).Add Method " Url="html/e9fcf0f8-a132-165f-9f7c-dbd804d83c6b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection(Of TValue).Clear explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.ICollection(TValue).Clear Method " Url="html/c39c16b4-793c-58c4-d778-5479d9f5f9c7.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.ICollection(TValue).Clear Method " Url="html/b06fc454-4be2-6c46-d949-f1593693052e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection(Of TValue).Contains explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.ICollection(TValue).Contains Method " Url="html/38f999cf-2766-d5f5-c3f9-2b8403d747a3.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.ICollection(TValue).Contains Method " Url="html/c4e0456d-09fa-9a08-4e22-eb46e0575b48.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection(Of TValue).IsReadOnly explicitly implemented property">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.ICollection(TValue).IsReadOnly Property " Url="html/74ba2819-0177-da3a-c623-b9dd091e9f55.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.ICollection(TValue).IsReadOnly Property " Url="html/4c38edbe-f03a-5e20-4c67-068c13ceff56.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection(Of TValue).Remove explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.ICollection(TValue).Remove Method " Url="html/c08c5511-84d3-7615-0fe7-23f87efb3f26.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.ICollection(TValue).Remove Method " Url="html/45375bdf-cf82-ad00-5ed2-473b1b8130cd.htm" />
+  </HelpKINode>
   <HelpKINode Title="ICollection.CopyTo explicitly implemented method">
     <HelpKINode Title="RankedBag(T).ICollection.CopyTo Method " Url="html/5cd3df73-8571-a8a2-19c4-275735d5667b.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ICollection.CopyTo Method " Url="html/33f8295d-d76f-0558-938b-1649bd428a79.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.ICollection.CopyTo Method " Url="html/3ec99df5-496b-86d8-4901-f99485fa2881.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.ICollection.CopyTo Method " Url="html/78d881d7-b96f-5e71-0dfe-3be45e710494.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ICollection.CopyTo Method " Url="html/bd771a35-d3b3-4109-d187-00301d0fd170.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.ICollection.CopyTo Method " Url="html/64084d6b-677b-665c-b3b7-9e579cf067d5.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.ICollection.CopyTo Method " Url="html/4767e2d5-02a8-ff4a-b280-b8d5943bf89b.htm" />
     <HelpKINode Title="RankedSet(T).ICollection.CopyTo Method " Url="html/74b83c7f-b72c-deff-0ad5-f82e9f881212.htm" />
   </HelpKINode>
   <HelpKINode Title="ICollection.IsSynchronized explicitly implemented property">
@@ -157,6 +263,9 @@
     <HelpKINode Title="RankedDictionary(TKey, TValue).ICollection.IsSynchronized Property " Url="html/e3ab5086-4f65-193c-fd4a-22f90d7d0439.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.ICollection.IsSynchronized Property " Url="html/2488d836-3875-7806-9668-71a262b8ee7c.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.ICollection.IsSynchronized Property " Url="html/ad2972f8-cc25-4f26-f50a-88378d0e8e77.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ICollection.IsSynchronized Property " Url="html/f27cb673-28a1-b942-54f6-996e0ed8dd1b.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.ICollection.IsSynchronized Property " Url="html/92bb3e29-a9f4-e537-ab7e-261e5f7cfaf5.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.ICollection.IsSynchronized Property " Url="html/c0352d6c-8d01-b390-ba8d-a9164694466a.htm" />
     <HelpKINode Title="RankedSet(T).ICollection.IsSynchronized Property " Url="html/73298bf2-6b19-9115-4d8f-32410e48928e.htm" />
   </HelpKINode>
   <HelpKINode Title="ICollection.SyncRoot explicitly implemented property">
@@ -164,12 +273,27 @@
     <HelpKINode Title="RankedDictionary(TKey, TValue).ICollection.SyncRoot Property " Url="html/e4b94404-7faf-1cb7-22da-15a7e60665ca.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.ICollection.SyncRoot Property " Url="html/cb822353-1baf-63de-7a16-bd77325f643a.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.ICollection.SyncRoot Property " Url="html/db582a1b-bc38-6814-d28e-0458eff4cbe0.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ICollection.SyncRoot Property " Url="html/aee0ce1d-417a-5d4b-2b15-104256d49b6d.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.ICollection.SyncRoot Property " Url="html/93564e00-5aed-6215-3241-b3f5269d76e0.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.ICollection.SyncRoot Property " Url="html/0d379057-74c8-9891-4aba-6b55239703b1.htm" />
     <HelpKINode Title="RankedSet(T).ICollection.SyncRoot Property " Url="html/59387a95-6a7a-b4c9-b2fb-0922a01b9773.htm" />
   </HelpKINode>
-  <HelpKINode Title="ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;.Add explicitly implemented method" Url="html/2e99c382-c807-509e-b1e5-24083454166f.htm" />
-  <HelpKINode Title="ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;.Contains explicitly implemented method" Url="html/ce401abf-c6b0-99e9-ccfb-69c995312ea3.htm" />
-  <HelpKINode Title="ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;.IsReadOnly explicitly implemented property" Url="html/f3164da5-1c8d-1778-885b-2095f9e75791.htm" />
-  <HelpKINode Title="ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;.Remove explicitly implemented method" Url="html/f3db1d56-2c9f-de36-6a67-42b6a44ea51c.htm" />
+  <HelpKINode Title="ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;.Add explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ICollection(KeyValuePair(TKey, TValue)).Add Method " Url="html/2e99c382-c807-509e-b1e5-24083454166f.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ICollection(KeyValuePair(TKey, TValue)).Add Method " Url="html/2f0342b5-7b6a-924a-5c18-bb7d004b0653.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;.Contains explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ICollection(KeyValuePair(TKey, TValue)).Contains Method " Url="html/ce401abf-c6b0-99e9-ccfb-69c995312ea3.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ICollection(KeyValuePair(TKey, TValue)).Contains Method " Url="html/00eeef57-6c4f-88e9-e3f6-1fada8df120e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;.IsReadOnly explicitly implemented property">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ICollection(KeyValuePair(TKey, TValue)).IsReadOnly Property " Url="html/f3164da5-1c8d-1778-885b-2095f9e75791.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ICollection(KeyValuePair(TKey, TValue)).IsReadOnly Property " Url="html/250dcbf2-2e46-4512-7efe-0f439adf8e0f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;.Remove explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ICollection(KeyValuePair(TKey, TValue)).Remove Method " Url="html/f3db1d56-2c9f-de36-6a67-42b6a44ea51c.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ICollection(KeyValuePair(TKey, TValue)).Remove Method " Url="html/aafd0c50-28bd-e844-a06b-cadf678c7976.htm" />
+  </HelpKINode>
   <HelpKINode Title="ICollection&lt;T&gt;.Add explicitly implemented method">
     <HelpKINode Title="RankedBag(T).ICollection(T).Add Method " Url="html/934d7d3b-5e02-d089-907e-7cb11076e193.htm" />
     <HelpKINode Title="RankedSet(T).ICollection(T).Add Method " Url="html/daa74ee4-f561-0066-2007-18f613302044.htm" />
@@ -178,19 +302,50 @@
     <HelpKINode Title="RankedBag(T).ICollection(T).IsReadOnly Property " Url="html/cb65ae1b-c79d-e20b-e918-ff7a820a0ad1.htm" />
     <HelpKINode Title="RankedSet(T).ICollection(T).IsReadOnly Property " Url="html/580c4939-d406-3838-2a99-b8478b2a53c9.htm" />
   </HelpKINode>
-  <HelpKINode Title="ICollection&lt;TKey&gt;.Add explicitly implemented method" Url="html/1cd5c66f-251d-a62b-645b-e948ad99b9b3.htm" />
-  <HelpKINode Title="ICollection&lt;TKey&gt;.Clear explicitly implemented method" Url="html/e92ed9fb-3e3c-9cdb-171f-f03b2e5b2c6e.htm" />
-  <HelpKINode Title="ICollection&lt;TKey&gt;.Contains explicitly implemented method" Url="html/60a51128-d0ff-2cb6-8944-2cc70ddae024.htm" />
-  <HelpKINode Title="ICollection&lt;TKey&gt;.IsReadOnly explicitly implemented property" Url="html/14305d13-0144-0d74-57bc-71aa0a9cdd07.htm" />
-  <HelpKINode Title="ICollection&lt;TKey&gt;.Remove explicitly implemented method" Url="html/a242b35e-7760-064c-4ff6-f0628b4deb94.htm" />
-  <HelpKINode Title="ICollection&lt;TValue&gt;.Add explicitly implemented method" Url="html/0a6d623f-9871-1806-74a1-dd29928f9f4c.htm" />
-  <HelpKINode Title="ICollection&lt;TValue&gt;.Clear explicitly implemented method" Url="html/c39c16b4-793c-58c4-d778-5479d9f5f9c7.htm" />
-  <HelpKINode Title="ICollection&lt;TValue&gt;.Contains explicitly implemented method" Url="html/38f999cf-2766-d5f5-c3f9-2b8403d747a3.htm" />
-  <HelpKINode Title="ICollection&lt;TValue&gt;.IsReadOnly explicitly implemented property" Url="html/74ba2819-0177-da3a-c623-b9dd091e9f55.htm" />
-  <HelpKINode Title="ICollection&lt;TValue&gt;.Remove explicitly implemented method" Url="html/c08c5511-84d3-7615-0fe7-23f87efb3f26.htm" />
+  <HelpKINode Title="ICollection&lt;TKey&gt;.Add explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.ICollection(TKey).Add Method " Url="html/1cd5c66f-251d-a62b-645b-e948ad99b9b3.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.ICollection(TKey).Add Method " Url="html/a3662fd9-f739-3205-e707-bf1df5950e0e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection&lt;TKey&gt;.Clear explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.ICollection(TKey).Clear Method " Url="html/e92ed9fb-3e3c-9cdb-171f-f03b2e5b2c6e.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.ICollection(TKey).Clear Method " Url="html/016fefad-36a1-4a75-3016-46b1ecaccd7f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection&lt;TKey&gt;.Contains explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.ICollection(TKey).Contains Method " Url="html/60a51128-d0ff-2cb6-8944-2cc70ddae024.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.ICollection(TKey).Contains Method " Url="html/186e3dc0-e489-e0ee-31ba-be4935c18abc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection&lt;TKey&gt;.IsReadOnly explicitly implemented property">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.ICollection(TKey).IsReadOnly Property " Url="html/14305d13-0144-0d74-57bc-71aa0a9cdd07.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.ICollection(TKey).IsReadOnly Property " Url="html/1ef794c4-1827-2f39-c13f-3c515dcdcaaa.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection&lt;TKey&gt;.Remove explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.ICollection(TKey).Remove Method " Url="html/a242b35e-7760-064c-4ff6-f0628b4deb94.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.ICollection(TKey).Remove Method " Url="html/ed9677ab-c945-3263-431e-f50a03990f7a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection&lt;TValue&gt;.Add explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.ICollection(TValue).Add Method " Url="html/0a6d623f-9871-1806-74a1-dd29928f9f4c.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.ICollection(TValue).Add Method " Url="html/e9fcf0f8-a132-165f-9f7c-dbd804d83c6b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection&lt;TValue&gt;.Clear explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.ICollection(TValue).Clear Method " Url="html/c39c16b4-793c-58c4-d778-5479d9f5f9c7.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.ICollection(TValue).Clear Method " Url="html/b06fc454-4be2-6c46-d949-f1593693052e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection&lt;TValue&gt;.Contains explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.ICollection(TValue).Contains Method " Url="html/38f999cf-2766-d5f5-c3f9-2b8403d747a3.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.ICollection(TValue).Contains Method " Url="html/c4e0456d-09fa-9a08-4e22-eb46e0575b48.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection&lt;TValue&gt;.IsReadOnly explicitly implemented property">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.ICollection(TValue).IsReadOnly Property " Url="html/74ba2819-0177-da3a-c623-b9dd091e9f55.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.ICollection(TValue).IsReadOnly Property " Url="html/4c38edbe-f03a-5e20-4c67-068c13ceff56.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICollection&lt;TValue&gt;.Remove explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.ICollection(TValue).Remove Method " Url="html/c08c5511-84d3-7615-0fe7-23f87efb3f26.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.ICollection(TValue).Remove Method " Url="html/45375bdf-cf82-ad00-5ed2-473b1b8130cd.htm" />
+  </HelpKINode>
   <HelpKINode Title="IDeserializationCallback.OnDeserialization explicitly implemented method">
     <HelpKINode Title="RankedBag(T).IDeserializationCallback.OnDeserialization Method " Url="html/378f560d-1f04-4180-ec18-03fb4717ac4d.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).IDeserializationCallback.OnDeserialization Method " Url="html/fdca3b1d-a9e4-150c-08bd-39a15a43448f.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).IDeserializationCallback.OnDeserialization Method " Url="html/930397f9-c4c0-9ccd-eac8-362b96964e6e.htm" />
     <HelpKINode Title="RankedSet(T).IDeserializationCallback.OnDeserialization Method " Url="html/b9c0f1d1-0358-a8a7-b890-90aaa6311949.htm" />
   </HelpKINode>
   <HelpKINode Title="IDictionary(Of TKey, TValue).Keys explicitly implemented property" Url="html/f7c1d37b-c870-fd5b-a4cb-c71fc525c4a9.htm" />
@@ -209,32 +364,56 @@
   <HelpKINode Title="IDictionaryEnumerator.Entry explicitly implemented property" Url="html/7a3055e5-1946-b6fd-055b-3fee8d8edaef.htm" />
   <HelpKINode Title="IDictionaryEnumerator.Key explicitly implemented property" Url="html/d7a2427a-d949-59b7-e8f9-7342197b87ed.htm" />
   <HelpKINode Title="IDictionaryEnumerator.Value explicitly implemented property" Url="html/801fcdf6-717c-3d9d-035f-890084c1ed69.htm" />
-  <HelpKINode Title="IEnumerable(Of KeyValuePair(Of TKey, TValue)).GetEnumerator explicitly implemented method" Url="html/73f13340-e07d-0bba-b0a5-131e16bef229.htm" />
+  <HelpKINode Title="IEnumerable(Of KeyValuePair(Of TKey, TValue)).GetEnumerator explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).IEnumerable(KeyValuePair(TKey, TValue)).GetEnumerator Method " Url="html/73f13340-e07d-0bba-b0a5-131e16bef229.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).IEnumerable(KeyValuePair(TKey, TValue)).GetEnumerator Method " Url="html/951d8644-22cd-dea7-8a7a-e05d556d3f5f.htm" />
+  </HelpKINode>
   <HelpKINode Title="IEnumerable(Of T).GetEnumerator explicitly implemented method">
     <HelpKINode Title="RankedBag(T).IEnumerable(T).GetEnumerator Method " Url="html/ac5b6a7f-d23e-cf27-0f9b-542604c3af4c.htm" />
     <HelpKINode Title="RankedSet(T).IEnumerable(T).GetEnumerator Method " Url="html/08a827ec-fdb8-ba1d-d749-e80158c49f99.htm" />
   </HelpKINode>
-  <HelpKINode Title="IEnumerable(Of TKey).GetEnumerator explicitly implemented method" Url="html/2fed6420-6558-c945-3dbd-9e03558f5e5c.htm" />
-  <HelpKINode Title="IEnumerable(Of TValue).GetEnumerator explicitly implemented method" Url="html/0f54f2a9-c22b-0bf1-4ce0-7207d749ab4f.htm" />
+  <HelpKINode Title="IEnumerable(Of TKey).GetEnumerator explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.IEnumerable(TKey).GetEnumerator Method " Url="html/2fed6420-6558-c945-3dbd-9e03558f5e5c.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.IEnumerable(TKey).GetEnumerator Method " Url="html/48198100-cba0-ac3a-4e40-e03b4e125fc0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IEnumerable(Of TValue).GetEnumerator explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.IEnumerable(TValue).GetEnumerator Method " Url="html/0f54f2a9-c22b-0bf1-4ce0-7207d749ab4f.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.IEnumerable(TValue).GetEnumerator Method " Url="html/f0c55826-3ab3-749f-7d8c-0f12ff711551.htm" />
+  </HelpKINode>
   <HelpKINode Title="IEnumerable.GetEnumerator explicitly implemented method">
     <HelpKINode Title="RankedBag(T).IEnumerable.GetEnumerator Method " Url="html/15f0f729-af42-ff07-7df5-5117a0d62cd8.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).IEnumerable.GetEnumerator Method " Url="html/0186abed-93fa-9399-3e24-1fa033d8d92b.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.IEnumerable.GetEnumerator Method " Url="html/49390614-6f3a-3d80-f0ce-51d7424ea1cf.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.IEnumerable.GetEnumerator Method " Url="html/8446bdce-2267-b9f0-5b1b-fecda2904262.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).IEnumerable.GetEnumerator Method " Url="html/91f98201-6cfa-50db-849d-89f5380c8d7a.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.IEnumerable.GetEnumerator Method " Url="html/2049bad7-184d-ba8c-b263-17abcf4ba399.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.IEnumerable.GetEnumerator Method " Url="html/17b55d0c-0af8-931c-2e7c-07ea863009d0.htm" />
     <HelpKINode Title="RankedSet(T).IEnumerable.GetEnumerator Method " Url="html/76b0b72b-a5fb-b86c-f5b7-dd7eb92050ac.htm" />
   </HelpKINode>
-  <HelpKINode Title="IEnumerable&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;.GetEnumerator explicitly implemented method" Url="html/73f13340-e07d-0bba-b0a5-131e16bef229.htm" />
+  <HelpKINode Title="IEnumerable&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;.GetEnumerator explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).IEnumerable(KeyValuePair(TKey, TValue)).GetEnumerator Method " Url="html/73f13340-e07d-0bba-b0a5-131e16bef229.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).IEnumerable(KeyValuePair(TKey, TValue)).GetEnumerator Method " Url="html/951d8644-22cd-dea7-8a7a-e05d556d3f5f.htm" />
+  </HelpKINode>
   <HelpKINode Title="IEnumerable&lt;T&gt;.GetEnumerator explicitly implemented method">
     <HelpKINode Title="RankedBag(T).IEnumerable(T).GetEnumerator Method " Url="html/ac5b6a7f-d23e-cf27-0f9b-542604c3af4c.htm" />
     <HelpKINode Title="RankedSet(T).IEnumerable(T).GetEnumerator Method " Url="html/08a827ec-fdb8-ba1d-d749-e80158c49f99.htm" />
   </HelpKINode>
-  <HelpKINode Title="IEnumerable&lt;TKey&gt;.GetEnumerator explicitly implemented method" Url="html/2fed6420-6558-c945-3dbd-9e03558f5e5c.htm" />
-  <HelpKINode Title="IEnumerable&lt;TValue&gt;.GetEnumerator explicitly implemented method" Url="html/0f54f2a9-c22b-0bf1-4ce0-7207d749ab4f.htm" />
+  <HelpKINode Title="IEnumerable&lt;TKey&gt;.GetEnumerator explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.IEnumerable(TKey).GetEnumerator Method " Url="html/2fed6420-6558-c945-3dbd-9e03558f5e5c.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.IEnumerable(TKey).GetEnumerator Method " Url="html/48198100-cba0-ac3a-4e40-e03b4e125fc0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IEnumerable&lt;TValue&gt;.GetEnumerator explicitly implemented method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.IEnumerable(TValue).GetEnumerator Method " Url="html/0f54f2a9-c22b-0bf1-4ce0-7207d749ab4f.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.IEnumerable(TValue).GetEnumerator Method " Url="html/f0c55826-3ab3-749f-7d8c-0f12ff711551.htm" />
+  </HelpKINode>
   <HelpKINode Title="IEnumerator.Current explicitly implemented property">
     <HelpKINode Title="RankedBag(T).Enumerator.IEnumerator.Current Property " Url="html/e4243d59-072d-c49d-588a-100b4f270e8b.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).Enumerator.IEnumerator.Current Property " Url="html/3ed8ef5b-4cbb-0274-64de-f9fce1e4af9d.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.Enumerator.IEnumerator.Current Property " Url="html/d91c3446-cdde-3658-cfef-e4b933a2e78c.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.Enumerator.IEnumerator.Current Property " Url="html/a5d7510e-3ff8-6b5f-321f-2eee9853438a.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).Enumerator.IEnumerator.Current Property " Url="html/5d1cd470-800b-8347-76a7-029d4530bdf7.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.Enumerator.IEnumerator.Current Property " Url="html/44e7b650-2837-7970-5dd4-5cda1d5e3052.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.Enumerator.IEnumerator.Current Property " Url="html/5966bda6-36dd-23ab-d192-c9ee90fa0682.htm" />
     <HelpKINode Title="RankedSet(T).Enumerator.IEnumerator.Current Property " Url="html/882dddd2-8a59-e8e9-9c46-300e3119a647.htm" />
   </HelpKINode>
   <HelpKINode Title="IEnumerator.Reset explicitly implemented method">
@@ -242,16 +421,27 @@
     <HelpKINode Title="RankedDictionary(TKey, TValue).Enumerator.IEnumerator.Reset Method " Url="html/9db0a9c4-831e-09ad-eeea-6a1951d154b4.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.Enumerator.IEnumerator.Reset Method " Url="html/714c0c43-43d0-ae25-5eef-edbcadc5a3ac.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.Enumerator.IEnumerator.Reset Method " Url="html/f9b584c0-1317-3bef-1eb3-85d2ac2b0d9b.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).Enumerator.IEnumerator.Reset Method " Url="html/3065a527-e240-dd22-39ee-4a97146e9d9f.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.Enumerator.IEnumerator.Reset Method " Url="html/2b2fa581-619a-724b-21a7-74a63188c307.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.Enumerator.IEnumerator.Reset Method " Url="html/5cdd2c3c-5cb5-7990-fbe6-597673b48cff.htm" />
     <HelpKINode Title="RankedSet(T).Enumerator.IEnumerator.Reset Method " Url="html/fdceeae3-87bf-40cd-276a-3263d0dfd4d5.htm" />
   </HelpKINode>
   <HelpKINode Title="IndexOf method">
     <HelpKINode Title="RankedBag(T).IndexOf Method " Url="html/d2f3e0a4-442e-be48-b170-54168a81eda8.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.IndexOf Method " Url="html/2e4d1770-1241-5291-acb3-226aabea3a6a.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.IndexOf Method " Url="html/40bd6191-7c48-0e50-361e-83064106c4f8.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.IndexOf Method " Url="html/a53ace89-ce1e-7006-5b01-b49461b40ecb.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.IndexOf Method " Url="html/a20e5b2d-286c-d9ed-a7c1-e07bdc2ddff8.htm" />
     <HelpKINode Title="RankedSet(T).IndexOf Method " Url="html/0816a352-edd6-e358-098e-cfe23211c759.htm" />
   </HelpKINode>
-  <HelpKINode Title="IndexOfKey method" Url="html/24f96c6b-e75d-1063-5a19-412ed34a400f.htm" />
-  <HelpKINode Title="IndexOfValue method" Url="html/908e66ae-6d7b-0d17-8308-0c39ec9e2d12.htm" />
+  <HelpKINode Title="IndexOfKey method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).IndexOfKey Method " Url="html/24f96c6b-e75d-1063-5a19-412ed34a400f.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).IndexOfKey Method " Url="html/f47c81a2-711e-b226-baf8-e547a7e79786.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IndexOfValue method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).IndexOfValue Method " Url="html/908e66ae-6d7b-0d17-8308-0c39ec9e2d12.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).IndexOfValue Method " Url="html/22a23f03-4640-497d-efaf-7bb8a3967d5c.htm" />
+  </HelpKINode>
   <HelpKINode Title="IntersectWith method" Url="html/7502b58f-9531-3a9a-db0f-af6252986f00.htm" />
   <HelpKINode Title="IReadOnlyDictionary(Of TKey, TValue).Keys explicitly implemented property" Url="html/fd4fe9a8-d055-120b-1d6e-5489f98da54b.htm" />
   <HelpKINode Title="IReadOnlyDictionary(Of TKey, TValue).Values explicitly implemented property" Url="html/84c4402b-571b-838f-f713-507a381bd960.htm" />
@@ -260,6 +450,7 @@
   <HelpKINode Title="ISerializable.GetObjectData explicitly implemented method">
     <HelpKINode Title="RankedBag(T).ISerializable.GetObjectData Method " Url="html/35b8fde2-562a-5953-8af0-98c3737b9f17.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ISerializable.GetObjectData Method " Url="html/b205e0db-d5fc-49e7-f902-869941bb0c40.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ISerializable.GetObjectData Method " Url="html/cb3b1efc-e65a-dc0d-e538-fa42be9e0dbe.htm" />
     <HelpKINode Title="RankedSet(T).ISerializable.GetObjectData Method " Url="html/72b7c3fb-00cb-6482-c224-b89cebe04c24.htm" />
   </HelpKINode>
   <HelpKINode Title="IsProperSubsetOf method" Url="html/cebe7d28-b17b-d015-21e0-9ca8543de065.htm" />
@@ -270,6 +461,8 @@
     <HelpKINode Title="RankedDictionary(TKey, TValue).Item Property " Url="html/5cafbf11-7645-d5fb-34f8-a7ace651f2f2.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.Item Property " Url="html/4a49ee9e-15e8-127b-9008-e24d7332421d.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.Item Property " Url="html/6e2ed8e0-005c-8b19-be27-111e34b7e9d3.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.Item Property " Url="html/4d600921-0ca7-f822-86d2-e343d505f871.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.Item Property " Url="html/f09e80f1-220d-e39d-8da5-436653439875.htm" />
   </HelpKINode>
   <HelpKINode Title="Kaos.Collections namespace" Url="html/ea382f9d-d870-8b02-657d-aa381c4ea035.htm" />
   <HelpKINode Title="Kaos.Collections.Btree(Of T) class" Url="html/caf80b30-da1c-36da-0236-7fb8de17e9c0.htm" />
@@ -290,40 +483,72 @@
   <HelpKINode Title="Kaos.Collections.RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.Enumerator class" Url="html/e701f3c5-2001-67f9-e772-79dcaba29cb3.htm" />
   <HelpKINode Title="Kaos.Collections.RankedDictionary&lt;TKey, TValue&gt;.ValueCollection class" Url="html/d6cbafc4-eda4-af05-d237-c20a79335c03.htm" />
   <HelpKINode Title="Kaos.Collections.RankedDictionary&lt;TKey, TValue&gt;.ValueCollection.Enumerator class" Url="html/8201cfd5-9722-aa73-9c21-5dff0ff0a8b7.htm" />
+  <HelpKINode Title="Kaos.Collections.RankedMap(Of TKey, TValue) class" Url="html/0945f4a6-ca33-1964-cebc-e31a4907cb0c.htm" />
+  <HelpKINode Title="Kaos.Collections.RankedMap(Of TKey, TValue).Enumerator class" Url="html/0fd0914b-b650-dda1-9a6c-255079fd2990.htm" />
+  <HelpKINode Title="Kaos.Collections.RankedMap(Of TKey, TValue).KeyCollection class" Url="html/3495e550-d7f5-0929-d9d5-8854e203f8a1.htm" />
+  <HelpKINode Title="Kaos.Collections.RankedMap(Of TKey, TValue).KeyCollection.Enumerator class" Url="html/c372a052-58cc-1cdb-30d2-6c5aa1cdab36.htm" />
+  <HelpKINode Title="Kaos.Collections.RankedMap(Of TKey, TValue).ValueCollection class" Url="html/acd38b6a-394e-0a8d-c2de-0692a0bc21f1.htm" />
+  <HelpKINode Title="Kaos.Collections.RankedMap(Of TKey, TValue).ValueCollection.Enumerator class" Url="html/0fa6cc9e-60af-a9c4-bd08-421e77a1ccad.htm" />
+  <HelpKINode Title="Kaos.Collections.RankedMap&lt;TKey, TValue&gt; class" Url="html/0945f4a6-ca33-1964-cebc-e31a4907cb0c.htm" />
+  <HelpKINode Title="Kaos.Collections.RankedMap&lt;TKey, TValue&gt;.Enumerator class" Url="html/0fd0914b-b650-dda1-9a6c-255079fd2990.htm" />
+  <HelpKINode Title="Kaos.Collections.RankedMap&lt;TKey, TValue&gt;.KeyCollection class" Url="html/3495e550-d7f5-0929-d9d5-8854e203f8a1.htm" />
+  <HelpKINode Title="Kaos.Collections.RankedMap&lt;TKey, TValue&gt;.KeyCollection.Enumerator class" Url="html/c372a052-58cc-1cdb-30d2-6c5aa1cdab36.htm" />
+  <HelpKINode Title="Kaos.Collections.RankedMap&lt;TKey, TValue&gt;.ValueCollection class" Url="html/acd38b6a-394e-0a8d-c2de-0692a0bc21f1.htm" />
+  <HelpKINode Title="Kaos.Collections.RankedMap&lt;TKey, TValue&gt;.ValueCollection.Enumerator class" Url="html/0fa6cc9e-60af-a9c4-bd08-421e77a1ccad.htm" />
   <HelpKINode Title="Kaos.Collections.RankedSet(Of T) class" Url="html/d595b6a0-2eaa-166f-3420-098e987e7c30.htm" />
   <HelpKINode Title="Kaos.Collections.RankedSet(Of T).Enumerator class" Url="html/f21aa0a8-9a92-3264-9967-5f2b7d9a90fa.htm" />
   <HelpKINode Title="Kaos.Collections.RankedSet&lt;T&gt; class" Url="html/d595b6a0-2eaa-166f-3420-098e987e7c30.htm" />
   <HelpKINode Title="Kaos.Collections.RankedSet&lt;T&gt;.Enumerator class" Url="html/f21aa0a8-9a92-3264-9967-5f2b7d9a90fa.htm" />
   <HelpKINode Title="KeyCollection class">
+    <HelpKINode Title="methods" Url="html/cb0cb5ce-f5de-e735-81fb-a1bffb6519cc.htm" />
     <HelpKINode Title="methods" Url="html/db1f5846-d198-9ddf-6cf7-6218517531b0.htm" />
     <HelpKINode Title="properties" Url="html/607bf2f8-2dc6-6473-94e1-0c67162b3582.htm" />
+    <HelpKINode Title="properties" Url="html/96dc04cb-5a5e-3a42-d705-aefdb1941b9b.htm" />
   </HelpKINode>
-  <HelpKINode Title="Keys property" Url="html/4203e5cc-83ea-ce86-51d9-0cdce656e892.htm" />
+  <HelpKINode Title="Keys property">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).Keys Property " Url="html/4203e5cc-83ea-ce86-51d9-0cdce656e892.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).Keys Property " Url="html/32cca6a1-a658-c806-254f-00baa0ff5b67.htm" />
+  </HelpKINode>
   <HelpKINode Title="Last method">
     <HelpKINode Title="RankedBag(T).Last Method " Url="html/fc393c6a-f6c4-6fe7-e1ba-f25c56a404f9.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.Last Method " Url="html/4695eb66-b805-6dcf-f0e8-823cc8028d82.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).Last Method " Url="html/f1f83158-d375-c82b-89f3-2c834fa94051.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.Last Method " Url="html/3fb92f34-3d6c-6f49-2e8e-20161709539b.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.Last Method " Url="html/614e13a1-f064-b703-12c4-36020103fcbd.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).Last Method " Url="html/80eb94ad-5dc3-1660-ef83-214b8badc760.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.Last Method " Url="html/e3d4fec2-81f2-fc17-b764-9d9a4fe09a91.htm" />
     <HelpKINode Title="RankedSet(T).Last Method " Url="html/f52e2194-568e-0704-7c65-f934afc20000.htm" />
   </HelpKINode>
   <HelpKINode Title="Max property">
     <HelpKINode Title="RankedBag(T).Max Property " Url="html/e290de42-96ad-3e9e-c0d4-2fafbfcb4fc8.htm" />
     <HelpKINode Title="RankedSet(T).Max Property " Url="html/34e1ae43-d35c-9279-2cba-f3928a86f1d6.htm" />
   </HelpKINode>
-  <HelpKINode Title="MaxKey property" Url="html/6aeb9a94-73f7-eec4-e81c-c505e722e644.htm" />
+  <HelpKINode Title="MaxKey property">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).MaxKey Property " Url="html/6aeb9a94-73f7-eec4-e81c-c505e722e644.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).MaxKey Property " Url="html/b3e00b08-170e-d57c-f4e3-4d635f316669.htm" />
+  </HelpKINode>
   <HelpKINode Title="Min property">
     <HelpKINode Title="RankedBag(T).Min Property " Url="html/311e1120-af11-bb9e-c7f2-721ecb055643.htm" />
     <HelpKINode Title="RankedSet(T).Min Property " Url="html/fd602846-3918-30de-b916-e3e763df61a4.htm" />
   </HelpKINode>
-  <HelpKINode Title="MinKey property" Url="html/c6e4394c-0c9b-53d5-1b71-7071e77782a0.htm" />
+  <HelpKINode Title="MinKey property">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).MinKey Property " Url="html/c6e4394c-0c9b-53d5-1b71-7071e77782a0.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).MinKey Property " Url="html/942170f3-f2e1-cab8-f4f0-5239fb83c616.htm" />
+  </HelpKINode>
   <HelpKINode Title="MoveNext method">
     <HelpKINode Title="RankedBag(T).Enumerator.MoveNext Method " Url="html/23c39064-91d8-cc74-7e73-cd21a2d48c26.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).Enumerator.MoveNext Method " Url="html/62b6318a-ec2b-b568-ffc7-df7db953bdf7.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.Enumerator.MoveNext Method " Url="html/6217982d-a9a9-ae39-6044-18679b1634d3.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.Enumerator.MoveNext Method " Url="html/e013c6d2-3ae9-c328-fe7f-de6cd030a92f.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).Enumerator.MoveNext Method " Url="html/a51f1158-2824-ffd9-dd29-f6e3969d0862.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.Enumerator.MoveNext Method " Url="html/66bc4ccb-a54b-7117-f5c2-ac8860069e20.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.Enumerator.MoveNext Method " Url="html/4ffc57d2-afaa-d0dc-52a4-74c8dace3b88.htm" />
     <HelpKINode Title="RankedSet(T).Enumerator.MoveNext Method " Url="html/505c6bdc-ffbf-ef13-25d6-15d7b39ac478.htm" />
   </HelpKINode>
   <HelpKINode Title="OnDeserialization method">
     <HelpKINode Title="RankedBag(T).OnDeserialization Method " Url="html/69c5a6c0-0d5c-19b6-d357-7835f272fe18.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).OnDeserialization Method " Url="html/4006bf7f-ebbb-4680-7869-7a5f408b4039.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).OnDeserialization Method " Url="html/08ac2b58-8c9b-2637-8d5e-4893bf98c00b.htm" />
     <HelpKINode Title="RankedSet(T).OnDeserialization Method " Url="html/29c5b895-7c42-4b6e-8560-818aa11b5c13.htm" />
   </HelpKINode>
   <HelpKINode Title="Overlaps method" Url="html/5db5b9b9-beb5-dae8-0c66-532e92b8ec50.htm" />
@@ -356,6 +581,7 @@
   <HelpKINode Title="RankedBag(Of T).Enumerator.IEnumerator.Current explicitly implemented property" Url="html/e4243d59-072d-c49d-588a-100b4f270e8b.htm" />
   <HelpKINode Title="RankedBag(Of T).Enumerator.IEnumerator.Reset explicitly implemented method" Url="html/2b4d0353-2daa-05f1-fb83-4705e53e0e3d.htm" />
   <HelpKINode Title="RankedBag(Of T).Enumerator.MoveNext method" Url="html/23c39064-91d8-cc74-7e73-cd21a2d48c26.htm" />
+  <HelpKINode Title="RankedBag(Of T).First method" Url="html/764c8af1-9aa1-2206-38df-b1b6244a7491.htm" />
   <HelpKINode Title="RankedBag(Of T).GetCount method" Url="html/1e813ec0-72bd-0586-6ab0-c429425327b8.htm" />
   <HelpKINode Title="RankedBag(Of T).GetDistinctCount method" Url="html/d369f577-2e87-fea1-b39d-ea951d232256.htm" />
   <HelpKINode Title="RankedBag(Of T).GetEnumerator method" Url="html/92295139-9fba-bfd7-3887-e9bc16b06430.htm" />
@@ -382,6 +608,11 @@
   <HelpKINode Title="RankedBag(Of T).RemoveWhere method" Url="html/15b2abad-be8f-b652-0c05-c15bd0c7f5bd.htm" />
   <HelpKINode Title="RankedBag(Of T).RetainAll method" Url="html/6ec9c7ce-d5d6-c9a0-1727-2047995493ae.htm" />
   <HelpKINode Title="RankedBag(Of T).Reverse method" Url="html/d09e1e64-5ade-2f0f-ed19-059499bfaef1.htm" />
+  <HelpKINode Title="RankedBag(Of T).TryGet method" Url="html/e0976674-cbf9-7b33-2bf6-707f1bb4727b.htm" />
+  <HelpKINode Title="RankedBag(Of T).TryGetGreaterThan method" Url="html/b014979f-e842-d761-12a2-3b0c0dad00a2.htm" />
+  <HelpKINode Title="RankedBag(Of T).TryGetGreaterThanOrEqual method" Url="html/ce1a644a-f4af-0294-6388-29370138de09.htm" />
+  <HelpKINode Title="RankedBag(Of T).TryGetLessThan method" Url="html/94212759-48b4-9cf4-ceae-e8091c943e7e.htm" />
+  <HelpKINode Title="RankedBag(Of T).TryGetLessThanOrEqual method" Url="html/70eebebb-3280-cb60-64b9-e4c64b361d7b.htm" />
   <HelpKINode Title="RankedBag&lt;T&gt; class">
     <HelpKINode Title="RankedBag(T) Class" Url="html/56d08dd3-2262-d471-02b1-a532f7e84cfe.htm" />
     <HelpKINode Title="about RankedBag&lt;T&gt; class" Url="html/56d08dd3-2262-d471-02b1-a532f7e84cfe.htm" />
@@ -411,6 +642,7 @@
   <HelpKINode Title="RankedBag&lt;T&gt;.Enumerator.IEnumerator.Current explicitly implemented property" Url="html/e4243d59-072d-c49d-588a-100b4f270e8b.htm" />
   <HelpKINode Title="RankedBag&lt;T&gt;.Enumerator.IEnumerator.Reset explicitly implemented method" Url="html/2b4d0353-2daa-05f1-fb83-4705e53e0e3d.htm" />
   <HelpKINode Title="RankedBag&lt;T&gt;.Enumerator.MoveNext method" Url="html/23c39064-91d8-cc74-7e73-cd21a2d48c26.htm" />
+  <HelpKINode Title="RankedBag&lt;T&gt;.First method" Url="html/764c8af1-9aa1-2206-38df-b1b6244a7491.htm" />
   <HelpKINode Title="RankedBag&lt;T&gt;.GetCount method" Url="html/1e813ec0-72bd-0586-6ab0-c429425327b8.htm" />
   <HelpKINode Title="RankedBag&lt;T&gt;.GetDistinctCount method" Url="html/d369f577-2e87-fea1-b39d-ea951d232256.htm" />
   <HelpKINode Title="RankedBag&lt;T&gt;.GetEnumerator method" Url="html/92295139-9fba-bfd7-3887-e9bc16b06430.htm" />
@@ -437,6 +669,11 @@
   <HelpKINode Title="RankedBag&lt;T&gt;.RemoveWhere method" Url="html/15b2abad-be8f-b652-0c05-c15bd0c7f5bd.htm" />
   <HelpKINode Title="RankedBag&lt;T&gt;.RetainAll method" Url="html/6ec9c7ce-d5d6-c9a0-1727-2047995493ae.htm" />
   <HelpKINode Title="RankedBag&lt;T&gt;.Reverse method" Url="html/d09e1e64-5ade-2f0f-ed19-059499bfaef1.htm" />
+  <HelpKINode Title="RankedBag&lt;T&gt;.TryGet method" Url="html/e0976674-cbf9-7b33-2bf6-707f1bb4727b.htm" />
+  <HelpKINode Title="RankedBag&lt;T&gt;.TryGetGreaterThan method" Url="html/b014979f-e842-d761-12a2-3b0c0dad00a2.htm" />
+  <HelpKINode Title="RankedBag&lt;T&gt;.TryGetGreaterThanOrEqual method" Url="html/ce1a644a-f4af-0294-6388-29370138de09.htm" />
+  <HelpKINode Title="RankedBag&lt;T&gt;.TryGetLessThan method" Url="html/94212759-48b4-9cf4-ceae-e8091c943e7e.htm" />
+  <HelpKINode Title="RankedBag&lt;T&gt;.TryGetLessThanOrEqual method" Url="html/70eebebb-3280-cb60-64b9-e4c64b361d7b.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue) class">
     <HelpKINode Title="RankedDictionary(TKey, TValue) Class" Url="html/b25600ae-c427-957a-65ba-831d18b0c003.htm" />
     <HelpKINode Title="about RankedDictionary(Of TKey, TValue) class" Url="html/b25600ae-c427-957a-65ba-831d18b0c003.htm" />
@@ -468,6 +705,7 @@
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).Enumerator.IEnumerator.Current explicitly implemented property" Url="html/3ed8ef5b-4cbb-0274-64de-f9fce1e4af9d.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).Enumerator.IEnumerator.Reset explicitly implemented method" Url="html/9db0a9c4-831e-09ad-eeea-6a1951d154b4.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).Enumerator.MoveNext method" Url="html/62b6318a-ec2b-b568-ffc7-df7db953bdf7.htm" />
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).First method" Url="html/ebd1ba45-c86a-b03d-40de-848844fd4ae9.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).GetEnumerator method" Url="html/640796c0-30b2-d37e-ea0d-7e2945da3e63.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).GetObjectData method" Url="html/187e2471-e51b-0d7a-885d-09ce5cdd2439.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).ICollection(Of KeyValuePair(Of TKey, TValue)).Add explicitly implemented method" Url="html/2e99c382-c807-509e-b1e5-24083454166f.htm" />
@@ -502,6 +740,7 @@
     <HelpKINode Title="about RankedDictionary(Of TKey, TValue).KeyCollection class" Url="html/850674f2-9e44-5bd2-4bea-f61ffb6727c4.htm" />
     <HelpKINode Title="constructor" Url="html/8b417df3-8140-e78d-0f46-a3ac7d8746a5.htm" />
   </HelpKINode>
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.Contains method" Url="html/e06e95ec-14d5-4544-fe10-380b51826f27.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.CopyTo method" Url="html/f25ea7ac-ac53-0616-0f4f-48b84684cb8b.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.Count property" Url="html/78cd3c77-bda2-b54e-a0d6-ee97e6a476a9.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.ElementAt method" Url="html/fda0b2ea-100c-009c-6115-e1b73c8a63af.htm" />
@@ -515,6 +754,7 @@
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.Enumerator.IEnumerator.Current explicitly implemented property" Url="html/d91c3446-cdde-3658-cfef-e4b933a2e78c.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.Enumerator.IEnumerator.Reset explicitly implemented method" Url="html/714c0c43-43d0-ae25-5eef-edbcadc5a3ac.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.Enumerator.MoveNext method" Url="html/6217982d-a9a9-ae39-6044-18679b1634d3.htm" />
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.First method" Url="html/db015776-ae51-b427-a110-3e0742925114.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.GetEnumerator method" Url="html/73dc1c33-5fea-1a8d-d48a-8cf1e2da95a8.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.ICollection(Of TKey).Add explicitly implemented method" Url="html/1cd5c66f-251d-a62b-645b-e948ad99b9b3.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.ICollection(Of TKey).Clear explicitly implemented method" Url="html/e92ed9fb-3e3c-9cdb-171f-f03b2e5b2c6e.htm" />
@@ -529,6 +769,13 @@
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.IndexOf method" Url="html/2e4d1770-1241-5291-acb3-226aabea3a6a.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.Item property" Url="html/4a49ee9e-15e8-127b-9008-e24d7332421d.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.KeyCollection constructor" Url="html/8b417df3-8140-e78d-0f46-a3ac7d8746a5.htm" />
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.Last method" Url="html/4695eb66-b805-6dcf-f0e8-823cc8028d82.htm" />
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.Reverse method" Url="html/1a636fc6-7870-f17a-6d5b-7da4296191ad.htm" />
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.TryGet method" Url="html/4da883c9-b9dc-0878-7c10-0381a236e57f.htm" />
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.TryGetGreaterThan method" Url="html/9316fd7e-f655-828d-50c8-9655b0338b99.htm" />
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.TryGetGreaterThanOrEqual method" Url="html/08bdad9c-c26e-62ea-0b65-38e35fdec8f1.htm" />
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.TryGetLessThan method" Url="html/847c25c5-73a1-7981-3be6-531b5eafc304.htm" />
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).KeyCollection.TryGetLessThanOrEqual method" Url="html/ae1725e1-f204-0f04-0e1e-8e6b637e0a7a.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).Keys property" Url="html/4203e5cc-83ea-ce86-51d9-0cdce656e892.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).Last method" Url="html/f1f83158-d375-c82b-89f3-2c834fa94051.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).MaxKey property" Url="html/6aeb9a94-73f7-eec4-e81c-c505e722e644.htm" />
@@ -536,11 +783,16 @@
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).OnDeserialization method" Url="html/4006bf7f-ebbb-4680-7869-7a5f408b4039.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).RankedDictionary constructor" Url="html/da2f8d10-00a6-be1d-6998-50a6b05e067d.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).Remove method" Url="html/df54bfc0-1391-a325-662b-f0c71adaecd1.htm" />
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).RemoveAll method" Url="html/fd66c263-2b93-0ab1-da8e-dfad9443ec99.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).RemoveAt method" Url="html/ecc3dfa3-d060-3b25-0b2f-767df95122b5.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).RemoveRange method" Url="html/fe98d171-608b-3be2-a19e-f6c45e466859.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).RemoveWhere method" Url="html/04d637fd-d36b-ae20-1a5e-4dcdaa6436e5.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).RemoveWhereElement method" Url="html/bbe3b91a-bd2c-d797-cb4b-6b60a555e511.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).Reverse method" Url="html/07cf6492-fac0-d71b-0ef7-fc2c94e7703d.htm" />
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).TryGetGreaterThan method" Url="html/5954ae7d-9248-31b0-cc4e-07e553fc825e.htm" />
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).TryGetGreaterThanOrEqual method" Url="html/146f0a8a-e08e-1193-ec29-036fed47f421.htm" />
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).TryGetLessThan method" Url="html/dacdc77b-7731-b328-8db6-4691f9e6b333.htm" />
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).TryGetLessThanOrEqual method" Url="html/641b92ab-30b3-7281-a905-51791f202677.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).TryGetValue method" Url="html/ce539d2d-1cea-01d3-73b4-a1340668f587.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).TryGetValueAndIndex method" Url="html/55a6227f-c14f-e62c-f081-676d2f4efafb.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).ValueCollection class">
@@ -561,6 +813,7 @@
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).ValueCollection.Enumerator.IEnumerator.Current explicitly implemented property" Url="html/a5d7510e-3ff8-6b5f-321f-2eee9853438a.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).ValueCollection.Enumerator.IEnumerator.Reset explicitly implemented method" Url="html/f9b584c0-1317-3bef-1eb3-85d2ac2b0d9b.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).ValueCollection.Enumerator.MoveNext method" Url="html/e013c6d2-3ae9-c328-fe7f-de6cd030a92f.htm" />
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).ValueCollection.First method" Url="html/e379cfad-530e-ce01-6ead-927f7c94a0b4.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).ValueCollection.GetEnumerator method" Url="html/925a26d8-bb35-9713-d9fb-5a7d66b9b250.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).ValueCollection.ICollection(Of TValue).Add explicitly implemented method" Url="html/0a6d623f-9871-1806-74a1-dd29928f9f4c.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).ValueCollection.ICollection(Of TValue).Clear explicitly implemented method" Url="html/c39c16b4-793c-58c4-d778-5479d9f5f9c7.htm" />
@@ -574,6 +827,8 @@
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).ValueCollection.IEnumerable.GetEnumerator explicitly implemented method" Url="html/8446bdce-2267-b9f0-5b1b-fecda2904262.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).ValueCollection.IndexOf method" Url="html/40bd6191-7c48-0e50-361e-83064106c4f8.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).ValueCollection.Item property" Url="html/6e2ed8e0-005c-8b19-be27-111e34b7e9d3.htm" />
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).ValueCollection.Last method" Url="html/3fb92f34-3d6c-6f49-2e8e-20161709539b.htm" />
+  <HelpKINode Title="RankedDictionary(Of TKey, TValue).ValueCollection.Reverse method" Url="html/b57a9865-43d4-4027-9a0b-dde45f179efe.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).ValueCollection.ValueCollection constructor" Url="html/d9aeb349-8afe-af6b-8220-c6685d1d7c61.htm" />
   <HelpKINode Title="RankedDictionary(Of TKey, TValue).Values property" Url="html/8a65d9a8-d61c-8c7c-387d-50f19fbede39.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt; class">
@@ -607,6 +862,7 @@
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.Enumerator.IEnumerator.Current explicitly implemented property" Url="html/3ed8ef5b-4cbb-0274-64de-f9fce1e4af9d.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.Enumerator.IEnumerator.Reset explicitly implemented method" Url="html/9db0a9c4-831e-09ad-eeea-6a1951d154b4.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.Enumerator.MoveNext method" Url="html/62b6318a-ec2b-b568-ffc7-df7db953bdf7.htm" />
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.First method" Url="html/ebd1ba45-c86a-b03d-40de-848844fd4ae9.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.GetEnumerator method" Url="html/640796c0-30b2-d37e-ea0d-7e2945da3e63.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.GetObjectData method" Url="html/187e2471-e51b-0d7a-885d-09ce5cdd2439.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.ICollection.CopyTo explicitly implemented method" Url="html/33f8295d-d76f-0558-938b-1649bd428a79.htm" />
@@ -641,6 +897,7 @@
     <HelpKINode Title="about RankedDictionary&lt;TKey, TValue&gt;.KeyCollection class" Url="html/850674f2-9e44-5bd2-4bea-f61ffb6727c4.htm" />
     <HelpKINode Title="constructor" Url="html/8b417df3-8140-e78d-0f46-a3ac7d8746a5.htm" />
   </HelpKINode>
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.Contains method" Url="html/e06e95ec-14d5-4544-fe10-380b51826f27.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.CopyTo method" Url="html/f25ea7ac-ac53-0616-0f4f-48b84684cb8b.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.Count property" Url="html/78cd3c77-bda2-b54e-a0d6-ee97e6a476a9.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.ElementAt method" Url="html/fda0b2ea-100c-009c-6115-e1b73c8a63af.htm" />
@@ -654,6 +911,7 @@
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.Enumerator.IEnumerator.Current explicitly implemented property" Url="html/d91c3446-cdde-3658-cfef-e4b933a2e78c.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.Enumerator.IEnumerator.Reset explicitly implemented method" Url="html/714c0c43-43d0-ae25-5eef-edbcadc5a3ac.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.Enumerator.MoveNext method" Url="html/6217982d-a9a9-ae39-6044-18679b1634d3.htm" />
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.First method" Url="html/db015776-ae51-b427-a110-3e0742925114.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.GetEnumerator method" Url="html/73dc1c33-5fea-1a8d-d48a-8cf1e2da95a8.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.ICollection.CopyTo explicitly implemented method" Url="html/3ec99df5-496b-86d8-4901-f99485fa2881.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.ICollection.IsSynchronized explicitly implemented property" Url="html/2488d836-3875-7806-9668-71a262b8ee7c.htm" />
@@ -668,6 +926,13 @@
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.IndexOf method" Url="html/2e4d1770-1241-5291-acb3-226aabea3a6a.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.Item property" Url="html/4a49ee9e-15e8-127b-9008-e24d7332421d.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.KeyCollection constructor" Url="html/8b417df3-8140-e78d-0f46-a3ac7d8746a5.htm" />
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.Last method" Url="html/4695eb66-b805-6dcf-f0e8-823cc8028d82.htm" />
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.Reverse method" Url="html/1a636fc6-7870-f17a-6d5b-7da4296191ad.htm" />
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.TryGet method" Url="html/4da883c9-b9dc-0878-7c10-0381a236e57f.htm" />
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.TryGetGreaterThan method" Url="html/9316fd7e-f655-828d-50c8-9655b0338b99.htm" />
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.TryGetGreaterThanOrEqual method" Url="html/08bdad9c-c26e-62ea-0b65-38e35fdec8f1.htm" />
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.TryGetLessThan method" Url="html/847c25c5-73a1-7981-3be6-531b5eafc304.htm" />
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.KeyCollection.TryGetLessThanOrEqual method" Url="html/ae1725e1-f204-0f04-0e1e-8e6b637e0a7a.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.Keys property" Url="html/4203e5cc-83ea-ce86-51d9-0cdce656e892.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.Last method" Url="html/f1f83158-d375-c82b-89f3-2c834fa94051.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.MaxKey property" Url="html/6aeb9a94-73f7-eec4-e81c-c505e722e644.htm" />
@@ -675,11 +940,16 @@
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.OnDeserialization method" Url="html/4006bf7f-ebbb-4680-7869-7a5f408b4039.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.RankedDictionary constructor" Url="html/da2f8d10-00a6-be1d-6998-50a6b05e067d.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.Remove method" Url="html/df54bfc0-1391-a325-662b-f0c71adaecd1.htm" />
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.RemoveAll method" Url="html/fd66c263-2b93-0ab1-da8e-dfad9443ec99.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.RemoveAt method" Url="html/ecc3dfa3-d060-3b25-0b2f-767df95122b5.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.RemoveRange method" Url="html/fe98d171-608b-3be2-a19e-f6c45e466859.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.RemoveWhere method" Url="html/04d637fd-d36b-ae20-1a5e-4dcdaa6436e5.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.RemoveWhereElement method" Url="html/bbe3b91a-bd2c-d797-cb4b-6b60a555e511.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.Reverse method" Url="html/07cf6492-fac0-d71b-0ef7-fc2c94e7703d.htm" />
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.TryGetGreaterThan method" Url="html/5954ae7d-9248-31b0-cc4e-07e553fc825e.htm" />
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.TryGetGreaterThanOrEqual method" Url="html/146f0a8a-e08e-1193-ec29-036fed47f421.htm" />
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.TryGetLessThan method" Url="html/dacdc77b-7731-b328-8db6-4691f9e6b333.htm" />
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.TryGetLessThanOrEqual method" Url="html/641b92ab-30b3-7281-a905-51791f202677.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.TryGetValue method" Url="html/ce539d2d-1cea-01d3-73b4-a1340668f587.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.TryGetValueAndIndex method" Url="html/55a6227f-c14f-e62c-f081-676d2f4efafb.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.ValueCollection class">
@@ -700,6 +970,7 @@
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.ValueCollection.Enumerator.IEnumerator.Current explicitly implemented property" Url="html/a5d7510e-3ff8-6b5f-321f-2eee9853438a.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.ValueCollection.Enumerator.IEnumerator.Reset explicitly implemented method" Url="html/f9b584c0-1317-3bef-1eb3-85d2ac2b0d9b.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.ValueCollection.Enumerator.MoveNext method" Url="html/e013c6d2-3ae9-c328-fe7f-de6cd030a92f.htm" />
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.ValueCollection.First method" Url="html/e379cfad-530e-ce01-6ead-927f7c94a0b4.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.ValueCollection.GetEnumerator method" Url="html/925a26d8-bb35-9713-d9fb-5a7d66b9b250.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.ValueCollection.ICollection.CopyTo explicitly implemented method" Url="html/78d881d7-b96f-5e71-0dfe-3be45e710494.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.ValueCollection.ICollection.IsSynchronized explicitly implemented property" Url="html/ad2972f8-cc25-4f26-f50a-88378d0e8e77.htm" />
@@ -713,8 +984,290 @@
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.ValueCollection.IEnumerable&lt;TValue&gt;.GetEnumerator explicitly implemented method" Url="html/0f54f2a9-c22b-0bf1-4ce0-7207d749ab4f.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.ValueCollection.IndexOf method" Url="html/40bd6191-7c48-0e50-361e-83064106c4f8.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.ValueCollection.Item property" Url="html/6e2ed8e0-005c-8b19-be27-111e34b7e9d3.htm" />
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.ValueCollection.Last method" Url="html/3fb92f34-3d6c-6f49-2e8e-20161709539b.htm" />
+  <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.ValueCollection.Reverse method" Url="html/b57a9865-43d4-4027-9a0b-dde45f179efe.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.ValueCollection.ValueCollection constructor" Url="html/d9aeb349-8afe-af6b-8220-c6685d1d7c61.htm" />
   <HelpKINode Title="RankedDictionary&lt;TKey, TValue&gt;.Values property" Url="html/8a65d9a8-d61c-8c7c-387d-50f19fbede39.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue) class">
+    <HelpKINode Title="RankedMap(TKey, TValue) Class" Url="html/0945f4a6-ca33-1964-cebc-e31a4907cb0c.htm" />
+    <HelpKINode Title="about RankedMap(Of TKey, TValue) class" Url="html/0945f4a6-ca33-1964-cebc-e31a4907cb0c.htm" />
+    <HelpKINode Title="constructor" Url="html/260e134b-cfaa-f0f1-fae1-a4a7f96a16b6.htm" />
+    <HelpKINode Title="methods" Url="html/06634072-62bb-48f0-ea66-666deccd7f73.htm" />
+    <HelpKINode Title="properties" Url="html/82f9e700-7386-d604-ec81-1a4c9dfc0044.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RankedMap(Of TKey, TValue).Add method" Url="html/7e5a9c22-1594-d8d0-a6f1-78c510b3055e.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).Clear method" Url="html/776b2ecc-6d9f-d09c-e1e3-d2fcc73d054f.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).Comparer property" Url="html/b09c48ed-4e0e-ab51-6fc9-99683d11c748.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ContainsKey method" Url="html/795fc4ac-e7af-1303-68ce-f3ada0c1a260.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ContainsValue method" Url="html/21e026be-e030-5413-ee8b-9f52684672fb.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).CopyTo method" Url="html/f5be90a5-cb5a-f13d-fd2a-44d6fb0b2526.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).Count property" Url="html/29f16f06-a380-f923-330d-d5260d4fc08a.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ElementAt method" Url="html/45e4763a-e288-6e3a-aced-08432cb45a77.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ElementAtOrDefault method" Url="html/fbbe2f89-a720-5e62-da2f-c345ed8468d3.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ElementsBetween method" Url="html/65cd431c-d802-e72e-25af-e326ba827070.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ElementsBetweenIndexes method" Url="html/46375bbb-fd82-4d7a-326a-04f55c407565.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ElementsFrom method" Url="html/a350f537-6767-abfa-4ac5-df564fe8936a.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).Enumerator class">
+    <HelpKINode Title="RankedMap(TKey, TValue).Enumerator Class" Url="html/0fd0914b-b650-dda1-9a6c-255079fd2990.htm" />
+    <HelpKINode Title="about RankedMap(Of TKey, TValue).Enumerator class" Url="html/0fd0914b-b650-dda1-9a6c-255079fd2990.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RankedMap(Of TKey, TValue).Enumerator.Current property" Url="html/50111b98-4be0-fa37-de21-6bc826560d88.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).Enumerator.Dispose method" Url="html/3b368711-3896-4021-228d-351c40b8d202.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).Enumerator.IEnumerator.Current explicitly implemented property" Url="html/5d1cd470-800b-8347-76a7-029d4530bdf7.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).Enumerator.IEnumerator.Reset explicitly implemented method" Url="html/3065a527-e240-dd22-39ee-4a97146e9d9f.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).Enumerator.MoveNext method" Url="html/a51f1158-2824-ffd9-dd29-f6e3969d0862.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).First method" Url="html/eb48477a-6ec4-de19-8249-fb73191786f9.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).GetEnumerator method" Url="html/be2a440f-51d5-b9d3-ed96-47e4e840d884.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).GetObjectData method" Url="html/280ed3d7-6928-c381-0d5d-8403f8859cb3.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ICollection(Of KeyValuePair(Of TKey, TValue)).Add explicitly implemented method" Url="html/2f0342b5-7b6a-924a-5c18-bb7d004b0653.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ICollection(Of KeyValuePair(Of TKey, TValue)).Contains explicitly implemented method" Url="html/00eeef57-6c4f-88e9-e3f6-1fada8df120e.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ICollection(Of KeyValuePair(Of TKey, TValue)).IsReadOnly explicitly implemented property" Url="html/250dcbf2-2e46-4512-7efe-0f439adf8e0f.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ICollection(Of KeyValuePair(Of TKey, TValue)).Remove explicitly implemented method" Url="html/aafd0c50-28bd-e844-a06b-cadf678c7976.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ICollection.CopyTo explicitly implemented method" Url="html/bd771a35-d3b3-4109-d187-00301d0fd170.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ICollection.IsSynchronized explicitly implemented property" Url="html/f27cb673-28a1-b942-54f6-996e0ed8dd1b.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ICollection.SyncRoot explicitly implemented property" Url="html/aee0ce1d-417a-5d4b-2b15-104256d49b6d.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).IDeserializationCallback.OnDeserialization explicitly implemented method" Url="html/930397f9-c4c0-9ccd-eac8-362b96964e6e.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).IEnumerable(Of KeyValuePair(Of TKey, TValue)).GetEnumerator explicitly implemented method" Url="html/951d8644-22cd-dea7-8a7a-e05d556d3f5f.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).IEnumerable.GetEnumerator explicitly implemented method" Url="html/91f98201-6cfa-50db-849d-89f5380c8d7a.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).IndexOfKey method" Url="html/f47c81a2-711e-b226-baf8-e547a7e79786.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).IndexOfValue method" Url="html/22a23f03-4640-497d-efaf-7bb8a3967d5c.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ISerializable.GetObjectData explicitly implemented method" Url="html/cb3b1efc-e65a-dc0d-e538-fa42be9e0dbe.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection class">
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection Class" Url="html/3495e550-d7f5-0929-d9d5-8854e203f8a1.htm" />
+    <HelpKINode Title="about RankedMap(Of TKey, TValue).KeyCollection class" Url="html/3495e550-d7f5-0929-d9d5-8854e203f8a1.htm" />
+    <HelpKINode Title="constructor" Url="html/c43713a8-b5cf-d150-bd3e-bc944f9afb4a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.Contains method" Url="html/8f3fa0e5-957d-e789-3588-0d7f0139daad.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.CopyTo method" Url="html/adbd237e-cd60-68c4-5b7c-c5a5ba91677b.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.Count property" Url="html/f3c57c15-2fb8-fd15-2c63-85038c2d8b8a.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.Distinct method" Url="html/26f3947f-5773-6415-098b-1320da5256e6.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.ElementAt method" Url="html/03d79efa-4fb6-42f4-19bc-30f77c2a4ed0.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.ElementAtOrDefault method" Url="html/d5fabb90-141b-46cd-7aa2-e9c27374dc0f.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.Enumerator class">
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.Enumerator Class" Url="html/c372a052-58cc-1cdb-30d2-6c5aa1cdab36.htm" />
+    <HelpKINode Title="about RankedMap(Of TKey, TValue).KeyCollection.Enumerator class" Url="html/c372a052-58cc-1cdb-30d2-6c5aa1cdab36.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.Enumerator.Current property" Url="html/3a5a3d74-8e3a-d2ec-624d-58501fa2652c.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.Enumerator.Dispose method" Url="html/1f0c85fe-b7c7-5761-f131-1477c5f7b56c.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.Enumerator.IEnumerator.Current explicitly implemented property" Url="html/44e7b650-2837-7970-5dd4-5cda1d5e3052.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.Enumerator.IEnumerator.Reset explicitly implemented method" Url="html/2b2fa581-619a-724b-21a7-74a63188c307.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.Enumerator.MoveNext method" Url="html/66bc4ccb-a54b-7117-f5c2-ac8860069e20.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.First method" Url="html/19e62049-25e5-d073-9f11-08c8755c1e82.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.GetCount method" Url="html/35f117c4-2707-31dc-72f3-c3e58958d98c.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.GetDistinctCount method" Url="html/bc57576f-45ff-d138-5f28-35a351dba4c9.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.GetEnumerator method" Url="html/38b299dd-4660-fa5c-b52d-827ca8c45870.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.ICollection(Of TKey).Add explicitly implemented method" Url="html/a3662fd9-f739-3205-e707-bf1df5950e0e.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.ICollection(Of TKey).Clear explicitly implemented method" Url="html/016fefad-36a1-4a75-3016-46b1ecaccd7f.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.ICollection(Of TKey).Contains explicitly implemented method" Url="html/186e3dc0-e489-e0ee-31ba-be4935c18abc.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.ICollection(Of TKey).IsReadOnly explicitly implemented property" Url="html/1ef794c4-1827-2f39-c13f-3c515dcdcaaa.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.ICollection(Of TKey).Remove explicitly implemented method" Url="html/ed9677ab-c945-3263-431e-f50a03990f7a.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.ICollection.CopyTo explicitly implemented method" Url="html/64084d6b-677b-665c-b3b7-9e579cf067d5.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.ICollection.IsSynchronized explicitly implemented property" Url="html/92bb3e29-a9f4-e537-ab7e-261e5f7cfaf5.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.ICollection.SyncRoot explicitly implemented property" Url="html/93564e00-5aed-6215-3241-b3f5269d76e0.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.IEnumerable(Of TKey).GetEnumerator explicitly implemented method" Url="html/48198100-cba0-ac3a-4e40-e03b4e125fc0.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.IEnumerable.GetEnumerator explicitly implemented method" Url="html/2049bad7-184d-ba8c-b263-17abcf4ba399.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.IndexOf method" Url="html/a53ace89-ce1e-7006-5b01-b49461b40ecb.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.Item property" Url="html/4d600921-0ca7-f822-86d2-e343d505f871.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.KeyCollection constructor" Url="html/c43713a8-b5cf-d150-bd3e-bc944f9afb4a.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.Last method" Url="html/614e13a1-f064-b703-12c4-36020103fcbd.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.Reverse method" Url="html/1d68a57a-4143-1f08-3cbd-418530905779.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.TryGetGreaterThan method" Url="html/6e5c8105-8fb3-b741-019b-82214732d6c0.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.TryGetGreaterThanOrEqual method" Url="html/aa9312e5-95c5-9412-b53c-689864500f93.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.TryGetLessThan method" Url="html/d623b3a5-c722-fda4-4e0f-7e62b5cc4236.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).KeyCollection.TryGetLessThanOrEqual method" Url="html/1efcccee-f3e3-f88c-c206-27e578e3a17d.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).Keys property" Url="html/32cca6a1-a658-c806-254f-00baa0ff5b67.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).Last method" Url="html/80eb94ad-5dc3-1660-ef83-214b8badc760.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).MaxKey property" Url="html/b3e00b08-170e-d57c-f4e3-4d635f316669.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).MinKey property" Url="html/942170f3-f2e1-cab8-f4f0-5239fb83c616.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).OnDeserialization method" Url="html/08ac2b58-8c9b-2637-8d5e-4893bf98c00b.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).RankedMap constructor" Url="html/260e134b-cfaa-f0f1-fae1-a4a7f96a16b6.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).Remove method" Url="html/6d4e8719-ab50-9074-405b-1c0d19cc134e.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).RemoveAll method" Url="html/45dfbba0-124d-4a96-f872-ad65bf5bdfaa.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).RemoveAt method" Url="html/d3a6a55b-49ef-9053-792c-68eb19413c7b.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).RemoveRange method" Url="html/b3d028c8-edd9-c5a4-a144-5fc543e9c792.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).RemoveWhere method" Url="html/73e46d28-cc30-09fd-db48-62c34582da71.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).RemoveWhereElement method" Url="html/b1bc4260-3610-12f3-3cad-fb04f51523f6.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).Reverse method" Url="html/d55b5129-8e2c-95d6-e40c-588a4197e97f.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).TryGetGreaterThan method" Url="html/29000313-aa23-d90e-4c89-18b9602e1e8a.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).TryGetGreaterThanOrEqual method" Url="html/91471af6-4f4c-d7a7-f3b4-64a1f8211299.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).TryGetLessThan method" Url="html/a89ae22a-b958-537e-4607-f821b0af2382.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).TryGetLessThanOrEqual method" Url="html/bf5420ab-bb58-56bd-2314-f397b6cc8749.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection class">
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection Class" Url="html/acd38b6a-394e-0a8d-c2de-0692a0bc21f1.htm" />
+    <HelpKINode Title="about RankedMap(Of TKey, TValue).ValueCollection class" Url="html/acd38b6a-394e-0a8d-c2de-0692a0bc21f1.htm" />
+    <HelpKINode Title="constructor" Url="html/9bc66190-abc6-75db-4865-bc24fadb350c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.CopyTo method" Url="html/f29366cd-02f9-58df-05aa-96051b5823e2.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.Count property" Url="html/e6465213-5d57-d300-f946-9c02bedd2a51.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.ElementAt method" Url="html/4ca0fe6c-4f4b-6ef4-29bc-0753a6f863e5.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.ElementAtOrDefault method" Url="html/958f9be0-785d-3667-a273-38bc7409776c.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.Enumerator class">
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.Enumerator Class" Url="html/0fa6cc9e-60af-a9c4-bd08-421e77a1ccad.htm" />
+    <HelpKINode Title="about RankedMap(Of TKey, TValue).ValueCollection.Enumerator class" Url="html/0fa6cc9e-60af-a9c4-bd08-421e77a1ccad.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.Enumerator.Current property" Url="html/c140af9c-b497-6b3a-413c-90b2043de355.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.Enumerator.Dispose method" Url="html/7847f980-3d26-cacc-765e-f79d41999349.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.Enumerator.IEnumerator.Current explicitly implemented property" Url="html/5966bda6-36dd-23ab-d192-c9ee90fa0682.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.Enumerator.IEnumerator.Reset explicitly implemented method" Url="html/5cdd2c3c-5cb5-7990-fbe6-597673b48cff.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.Enumerator.MoveNext method" Url="html/4ffc57d2-afaa-d0dc-52a4-74c8dace3b88.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.First method" Url="html/b474bd42-3e90-19d4-4264-078292bbb172.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.GetEnumerator method" Url="html/6038eada-89f9-3f5c-25bc-c42c036899c7.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.ICollection(Of TValue).Add explicitly implemented method" Url="html/e9fcf0f8-a132-165f-9f7c-dbd804d83c6b.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.ICollection(Of TValue).Clear explicitly implemented method" Url="html/b06fc454-4be2-6c46-d949-f1593693052e.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.ICollection(Of TValue).Contains explicitly implemented method" Url="html/c4e0456d-09fa-9a08-4e22-eb46e0575b48.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.ICollection(Of TValue).IsReadOnly explicitly implemented property" Url="html/4c38edbe-f03a-5e20-4c67-068c13ceff56.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.ICollection(Of TValue).Remove explicitly implemented method" Url="html/45375bdf-cf82-ad00-5ed2-473b1b8130cd.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.ICollection.CopyTo explicitly implemented method" Url="html/4767e2d5-02a8-ff4a-b280-b8d5943bf89b.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.ICollection.IsSynchronized explicitly implemented property" Url="html/c0352d6c-8d01-b390-ba8d-a9164694466a.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.ICollection.SyncRoot explicitly implemented property" Url="html/0d379057-74c8-9891-4aba-6b55239703b1.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.IEnumerable(Of TValue).GetEnumerator explicitly implemented method" Url="html/f0c55826-3ab3-749f-7d8c-0f12ff711551.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.IEnumerable.GetEnumerator explicitly implemented method" Url="html/17b55d0c-0af8-931c-2e7c-07ea863009d0.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.IndexOf method" Url="html/a20e5b2d-286c-d9ed-a7c1-e07bdc2ddff8.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.Item property" Url="html/f09e80f1-220d-e39d-8da5-436653439875.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.Last method" Url="html/e3d4fec2-81f2-fc17-b764-9d9a4fe09a91.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.Reverse method" Url="html/ea386144-271a-3fc6-812f-a77957f422c0.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).ValueCollection.ValueCollection constructor" Url="html/9bc66190-abc6-75db-4865-bc24fadb350c.htm" />
+  <HelpKINode Title="RankedMap(Of TKey, TValue).Values property" Url="html/48ad95a0-c871-2ba6-0cc8-0b083236831a.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt; class">
+    <HelpKINode Title="RankedMap(TKey, TValue) Class" Url="html/0945f4a6-ca33-1964-cebc-e31a4907cb0c.htm" />
+    <HelpKINode Title="about RankedMap&lt;TKey, TValue&gt; class" Url="html/0945f4a6-ca33-1964-cebc-e31a4907cb0c.htm" />
+    <HelpKINode Title="constructor" Url="html/260e134b-cfaa-f0f1-fae1-a4a7f96a16b6.htm" />
+    <HelpKINode Title="methods" Url="html/06634072-62bb-48f0-ea66-666deccd7f73.htm" />
+    <HelpKINode Title="properties" Url="html/82f9e700-7386-d604-ec81-1a4c9dfc0044.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.Add method" Url="html/7e5a9c22-1594-d8d0-a6f1-78c510b3055e.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.Clear method" Url="html/776b2ecc-6d9f-d09c-e1e3-d2fcc73d054f.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.Comparer property" Url="html/b09c48ed-4e0e-ab51-6fc9-99683d11c748.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ContainsKey method" Url="html/795fc4ac-e7af-1303-68ce-f3ada0c1a260.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ContainsValue method" Url="html/21e026be-e030-5413-ee8b-9f52684672fb.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.CopyTo method" Url="html/f5be90a5-cb5a-f13d-fd2a-44d6fb0b2526.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.Count property" Url="html/29f16f06-a380-f923-330d-d5260d4fc08a.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ElementAt method" Url="html/45e4763a-e288-6e3a-aced-08432cb45a77.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ElementAtOrDefault method" Url="html/fbbe2f89-a720-5e62-da2f-c345ed8468d3.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ElementsBetween method" Url="html/65cd431c-d802-e72e-25af-e326ba827070.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ElementsBetweenIndexes method" Url="html/46375bbb-fd82-4d7a-326a-04f55c407565.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ElementsFrom method" Url="html/a350f537-6767-abfa-4ac5-df564fe8936a.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.Enumerator class">
+    <HelpKINode Title="RankedMap(TKey, TValue).Enumerator Class" Url="html/0fd0914b-b650-dda1-9a6c-255079fd2990.htm" />
+    <HelpKINode Title="about RankedMap&lt;TKey, TValue&gt;.Enumerator class" Url="html/0fd0914b-b650-dda1-9a6c-255079fd2990.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.Enumerator.Current property" Url="html/50111b98-4be0-fa37-de21-6bc826560d88.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.Enumerator.Dispose method" Url="html/3b368711-3896-4021-228d-351c40b8d202.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.Enumerator.IEnumerator.Current explicitly implemented property" Url="html/5d1cd470-800b-8347-76a7-029d4530bdf7.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.Enumerator.IEnumerator.Reset explicitly implemented method" Url="html/3065a527-e240-dd22-39ee-4a97146e9d9f.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.Enumerator.MoveNext method" Url="html/a51f1158-2824-ffd9-dd29-f6e3969d0862.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.First method" Url="html/eb48477a-6ec4-de19-8249-fb73191786f9.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.GetEnumerator method" Url="html/be2a440f-51d5-b9d3-ed96-47e4e840d884.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.GetObjectData method" Url="html/280ed3d7-6928-c381-0d5d-8403f8859cb3.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ICollection.CopyTo explicitly implemented method" Url="html/bd771a35-d3b3-4109-d187-00301d0fd170.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ICollection.IsSynchronized explicitly implemented property" Url="html/f27cb673-28a1-b942-54f6-996e0ed8dd1b.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ICollection.SyncRoot explicitly implemented property" Url="html/aee0ce1d-417a-5d4b-2b15-104256d49b6d.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;.Add explicitly implemented method" Url="html/2f0342b5-7b6a-924a-5c18-bb7d004b0653.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;.Contains explicitly implemented method" Url="html/00eeef57-6c4f-88e9-e3f6-1fada8df120e.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;.IsReadOnly explicitly implemented property" Url="html/250dcbf2-2e46-4512-7efe-0f439adf8e0f.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;.Remove explicitly implemented method" Url="html/aafd0c50-28bd-e844-a06b-cadf678c7976.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.IDeserializationCallback.OnDeserialization explicitly implemented method" Url="html/930397f9-c4c0-9ccd-eac8-362b96964e6e.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.IEnumerable.GetEnumerator explicitly implemented method" Url="html/91f98201-6cfa-50db-849d-89f5380c8d7a.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.IEnumerable&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;.GetEnumerator explicitly implemented method" Url="html/951d8644-22cd-dea7-8a7a-e05d556d3f5f.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.IndexOfKey method" Url="html/f47c81a2-711e-b226-baf8-e547a7e79786.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.IndexOfValue method" Url="html/22a23f03-4640-497d-efaf-7bb8a3967d5c.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ISerializable.GetObjectData explicitly implemented method" Url="html/cb3b1efc-e65a-dc0d-e538-fa42be9e0dbe.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection class">
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection Class" Url="html/3495e550-d7f5-0929-d9d5-8854e203f8a1.htm" />
+    <HelpKINode Title="about RankedMap&lt;TKey, TValue&gt;.KeyCollection class" Url="html/3495e550-d7f5-0929-d9d5-8854e203f8a1.htm" />
+    <HelpKINode Title="constructor" Url="html/c43713a8-b5cf-d150-bd3e-bc944f9afb4a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.Contains method" Url="html/8f3fa0e5-957d-e789-3588-0d7f0139daad.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.CopyTo method" Url="html/adbd237e-cd60-68c4-5b7c-c5a5ba91677b.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.Count property" Url="html/f3c57c15-2fb8-fd15-2c63-85038c2d8b8a.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.Distinct method" Url="html/26f3947f-5773-6415-098b-1320da5256e6.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.ElementAt method" Url="html/03d79efa-4fb6-42f4-19bc-30f77c2a4ed0.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.ElementAtOrDefault method" Url="html/d5fabb90-141b-46cd-7aa2-e9c27374dc0f.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.Enumerator class">
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.Enumerator Class" Url="html/c372a052-58cc-1cdb-30d2-6c5aa1cdab36.htm" />
+    <HelpKINode Title="about RankedMap&lt;TKey, TValue&gt;.KeyCollection.Enumerator class" Url="html/c372a052-58cc-1cdb-30d2-6c5aa1cdab36.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.Enumerator.Current property" Url="html/3a5a3d74-8e3a-d2ec-624d-58501fa2652c.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.Enumerator.Dispose method" Url="html/1f0c85fe-b7c7-5761-f131-1477c5f7b56c.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.Enumerator.IEnumerator.Current explicitly implemented property" Url="html/44e7b650-2837-7970-5dd4-5cda1d5e3052.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.Enumerator.IEnumerator.Reset explicitly implemented method" Url="html/2b2fa581-619a-724b-21a7-74a63188c307.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.Enumerator.MoveNext method" Url="html/66bc4ccb-a54b-7117-f5c2-ac8860069e20.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.First method" Url="html/19e62049-25e5-d073-9f11-08c8755c1e82.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.GetCount method" Url="html/35f117c4-2707-31dc-72f3-c3e58958d98c.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.GetDistinctCount method" Url="html/bc57576f-45ff-d138-5f28-35a351dba4c9.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.GetEnumerator method" Url="html/38b299dd-4660-fa5c-b52d-827ca8c45870.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.ICollection.CopyTo explicitly implemented method" Url="html/64084d6b-677b-665c-b3b7-9e579cf067d5.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.ICollection.IsSynchronized explicitly implemented property" Url="html/92bb3e29-a9f4-e537-ab7e-261e5f7cfaf5.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.ICollection.SyncRoot explicitly implemented property" Url="html/93564e00-5aed-6215-3241-b3f5269d76e0.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.ICollection&lt;TKey&gt;.Add explicitly implemented method" Url="html/a3662fd9-f739-3205-e707-bf1df5950e0e.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.ICollection&lt;TKey&gt;.Clear explicitly implemented method" Url="html/016fefad-36a1-4a75-3016-46b1ecaccd7f.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.ICollection&lt;TKey&gt;.Contains explicitly implemented method" Url="html/186e3dc0-e489-e0ee-31ba-be4935c18abc.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.ICollection&lt;TKey&gt;.IsReadOnly explicitly implemented property" Url="html/1ef794c4-1827-2f39-c13f-3c515dcdcaaa.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.ICollection&lt;TKey&gt;.Remove explicitly implemented method" Url="html/ed9677ab-c945-3263-431e-f50a03990f7a.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.IEnumerable.GetEnumerator explicitly implemented method" Url="html/2049bad7-184d-ba8c-b263-17abcf4ba399.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.IEnumerable&lt;TKey&gt;.GetEnumerator explicitly implemented method" Url="html/48198100-cba0-ac3a-4e40-e03b4e125fc0.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.IndexOf method" Url="html/a53ace89-ce1e-7006-5b01-b49461b40ecb.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.Item property" Url="html/4d600921-0ca7-f822-86d2-e343d505f871.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.KeyCollection constructor" Url="html/c43713a8-b5cf-d150-bd3e-bc944f9afb4a.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.Last method" Url="html/614e13a1-f064-b703-12c4-36020103fcbd.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.Reverse method" Url="html/1d68a57a-4143-1f08-3cbd-418530905779.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.TryGetGreaterThan method" Url="html/6e5c8105-8fb3-b741-019b-82214732d6c0.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.TryGetGreaterThanOrEqual method" Url="html/aa9312e5-95c5-9412-b53c-689864500f93.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.TryGetLessThan method" Url="html/d623b3a5-c722-fda4-4e0f-7e62b5cc4236.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.KeyCollection.TryGetLessThanOrEqual method" Url="html/1efcccee-f3e3-f88c-c206-27e578e3a17d.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.Keys property" Url="html/32cca6a1-a658-c806-254f-00baa0ff5b67.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.Last method" Url="html/80eb94ad-5dc3-1660-ef83-214b8badc760.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.MaxKey property" Url="html/b3e00b08-170e-d57c-f4e3-4d635f316669.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.MinKey property" Url="html/942170f3-f2e1-cab8-f4f0-5239fb83c616.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.OnDeserialization method" Url="html/08ac2b58-8c9b-2637-8d5e-4893bf98c00b.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.RankedMap constructor" Url="html/260e134b-cfaa-f0f1-fae1-a4a7f96a16b6.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.Remove method" Url="html/6d4e8719-ab50-9074-405b-1c0d19cc134e.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.RemoveAll method" Url="html/45dfbba0-124d-4a96-f872-ad65bf5bdfaa.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.RemoveAt method" Url="html/d3a6a55b-49ef-9053-792c-68eb19413c7b.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.RemoveRange method" Url="html/b3d028c8-edd9-c5a4-a144-5fc543e9c792.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.RemoveWhere method" Url="html/73e46d28-cc30-09fd-db48-62c34582da71.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.RemoveWhereElement method" Url="html/b1bc4260-3610-12f3-3cad-fb04f51523f6.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.Reverse method" Url="html/d55b5129-8e2c-95d6-e40c-588a4197e97f.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.TryGetGreaterThan method" Url="html/29000313-aa23-d90e-4c89-18b9602e1e8a.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.TryGetGreaterThanOrEqual method" Url="html/91471af6-4f4c-d7a7-f3b4-64a1f8211299.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.TryGetLessThan method" Url="html/a89ae22a-b958-537e-4607-f821b0af2382.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.TryGetLessThanOrEqual method" Url="html/bf5420ab-bb58-56bd-2314-f397b6cc8749.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection class">
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection Class" Url="html/acd38b6a-394e-0a8d-c2de-0692a0bc21f1.htm" />
+    <HelpKINode Title="about RankedMap&lt;TKey, TValue&gt;.ValueCollection class" Url="html/acd38b6a-394e-0a8d-c2de-0692a0bc21f1.htm" />
+    <HelpKINode Title="constructor" Url="html/9bc66190-abc6-75db-4865-bc24fadb350c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.CopyTo method" Url="html/f29366cd-02f9-58df-05aa-96051b5823e2.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.Count property" Url="html/e6465213-5d57-d300-f946-9c02bedd2a51.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.ElementAt method" Url="html/4ca0fe6c-4f4b-6ef4-29bc-0753a6f863e5.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.ElementAtOrDefault method" Url="html/958f9be0-785d-3667-a273-38bc7409776c.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.Enumerator class">
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.Enumerator Class" Url="html/0fa6cc9e-60af-a9c4-bd08-421e77a1ccad.htm" />
+    <HelpKINode Title="about RankedMap&lt;TKey, TValue&gt;.ValueCollection.Enumerator class" Url="html/0fa6cc9e-60af-a9c4-bd08-421e77a1ccad.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.Enumerator.Current property" Url="html/c140af9c-b497-6b3a-413c-90b2043de355.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.Enumerator.Dispose method" Url="html/7847f980-3d26-cacc-765e-f79d41999349.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.Enumerator.IEnumerator.Current explicitly implemented property" Url="html/5966bda6-36dd-23ab-d192-c9ee90fa0682.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.Enumerator.IEnumerator.Reset explicitly implemented method" Url="html/5cdd2c3c-5cb5-7990-fbe6-597673b48cff.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.Enumerator.MoveNext method" Url="html/4ffc57d2-afaa-d0dc-52a4-74c8dace3b88.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.First method" Url="html/b474bd42-3e90-19d4-4264-078292bbb172.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.GetEnumerator method" Url="html/6038eada-89f9-3f5c-25bc-c42c036899c7.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.ICollection.CopyTo explicitly implemented method" Url="html/4767e2d5-02a8-ff4a-b280-b8d5943bf89b.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.ICollection.IsSynchronized explicitly implemented property" Url="html/c0352d6c-8d01-b390-ba8d-a9164694466a.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.ICollection.SyncRoot explicitly implemented property" Url="html/0d379057-74c8-9891-4aba-6b55239703b1.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.ICollection&lt;TValue&gt;.Add explicitly implemented method" Url="html/e9fcf0f8-a132-165f-9f7c-dbd804d83c6b.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.ICollection&lt;TValue&gt;.Clear explicitly implemented method" Url="html/b06fc454-4be2-6c46-d949-f1593693052e.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.ICollection&lt;TValue&gt;.Contains explicitly implemented method" Url="html/c4e0456d-09fa-9a08-4e22-eb46e0575b48.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.ICollection&lt;TValue&gt;.IsReadOnly explicitly implemented property" Url="html/4c38edbe-f03a-5e20-4c67-068c13ceff56.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.ICollection&lt;TValue&gt;.Remove explicitly implemented method" Url="html/45375bdf-cf82-ad00-5ed2-473b1b8130cd.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.IEnumerable.GetEnumerator explicitly implemented method" Url="html/17b55d0c-0af8-931c-2e7c-07ea863009d0.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.IEnumerable&lt;TValue&gt;.GetEnumerator explicitly implemented method" Url="html/f0c55826-3ab3-749f-7d8c-0f12ff711551.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.IndexOf method" Url="html/a20e5b2d-286c-d9ed-a7c1-e07bdc2ddff8.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.Item property" Url="html/f09e80f1-220d-e39d-8da5-436653439875.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.Last method" Url="html/e3d4fec2-81f2-fc17-b764-9d9a4fe09a91.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.Reverse method" Url="html/ea386144-271a-3fc6-812f-a77957f422c0.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.ValueCollection.ValueCollection constructor" Url="html/9bc66190-abc6-75db-4865-bc24fadb350c.htm" />
+  <HelpKINode Title="RankedMap&lt;TKey, TValue&gt;.Values property" Url="html/48ad95a0-c871-2ba6-0cc8-0b083236831a.htm" />
   <HelpKINode Title="RankedSet(Of T) class">
     <HelpKINode Title="RankedSet(T) Class" Url="html/d595b6a0-2eaa-166f-3420-098e987e7c30.htm" />
     <HelpKINode Title="about RankedSet(Of T) class" Url="html/d595b6a0-2eaa-166f-3420-098e987e7c30.htm" />
@@ -744,6 +1297,7 @@
   <HelpKINode Title="RankedSet(Of T).Enumerator.IEnumerator.Reset explicitly implemented method" Url="html/fdceeae3-87bf-40cd-276a-3263d0dfd4d5.htm" />
   <HelpKINode Title="RankedSet(Of T).Enumerator.MoveNext method" Url="html/505c6bdc-ffbf-ef13-25d6-15d7b39ac478.htm" />
   <HelpKINode Title="RankedSet(Of T).ExceptWith method" Url="html/8ed13ef7-d786-fb71-cb38-cea4ff563212.htm" />
+  <HelpKINode Title="RankedSet(Of T).First method" Url="html/c48557f6-edc9-0430-bb58-ac04d35aa0a0.htm" />
   <HelpKINode Title="RankedSet(Of T).GetEnumerator method" Url="html/956679e5-057a-9851-6a5c-dae0e4c8a9c2.htm" />
   <HelpKINode Title="RankedSet(Of T).GetObjectData method" Url="html/bbdfe648-722e-f4c0-44f0-497ff92812f5.htm" />
   <HelpKINode Title="RankedSet(Of T).ICollection(Of T).Add explicitly implemented method" Url="html/daa74ee4-f561-0066-2007-18f613302044.htm" />
@@ -771,9 +1325,15 @@
   <HelpKINode Title="RankedSet(Of T).RemoveAt method" Url="html/29d810eb-6dcc-8857-6ea0-fd085fbf766d.htm" />
   <HelpKINode Title="RankedSet(Of T).RemoveRange method" Url="html/23efd273-9e7b-3c5b-03af-30af76f2f98b.htm" />
   <HelpKINode Title="RankedSet(Of T).RemoveWhere method" Url="html/c5d8625c-986b-2b56-e311-fdaaf15edaf6.htm" />
+  <HelpKINode Title="RankedSet(Of T).Replace method" Url="html/06d6d198-1805-074e-fed2-ec73efe1067c.htm" />
   <HelpKINode Title="RankedSet(Of T).Reverse method" Url="html/cc0a3ab6-c1ce-ec41-e45e-b1f0c1a3eeab.htm" />
   <HelpKINode Title="RankedSet(Of T).SetEquals method" Url="html/fef6bf00-5634-f172-c67f-d3cbace19223.htm" />
   <HelpKINode Title="RankedSet(Of T).SymmetricExceptWith method" Url="html/417424b1-658c-4c9e-7bf3-b4a6afc44de6.htm" />
+  <HelpKINode Title="RankedSet(Of T).TryGet method" Url="html/a17b8fca-8d11-093c-2ef7-4fd046dcc24b.htm" />
+  <HelpKINode Title="RankedSet(Of T).TryGetGreaterThan method" Url="html/bef16645-ed18-06b5-44b8-b4ca87ab5f94.htm" />
+  <HelpKINode Title="RankedSet(Of T).TryGetGreaterThanOrEqual method" Url="html/0fd96353-7286-b63a-d4bb-7c28216519ba.htm" />
+  <HelpKINode Title="RankedSet(Of T).TryGetLessThan method" Url="html/c17c47ce-ccbb-2ad9-65f3-0deb8f2e32ee.htm" />
+  <HelpKINode Title="RankedSet(Of T).TryGetLessThanOrEqual method" Url="html/be04dd37-56ba-4c13-4f9f-2372da72ae16.htm" />
   <HelpKINode Title="RankedSet(Of T).UnionWith method" Url="html/885e5625-cbcf-aeb1-5a34-6aba11f563c1.htm" />
   <HelpKINode Title="RankedSet&lt;T&gt; class">
     <HelpKINode Title="RankedSet(T) Class" Url="html/d595b6a0-2eaa-166f-3420-098e987e7c30.htm" />
@@ -804,6 +1364,7 @@
   <HelpKINode Title="RankedSet&lt;T&gt;.Enumerator.IEnumerator.Reset explicitly implemented method" Url="html/fdceeae3-87bf-40cd-276a-3263d0dfd4d5.htm" />
   <HelpKINode Title="RankedSet&lt;T&gt;.Enumerator.MoveNext method" Url="html/505c6bdc-ffbf-ef13-25d6-15d7b39ac478.htm" />
   <HelpKINode Title="RankedSet&lt;T&gt;.ExceptWith method" Url="html/8ed13ef7-d786-fb71-cb38-cea4ff563212.htm" />
+  <HelpKINode Title="RankedSet&lt;T&gt;.First method" Url="html/c48557f6-edc9-0430-bb58-ac04d35aa0a0.htm" />
   <HelpKINode Title="RankedSet&lt;T&gt;.GetEnumerator method" Url="html/956679e5-057a-9851-6a5c-dae0e4c8a9c2.htm" />
   <HelpKINode Title="RankedSet&lt;T&gt;.GetObjectData method" Url="html/bbdfe648-722e-f4c0-44f0-497ff92812f5.htm" />
   <HelpKINode Title="RankedSet&lt;T&gt;.ICollection.CopyTo explicitly implemented method" Url="html/74b83c7f-b72c-deff-0ad5-f82e9f881212.htm" />
@@ -831,48 +1392,113 @@
   <HelpKINode Title="RankedSet&lt;T&gt;.RemoveAt method" Url="html/29d810eb-6dcc-8857-6ea0-fd085fbf766d.htm" />
   <HelpKINode Title="RankedSet&lt;T&gt;.RemoveRange method" Url="html/23efd273-9e7b-3c5b-03af-30af76f2f98b.htm" />
   <HelpKINode Title="RankedSet&lt;T&gt;.RemoveWhere method" Url="html/c5d8625c-986b-2b56-e311-fdaaf15edaf6.htm" />
+  <HelpKINode Title="RankedSet&lt;T&gt;.Replace method" Url="html/06d6d198-1805-074e-fed2-ec73efe1067c.htm" />
   <HelpKINode Title="RankedSet&lt;T&gt;.Reverse method" Url="html/cc0a3ab6-c1ce-ec41-e45e-b1f0c1a3eeab.htm" />
   <HelpKINode Title="RankedSet&lt;T&gt;.SetEquals method" Url="html/fef6bf00-5634-f172-c67f-d3cbace19223.htm" />
   <HelpKINode Title="RankedSet&lt;T&gt;.SymmetricExceptWith method" Url="html/417424b1-658c-4c9e-7bf3-b4a6afc44de6.htm" />
+  <HelpKINode Title="RankedSet&lt;T&gt;.TryGet method" Url="html/a17b8fca-8d11-093c-2ef7-4fd046dcc24b.htm" />
+  <HelpKINode Title="RankedSet&lt;T&gt;.TryGetGreaterThan method" Url="html/bef16645-ed18-06b5-44b8-b4ca87ab5f94.htm" />
+  <HelpKINode Title="RankedSet&lt;T&gt;.TryGetGreaterThanOrEqual method" Url="html/0fd96353-7286-b63a-d4bb-7c28216519ba.htm" />
+  <HelpKINode Title="RankedSet&lt;T&gt;.TryGetLessThan method" Url="html/c17c47ce-ccbb-2ad9-65f3-0deb8f2e32ee.htm" />
+  <HelpKINode Title="RankedSet&lt;T&gt;.TryGetLessThanOrEqual method" Url="html/be04dd37-56ba-4c13-4f9f-2372da72ae16.htm" />
   <HelpKINode Title="RankedSet&lt;T&gt;.UnionWith method" Url="html/885e5625-cbcf-aeb1-5a34-6aba11f563c1.htm" />
   <HelpKINode Title="Remove method">
     <HelpKINode Title="RankedBag(T).Remove Method " Url="html/eb03b52a-3768-77b6-9a6b-bc9f8b73d5bf.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).Remove Method " Url="html/df54bfc0-1391-a325-662b-f0c71adaecd1.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).Remove Method " Url="html/6d4e8719-ab50-9074-405b-1c0d19cc134e.htm" />
     <HelpKINode Title="RankedSet(T).Remove Method " Url="html/81ec1bab-bf80-aeff-7b01-dd1c7c4c400e.htm" />
   </HelpKINode>
-  <HelpKINode Title="RemoveAll method" Url="html/2a4365eb-eee0-020b-1129-e8f127f9988c.htm" />
+  <HelpKINode Title="RemoveAll method">
+    <HelpKINode Title="RankedBag(T).RemoveAll Method " Url="html/2a4365eb-eee0-020b-1129-e8f127f9988c.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).RemoveAll Method " Url="html/fd66c263-2b93-0ab1-da8e-dfad9443ec99.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).RemoveAll Method " Url="html/45dfbba0-124d-4a96-f872-ad65bf5bdfaa.htm" />
+  </HelpKINode>
   <HelpKINode Title="RemoveAt method">
     <HelpKINode Title="RankedBag(T).RemoveAt Method " Url="html/83ac3711-1b8b-a4b9-7504-b181e0abf0cb.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).RemoveAt Method " Url="html/ecc3dfa3-d060-3b25-0b2f-767df95122b5.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).RemoveAt Method " Url="html/d3a6a55b-49ef-9053-792c-68eb19413c7b.htm" />
     <HelpKINode Title="RankedSet(T).RemoveAt Method " Url="html/29d810eb-6dcc-8857-6ea0-fd085fbf766d.htm" />
   </HelpKINode>
   <HelpKINode Title="RemoveRange method">
     <HelpKINode Title="RankedBag(T).RemoveRange Method " Url="html/79e9a2ac-ae78-52ea-b115-7fac4f079b27.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).RemoveRange Method " Url="html/fe98d171-608b-3be2-a19e-f6c45e466859.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).RemoveRange Method " Url="html/b3d028c8-edd9-c5a4-a144-5fc543e9c792.htm" />
     <HelpKINode Title="RankedSet(T).RemoveRange Method " Url="html/23efd273-9e7b-3c5b-03af-30af76f2f98b.htm" />
   </HelpKINode>
   <HelpKINode Title="RemoveWhere method">
     <HelpKINode Title="RankedBag(T).RemoveWhere Method " Url="html/15b2abad-be8f-b652-0c05-c15bd0c7f5bd.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).RemoveWhere Method " Url="html/04d637fd-d36b-ae20-1a5e-4dcdaa6436e5.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).RemoveWhere Method " Url="html/73e46d28-cc30-09fd-db48-62c34582da71.htm" />
     <HelpKINode Title="RankedSet(T).RemoveWhere Method " Url="html/c5d8625c-986b-2b56-e311-fdaaf15edaf6.htm" />
   </HelpKINode>
-  <HelpKINode Title="RemoveWhereElement method" Url="html/bbe3b91a-bd2c-d797-cb4b-6b60a555e511.htm" />
+  <HelpKINode Title="RemoveWhereElement method">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).RemoveWhereElement Method " Url="html/bbe3b91a-bd2c-d797-cb4b-6b60a555e511.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).RemoveWhereElement Method " Url="html/b1bc4260-3610-12f3-3cad-fb04f51523f6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Replace method" Url="html/06d6d198-1805-074e-fed2-ec73efe1067c.htm" />
   <HelpKINode Title="RetainAll method" Url="html/6ec9c7ce-d5d6-c9a0-1727-2047995493ae.htm" />
   <HelpKINode Title="Reverse method">
     <HelpKINode Title="RankedBag(T).Reverse Method " Url="html/d09e1e64-5ade-2f0f-ed19-059499bfaef1.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.Reverse Method " Url="html/1a636fc6-7870-f17a-6d5b-7da4296191ad.htm" />
     <HelpKINode Title="RankedDictionary(TKey, TValue).Reverse Method " Url="html/07cf6492-fac0-d71b-0ef7-fc2c94e7703d.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).ValueCollection.Reverse Method " Url="html/b57a9865-43d4-4027-9a0b-dde45f179efe.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.Reverse Method " Url="html/1d68a57a-4143-1f08-3cbd-418530905779.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).Reverse Method " Url="html/d55b5129-8e2c-95d6-e40c-588a4197e97f.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).ValueCollection.Reverse Method " Url="html/ea386144-271a-3fc6-812f-a77957f422c0.htm" />
     <HelpKINode Title="RankedSet(T).Reverse Method " Url="html/cc0a3ab6-c1ce-ec41-e45e-b1f0c1a3eeab.htm" />
   </HelpKINode>
   <HelpKINode Title="SetEquals method" Url="html/fef6bf00-5634-f172-c67f-d3cbace19223.htm" />
   <HelpKINode Title="SymmetricExceptWith method" Url="html/417424b1-658c-4c9e-7bf3-b4a6afc44de6.htm" />
+  <HelpKINode Title="TryGet method">
+    <HelpKINode Title="RankedBag(T).TryGet Method " Url="html/e0976674-cbf9-7b33-2bf6-707f1bb4727b.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.TryGet Method " Url="html/4da883c9-b9dc-0878-7c10-0381a236e57f.htm" />
+    <HelpKINode Title="RankedSet(T).TryGet Method " Url="html/a17b8fca-8d11-093c-2ef7-4fd046dcc24b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TryGetGreaterThan method">
+    <HelpKINode Title="RankedBag(T).TryGetGreaterThan Method " Url="html/b014979f-e842-d761-12a2-3b0c0dad00a2.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.TryGetGreaterThan Method " Url="html/9316fd7e-f655-828d-50c8-9655b0338b99.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).TryGetGreaterThan Method " Url="html/5954ae7d-9248-31b0-cc4e-07e553fc825e.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.TryGetGreaterThan Method " Url="html/6e5c8105-8fb3-b741-019b-82214732d6c0.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).TryGetGreaterThan Method " Url="html/29000313-aa23-d90e-4c89-18b9602e1e8a.htm" />
+    <HelpKINode Title="RankedSet(T).TryGetGreaterThan Method " Url="html/bef16645-ed18-06b5-44b8-b4ca87ab5f94.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TryGetGreaterThanOrEqual method">
+    <HelpKINode Title="RankedBag(T).TryGetGreaterThanOrEqual Method " Url="html/ce1a644a-f4af-0294-6388-29370138de09.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.TryGetGreaterThanOrEqual Method " Url="html/08bdad9c-c26e-62ea-0b65-38e35fdec8f1.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).TryGetGreaterThanOrEqual Method " Url="html/146f0a8a-e08e-1193-ec29-036fed47f421.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.TryGetGreaterThanOrEqual Method " Url="html/aa9312e5-95c5-9412-b53c-689864500f93.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).TryGetGreaterThanOrEqual Method " Url="html/91471af6-4f4c-d7a7-f3b4-64a1f8211299.htm" />
+    <HelpKINode Title="RankedSet(T).TryGetGreaterThanOrEqual Method " Url="html/0fd96353-7286-b63a-d4bb-7c28216519ba.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TryGetLessThan method">
+    <HelpKINode Title="RankedBag(T).TryGetLessThan Method " Url="html/94212759-48b4-9cf4-ceae-e8091c943e7e.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.TryGetLessThan Method " Url="html/847c25c5-73a1-7981-3be6-531b5eafc304.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).TryGetLessThan Method " Url="html/dacdc77b-7731-b328-8db6-4691f9e6b333.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.TryGetLessThan Method " Url="html/d623b3a5-c722-fda4-4e0f-7e62b5cc4236.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).TryGetLessThan Method " Url="html/a89ae22a-b958-537e-4607-f821b0af2382.htm" />
+    <HelpKINode Title="RankedSet(T).TryGetLessThan Method " Url="html/c17c47ce-ccbb-2ad9-65f3-0deb8f2e32ee.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TryGetLessThanOrEqual method">
+    <HelpKINode Title="RankedBag(T).TryGetLessThanOrEqual Method " Url="html/70eebebb-3280-cb60-64b9-e4c64b361d7b.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).KeyCollection.TryGetLessThanOrEqual Method " Url="html/ae1725e1-f204-0f04-0e1e-8e6b637e0a7a.htm" />
+    <HelpKINode Title="RankedDictionary(TKey, TValue).TryGetLessThanOrEqual Method " Url="html/641b92ab-30b3-7281-a905-51791f202677.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).KeyCollection.TryGetLessThanOrEqual Method " Url="html/1efcccee-f3e3-f88c-c206-27e578e3a17d.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).TryGetLessThanOrEqual Method " Url="html/bf5420ab-bb58-56bd-2314-f397b6cc8749.htm" />
+    <HelpKINode Title="RankedSet(T).TryGetLessThanOrEqual Method " Url="html/be04dd37-56ba-4c13-4f9f-2372da72ae16.htm" />
+  </HelpKINode>
   <HelpKINode Title="TryGetValue method" Url="html/ce539d2d-1cea-01d3-73b4-a1340668f587.htm" />
   <HelpKINode Title="TryGetValueAndIndex method" Url="html/55a6227f-c14f-e62c-f081-676d2f4efafb.htm" />
   <HelpKINode Title="UnionWith method" Url="html/885e5625-cbcf-aeb1-5a34-6aba11f563c1.htm" />
   <HelpKINode Title="ValueCollection class">
     <HelpKINode Title="methods" Url="html/0a97b228-d1df-de18-0026-8ef7065a7492.htm" />
+    <HelpKINode Title="methods" Url="html/7d4c08c4-4830-c5d6-7e05-3be1bef62e09.htm" />
+    <HelpKINode Title="properties" Url="html/ff69ab36-38b3-4d26-4a0c-ab899e059341.htm" />
     <HelpKINode Title="properties" Url="html/4eaf3294-d090-8d33-ef22-1fd401a6887e.htm" />
   </HelpKINode>
-  <HelpKINode Title="Values property" Url="html/8a65d9a8-d61c-8c7c-387d-50f19fbede39.htm" />
+  <HelpKINode Title="Values property">
+    <HelpKINode Title="RankedDictionary(TKey, TValue).Values Property " Url="html/8a65d9a8-d61c-8c7c-387d-50f19fbede39.htm" />
+    <HelpKINode Title="RankedMap(TKey, TValue).Values Property " Url="html/48ad95a0-c871-2ba6-0cc8-0b083236831a.htm" />
+  </HelpKINode>
   <HelpKINode Title="version">
     <HelpKINode Title="history" Url="html/90402bce-1f31-45f8-b0ea-0a73408bd45a.htm" />
   </HelpKINode>
